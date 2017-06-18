@@ -1,0 +1,218 @@
+<html>
+<head>
+  
+    <style type='text/css'>
+   
+   .tests{ 
+     width : 50%;
+     float : left;
+   }
+   
+   .mutees{
+     float : right;
+     width : 50%;
+   }
+   
+   .unit {
+     padding-top : 20px;
+     clear : both;
+   }
+   
+   .coverage_bar {
+    display : inline-block;
+    height : 1.1em;
+    width: 130px;
+    background: #FAA;
+    margin: 0 5px;
+    vertical-align: middle;
+    border: 1px solid #AAA;
+    position : relative;
+   }
+   
+   .coverage_complete {
+    display : inline-block;
+    height : 100%;
+    background: #DFD;
+    float: left;
+   }
+   
+   .coverage_ledgend {
+        position : absolute;
+        height : 100%;
+        width : 100%;
+        left : 0;
+        top : 0;
+        text-align : center;
+   }
+   
+   .line, .mut {
+        vertical-align : middle;
+   }
+   
+   .coveragePercentage {
+    display: inline-block;
+    width: 3em;
+    text-align: right;
+   }
+  </style>
+  
+</head>
+<body>
+
+<h1>Pit Test Coverage Report</h1>
+
+<h3>Project Summary</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Number of Classes</th>
+            <th>Line Coverage</th>
+            <th>Mutation Coverage</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>65</td>
+            <td>30% <div class="coverage_bar"><div class="coverage_complete" style="width:30%"></div><div class="coverage_ledgend">2158/7131</div></div></td>
+            <td>26% <div class="coverage_bar"><div class="coverage_complete" style="width:26%"></div><div class="coverage_ledgend">2152/8235</div></div></td>
+        </tr>
+    </tbody>
+</table>
+
+
+<h3>Breakdown by Package</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Number of Classes</th>
+            <th>Line Coverage</th>
+            <th>Mutation Coverage</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td><a href="./org.apache.commons.math4.analysis.integration/index.html">org.apache.commons.math4.analysis.integration</a></td>
+            <td>2</td>
+            <td><div class="coveragePercentage">81% </div><div class="coverage_bar"><div class="coverage_complete" style="width:81%"></div><div class="coverage_ledgend">62/77</div></div></td>
+            <td><div class="coveragePercentage">84% </div><div class="coverage_bar"><div class="coverage_complete" style="width:84%"></div><div class="coverage_ledgend">42/50</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./org.apache.commons.math4.analysis.integration.gauss/index.html">org.apache.commons.math4.analysis.integration.gauss</a></td>
+            <td>7</td>
+            <td><div class="coveragePercentage">29% </div><div class="coverage_bar"><div class="coverage_complete" style="width:29%"></div><div class="coverage_ledgend">96/326</div></div></td>
+            <td><div class="coveragePercentage">24% </div><div class="coverage_bar"><div class="coverage_complete" style="width:24%"></div><div class="coverage_ledgend">62/255</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./org.apache.commons.math4.analysis.polynomials/index.html">org.apache.commons.math4.analysis.polynomials</a></td>
+            <td>2</td>
+            <td><div class="coveragePercentage">36% </div><div class="coverage_bar"><div class="coverage_complete" style="width:36%"></div><div class="coverage_ledgend">66/185</div></div></td>
+            <td><div class="coveragePercentage">17% </div><div class="coverage_bar"><div class="coverage_complete" style="width:17%"></div><div class="coverage_ledgend">31/184</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./org.apache.commons.math4.analysis.solvers/index.html">org.apache.commons.math4.analysis.solvers</a></td>
+            <td>3</td>
+            <td><div class="coveragePercentage">49% </div><div class="coverage_bar"><div class="coverage_complete" style="width:49%"></div><div class="coverage_ledgend">113/231</div></div></td>
+            <td><div class="coveragePercentage">40% </div><div class="coverage_bar"><div class="coverage_complete" style="width:40%"></div><div class="coverage_ledgend">82/205</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./org.apache.commons.math4.distribution/index.html">org.apache.commons.math4.distribution</a></td>
+            <td>9</td>
+            <td><div class="coveragePercentage">84% </div><div class="coverage_bar"><div class="coverage_complete" style="width:84%"></div><div class="coverage_ledgend">333/397</div></div></td>
+            <td><div class="coveragePercentage">74% </div><div class="coverage_bar"><div class="coverage_complete" style="width:74%"></div><div class="coverage_ledgend">359/488</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./org.apache.commons.math4.exception/index.html">org.apache.commons.math4.exception</a></td>
+            <td>5</td>
+            <td><div class="coveragePercentage">58% </div><div class="coverage_bar"><div class="coverage_complete" style="width:58%"></div><div class="coverage_ledgend">23/40</div></div></td>
+            <td><div class="coveragePercentage">7% </div><div class="coverage_bar"><div class="coverage_complete" style="width:7%"></div><div class="coverage_ledgend">1/14</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./org.apache.commons.math4.exception.util/index.html">org.apache.commons.math4.exception.util</a></td>
+            <td>2</td>
+            <td><div class="coveragePercentage">19% </div><div class="coverage_bar"><div class="coverage_complete" style="width:19%"></div><div class="coverage_ledgend">17/89</div></div></td>
+            <td><div class="coveragePercentage">16% </div><div class="coverage_bar"><div class="coverage_complete" style="width:16%"></div><div class="coverage_ledgend">9/56</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./org.apache.commons.math4.fraction/index.html">org.apache.commons.math4.fraction</a></td>
+            <td>1</td>
+            <td><div class="coveragePercentage">23% </div><div class="coverage_bar"><div class="coverage_complete" style="width:23%"></div><div class="coverage_ledgend">65/280</div></div></td>
+            <td><div class="coveragePercentage">12% </div><div class="coverage_bar"><div class="coverage_complete" style="width:12%"></div><div class="coverage_ledgend">24/203</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./org.apache.commons.math4.linear/index.html">org.apache.commons.math4.linear</a></td>
+            <td>11</td>
+            <td><div class="coveragePercentage">15% </div><div class="coverage_bar"><div class="coverage_complete" style="width:15%"></div><div class="coverage_ledgend">307/2011</div></div></td>
+            <td><div class="coveragePercentage">16% </div><div class="coverage_bar"><div class="coverage_complete" style="width:16%"></div><div class="coverage_ledgend">306/1961</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./org.apache.commons.math4.special/index.html">org.apache.commons.math4.special</a></td>
+            <td>3</td>
+            <td><div class="coveragePercentage">96% </div><div class="coverage_bar"><div class="coverage_complete" style="width:96%"></div><div class="coverage_ledgend">454/474</div></div></td>
+            <td><div class="coveragePercentage">77% </div><div class="coverage_bar"><div class="coverage_complete" style="width:77%"></div><div class="coverage_ledgend">587/766</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./org.apache.commons.math4.stat.descriptive/index.html">org.apache.commons.math4.stat.descriptive</a></td>
+            <td>2</td>
+            <td><div class="coveragePercentage">30% </div><div class="coverage_bar"><div class="coverage_complete" style="width:30%"></div><div class="coverage_ledgend">68/224</div></div></td>
+            <td><div class="coveragePercentage">18% </div><div class="coverage_bar"><div class="coverage_complete" style="width:18%"></div><div class="coverage_ledgend">26/148</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./org.apache.commons.math4.stat.descriptive.moment/index.html">org.apache.commons.math4.stat.descriptive.moment</a></td>
+            <td>5</td>
+            <td><div class="coveragePercentage">19% </div><div class="coverage_bar"><div class="coverage_complete" style="width:19%"></div><div class="coverage_ledgend">47/244</div></div></td>
+            <td><div class="coveragePercentage">15% </div><div class="coverage_bar"><div class="coverage_complete" style="width:15%"></div><div class="coverage_ledgend">25/171</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./org.apache.commons.math4.stat.descriptive.rank/index.html">org.apache.commons.math4.stat.descriptive.rank</a></td>
+            <td>2</td>
+            <td><div class="coveragePercentage">29% </div><div class="coverage_bar"><div class="coverage_complete" style="width:29%"></div><div class="coverage_ledgend">18/62</div></div></td>
+            <td><div class="coveragePercentage">20% </div><div class="coverage_bar"><div class="coverage_complete" style="width:20%"></div><div class="coverage_ledgend">8/40</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./org.apache.commons.math4.stat.descriptive.summary/index.html">org.apache.commons.math4.stat.descriptive.summary</a></td>
+            <td>3</td>
+            <td><div class="coveragePercentage">27% </div><div class="coverage_bar"><div class="coverage_complete" style="width:27%"></div><div class="coverage_ledgend">25/94</div></div></td>
+            <td><div class="coveragePercentage">19% </div><div class="coverage_bar"><div class="coverage_complete" style="width:19%"></div><div class="coverage_ledgend">11/59</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./org.apache.commons.math4.stat.inference/index.html">org.apache.commons.math4.stat.inference</a></td>
+            <td>1</td>
+            <td><div class="coveragePercentage">23% </div><div class="coverage_bar"><div class="coverage_complete" style="width:23%"></div><div class="coverage_ledgend">24/105</div></div></td>
+            <td><div class="coveragePercentage">22% </div><div class="coverage_bar"><div class="coverage_complete" style="width:22%"></div><div class="coverage_ledgend">27/122</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./org.apache.commons.math4.util/index.html">org.apache.commons.math4.util</a></td>
+            <td>7</td>
+            <td><div class="coveragePercentage">19% </div><div class="coverage_bar"><div class="coverage_complete" style="width:19%"></div><div class="coverage_ledgend">440/2292</div></div></td>
+            <td><div class="coveragePercentage">16% </div><div class="coverage_bar"><div class="coverage_complete" style="width:16%"></div><div class="coverage_ledgend">552/3513</div></div></td>
+        </tr>
+
+     </tbody>
+</table>
+<br/>
+
+
+
+<hr/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

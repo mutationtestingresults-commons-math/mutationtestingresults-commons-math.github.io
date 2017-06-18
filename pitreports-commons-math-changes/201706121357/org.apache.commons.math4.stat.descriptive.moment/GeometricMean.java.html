@@ -1,0 +1,243 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>GeometricMean.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@2b5c817f_76'>76</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@2b5c817f_76'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/math4/stat/descriptive/moment/GeometricMean::copy &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@2b5c817f_94'>94</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@2b5c817f_94'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copy<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/math4/stat/descriptive/moment/GeometricMean::copy &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@2b5c817f_95'>95</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@2b5c817f_95'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copy<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/stat/descriptive/moment/GeometricMean::copy to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@2b5c817f_103'>103</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@2b5c817f_103'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>increment<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/math4/stat/descriptive/StorelessUnivariateStatistic::increment &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@2b5c817f_111'>111</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@2b5c817f_111'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getResult<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>getResult<br/><b>Killed by : </b>org.apache.commons.math4.stat.descriptive.moment.GeometricMeanTest.testIncrementation(org.apache.commons.math4.stat.descriptive.moment.GeometricMeanTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@2b5c817f_112'>112</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@2b5c817f_112'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getResult<br/><b>Killed by : </b>org.apache.commons.math4.stat.descriptive.moment.GeometricMeanTest.testIncrementation(org.apache.commons.math4.stat.descriptive.moment.GeometricMeanTest)</span></span> Replaced double division with multiplication &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>getResult<br/><b>Killed by : </b>org.apache.commons.math4.stat.descriptive.moment.GeometricMeanTest.testIncrementation(org.apache.commons.math4.stat.descriptive.moment.GeometricMeanTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/stat/descriptive/moment/GeometricMean::getResult &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@2b5c817f_114'>114</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@2b5c817f_114'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getResult<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/stat/descriptive/moment/GeometricMean::getResult &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@2b5c817f_123'>123</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@2b5c817f_123'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>clear<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/math4/stat/descriptive/StorelessUnivariateStatistic::clear &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@2b5c817f_145'>145</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@2b5c817f_145'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>evaluate<br/><b>Killed by : </b>none</span></span> Replaced double division with multiplication &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>evaluate<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/stat/descriptive/moment/GeometricMean::evaluate &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@2b5c817f_153'>153</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@2b5c817f_153'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getN<br/><b>Killed by : </b>none</span></span> replaced return of long value with value + 1 for org/apache/commons/math4/stat/descriptive/moment/GeometricMean::getN &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@2b5c817f_169'>169</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@2b5c817f_169'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>setSumLogImpl<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/math4/stat/descriptive/moment/GeometricMean::checkEmpty &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@2b5c817f_179'>179</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@2b5c817f_179'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getSumLogImpl<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/stat/descriptive/moment/GeometricMean::getSumLogImpl to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@2b5c817f_192'>192</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@2b5c817f_192'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copy<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/math4/util/MathUtils::checkNotNull &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@2b5c817f_193'>193</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@2b5c817f_193'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copy<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/math4/util/MathUtils::checkNotNull &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@2b5c817f_202'>202</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@2b5c817f_202'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>checkEmpty<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>checkEmpty<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.math4.stat.descriptive.moment.GeometricMeanTest.testSerial(org.apache.commons.math4.stat.descriptive.moment.GeometricMeanTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.GeometricMeanTest.testSpecialValues(org.apache.commons.math4.stat.descriptive.moment.GeometricMeanTest) (0 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testSerialization(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (120 ms)</li><li>org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest.testProductAndGeometricMean(org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.GeometricMeanTest.testEvaluateInternalState(org.apache.commons.math4.stat.descriptive.moment.GeometricMeanTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest.testN0andN1Conditions(org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest.testToString(org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedMultivariateSummaryStatisticsTest.testToString(org.apache.commons.math4.stat.descriptive.SynchronizedMultivariateSummaryStatisticsTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest.testEqualsAndHashCode(org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest.testCopy(org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest.testProductAndGeometricMean(org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest.testNaNContracts(org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest) (0 ms)</li><li>org.apache.commons.math4.distribution.GammaDistributionTest.testMath753Shape1(org.apache.commons.math4.distribution.GammaDistributionTest) (67 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedMultivariateSummaryStatisticsTest.testNaNContracts(org.apache.commons.math4.stat.descriptive.SynchronizedMultivariateSummaryStatisticsTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.MultivariateSummaryStatisticsTest.testStats(org.apache.commons.math4.stat.descriptive.MultivariateSummaryStatisticsTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.GeometricMeanTest.testEqualsAndHashCode(org.apache.commons.math4.stat.descriptive.moment.GeometricMeanTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest.testSerialization(org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest) (3 ms)</li><li>org.apache.commons.math4.stat.descriptive.MultivariateSummaryStatisticsTest.testN0andN1Conditions(org.apache.commons.math4.stat.descriptive.MultivariateSummaryStatisticsTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedMultivariateSummaryStatisticsTest.testEqualsAndHashCode(org.apache.commons.math4.stat.descriptive.SynchronizedMultivariateSummaryStatisticsTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.GeometricMeanTest.testConsistency(org.apache.commons.math4.stat.descriptive.moment.GeometricMeanTest) (1 ms)</li><li>org.apache.commons.math4.distribution.GammaDistributionTest.testMath753Shape8(org.apache.commons.math4.distribution.GammaDistributionTest) (48 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedMultivariateSummaryStatisticsTest.testStats(org.apache.commons.math4.stat.descriptive.SynchronizedMultivariateSummaryStatisticsTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest.testCopy(org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest.testN0andN1Conditions(org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.DescriptiveStatisticsTest.testSummaryConsistency(org.apache.commons.math4.stat.descriptive.DescriptiveStatisticsTest) (3 ms)</li><li>org.apache.commons.math4.stat.descriptive.MultivariateSummaryStatisticsTest.testToString(org.apache.commons.math4.stat.descriptive.MultivariateSummaryStatisticsTest) (2 ms)</li><li>org.apache.commons.math4.stat.descriptive.MultivariateSummaryStatisticsTest.testNaNContracts(org.apache.commons.math4.stat.descriptive.MultivariateSummaryStatisticsTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest.testOverrideGeoMeanWithMathClass(org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedMultivariateSummaryStatisticsTest.testN0andN1Conditions(org.apache.commons.math4.stat.descriptive.SynchronizedMultivariateSummaryStatisticsTest) (2 ms)</li><li>org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest.testSerialization(org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest) (3 ms)</li><li>org.apache.commons.math4.distribution.GammaDistributionTest.testMath753Shape1000(org.apache.commons.math4.distribution.GammaDistributionTest) (100 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.GeometricMeanTest.testCopyConsistency(org.apache.commons.math4.stat.descriptive.moment.GeometricMeanTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest.testNaNContracts(org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest.testSetterInjection(org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.GeometricMeanTest.testSerialization(org.apache.commons.math4.stat.descriptive.moment.GeometricMeanTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.MultivariateSummaryStatisticsTest.testEqualsAndHashCode(org.apache.commons.math4.stat.descriptive.MultivariateSummaryStatisticsTest) (3 ms)</li><li>org.apache.commons.math4.distribution.GammaDistributionTest.testMath753Shape142(org.apache.commons.math4.distribution.GammaDistributionTest) (16 ms)</li><li>org.apache.commons.math4.distribution.GammaDistributionTest.testMath753Shape100(org.apache.commons.math4.distribution.GammaDistributionTest) (12 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.GeometricMeanTest.testIncrementation(org.apache.commons.math4.stat.descriptive.moment.GeometricMeanTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.MultivariateSummaryStatisticsTest.testSerialization(org.apache.commons.math4.stat.descriptive.MultivariateSummaryStatisticsTest) (6 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest.testOverrideGeoMeanWithMathClass(org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.MultivariateSummaryStatisticsTest.testShuffledStatistics(org.apache.commons.math4.stat.descriptive.MultivariateSummaryStatisticsTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest.testToString(org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest.testSetterInjection(org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest) (1 ms)</li><li>org.apache.commons.math4.distribution.GammaDistributionTest.testMath753Shape10(org.apache.commons.math4.distribution.GammaDistributionTest) (12 ms)</li><li>org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest.testEqualsAndHashCode(org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedMultivariateSummaryStatisticsTest.testSerialization(org.apache.commons.math4.stat.descriptive.SynchronizedMultivariateSummaryStatisticsTest) (3 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedDescriptiveStatisticsTest.testSummaryConsistency(org.apache.commons.math4.stat.descriptive.SynchronizedDescriptiveStatisticsTest) (3 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedMultivariateSummaryStatisticsTest.testShuffledStatistics(org.apache.commons.math4.stat.descriptive.SynchronizedMultivariateSummaryStatisticsTest) (1 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

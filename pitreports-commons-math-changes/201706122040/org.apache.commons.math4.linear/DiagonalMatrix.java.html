@@ -1,0 +1,643 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>DiagonalMatrix.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_82'>82</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_82'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.math4.linear.DiagonalMatrixTest.testNull(org.apache.commons.math4.linear.DiagonalMatrixTest)</span></span> removed call to org/apache/commons/math4/util/MathUtils::checkNotNull &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_83'>83</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_83'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.math4.linear.DiagonalMatrixTest.testAddToEntry(org.apache.commons.math4.linear.DiagonalMatrixTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_96'>96</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_96'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>createMatrix<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_100'>100</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_100'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>createMatrix<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/linear/DiagonalMatrix::createMatrix to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_106'>106</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_106'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copy<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/linear/DiagonalMatrix::copy to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_120'>120</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_120'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>add<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/math4/linear/MatrixUtils::checkAdditionCompatible &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_124'>124</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_124'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>add<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>add<br/><b>Killed by : </b>none</span></span> Changed increment from 1 to -1 &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>add<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_125'>125</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_125'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>add<br/><b>Killed by : </b>none</span></span> Replaced double addition with subtraction &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_128'>128</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_128'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>add<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/linear/DiagonalMatrix::add to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_141'>141</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_141'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>subtract<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/math4/linear/MatrixUtils::checkSubtractionCompatible &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_145'>145</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_145'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>subtract<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>subtract<br/><b>Killed by : </b>none</span></span> Changed increment from 1 to -1 &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>subtract<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_146'>146</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_146'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>subtract<br/><b>Killed by : </b>none</span></span> Replaced double subtraction with addition &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_149'>149</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_149'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>subtract<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/linear/DiagonalMatrix::subtract to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_162'>162</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_162'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/math4/linear/MatrixUtils::checkMultiplicationCompatible &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_166'>166</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_166'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>org.apache.commons.math4.linear.DiagonalMatrixTest.testMultiply1(org.apache.commons.math4.linear.DiagonalMatrixTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>org.apache.commons.math4.linear.DiagonalMatrixTest.testMultiply1(org.apache.commons.math4.linear.DiagonalMatrixTest)</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>org.apache.commons.math4.linear.DiagonalMatrixTest.testMultiply1(org.apache.commons.math4.linear.DiagonalMatrixTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_167'>167</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_167'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>org.apache.commons.math4.linear.DiagonalMatrixTest.testMultiply1(org.apache.commons.math4.linear.DiagonalMatrixTest)</span></span> Replaced double multiplication with division &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_170'>170</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_170'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>org.apache.commons.math4.linear.DiagonalMatrixTest.testMultiply1(org.apache.commons.math4.linear.DiagonalMatrixTest)</span></span> mutated return of Object value for org/apache/commons/math4/linear/DiagonalMatrix::multiply to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_184'>184</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_184'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>org.apache.commons.math4.linear.DiagonalMatrixTest.testMultiply1(org.apache.commons.math4.linear.DiagonalMatrixTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_185'>185</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_185'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/linear/DiagonalMatrix::multiply to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_187'>187</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_187'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/math4/linear/MatrixUtils::checkMultiplicationCompatible &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_191'>191</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_191'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>org.apache.commons.math4.linear.DiagonalMatrixTest.testMultiply2(org.apache.commons.math4.linear.DiagonalMatrixTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>org.apache.commons.math4.linear.DiagonalMatrixTest.testMultiply2(org.apache.commons.math4.linear.DiagonalMatrixTest)</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>org.apache.commons.math4.linear.DiagonalMatrixTest.testMultiply2(org.apache.commons.math4.linear.DiagonalMatrixTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_192'>192</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_192'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>org.apache.commons.math4.linear.DiagonalMatrixTest.testMultiply2(org.apache.commons.math4.linear.DiagonalMatrixTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>org.apache.commons.math4.linear.DiagonalMatrixTest.testMultiply2(org.apache.commons.math4.linear.DiagonalMatrixTest)</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>org.apache.commons.math4.linear.DiagonalMatrixTest.testMultiply2(org.apache.commons.math4.linear.DiagonalMatrixTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_193'>193</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_193'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>org.apache.commons.math4.linear.DiagonalMatrixTest.testMultiply2(org.apache.commons.math4.linear.DiagonalMatrixTest)</span></span> Replaced double multiplication with division &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_196'>196</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_196'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>org.apache.commons.math4.linear.DiagonalMatrixTest.testMultiply2(org.apache.commons.math4.linear.DiagonalMatrixTest)</span></span> mutated return of Object value for org/apache/commons/math4/linear/DiagonalMatrix::multiply to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_206'>206</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_206'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getData<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>getData<br/><b>Killed by : </b>none</span></span> Changed increment from 1 to -1 &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>getData<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_210'>210</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_210'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getData<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/linear/DiagonalMatrix::getData to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_219'>219</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_219'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getDataRef<br/><b>Killed by : </b>org.apache.commons.math4.linear.DiagonalMatrixTest.testPreMultiply(org.apache.commons.math4.linear.DiagonalMatrixTest)</span></span> mutated return of Object value for org/apache/commons/math4/linear/DiagonalMatrix::getDataRef to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_226'>226</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_226'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getEntry<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/math4/linear/MatrixUtils::checkMatrixIndex &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_227'>227</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_227'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getEntry<br/><b>Killed by : </b>org.apache.commons.math4.linear.DiagonalMatrixTest.testAddToEntry(org.apache.commons.math4.linear.DiagonalMatrixTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>getEntry<br/><b>Killed by : </b>org.apache.commons.math4.linear.DiagonalMatrixTest.testAddToEntry(org.apache.commons.math4.linear.DiagonalMatrixTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/linear/DiagonalMatrix::getEntry &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_236'>236</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_236'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>setEntry<br/><b>Killed by : </b>org.apache.commons.math4.linear.DiagonalMatrixTest.testGetData(org.apache.commons.math4.linear.DiagonalMatrixTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_237'>237</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_237'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>setEntry<br/><b>Killed by : </b>org.apache.commons.math4.linear.DiagonalMatrixTest.testSetEntryOutOfRange(org.apache.commons.math4.linear.DiagonalMatrixTest)</span></span> removed call to org/apache/commons/math4/linear/MatrixUtils::checkRowIndex &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_240'>240</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_240'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>setEntry<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/math4/linear/DiagonalMatrix::ensureZero &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_252'>252</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_252'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>addToEntry<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_253'>253</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_253'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>addToEntry<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/math4/linear/MatrixUtils::checkRowIndex &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_254'>254</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_254'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>addToEntry<br/><b>Killed by : </b>none</span></span> Replaced double addition with subtraction &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_256'>256</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_256'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>addToEntry<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/math4/linear/DiagonalMatrix::ensureZero &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_267'>267</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_267'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>multiplyEntry<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_268'>268</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_268'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>multiplyEntry<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/math4/linear/MatrixUtils::checkRowIndex &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_269'>269</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_269'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>multiplyEntry<br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_276'>276</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_276'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getRowDimension<br/><b>Killed by : </b>org.apache.commons.math4.linear.DiagonalMatrixTest.testConstructor1(org.apache.commons.math4.linear.DiagonalMatrixTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_282'>282</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_282'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getColumnDimension<br/><b>Killed by : </b>org.apache.commons.math4.linear.DiagonalMatrixTest.testConstructor1(org.apache.commons.math4.linear.DiagonalMatrixTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_289'>289</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_289'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>operate<br/><b>Killed by : </b>org.apache.commons.math4.linear.DiagonalMatrixTest.testPreMultiply(org.apache.commons.math4.linear.DiagonalMatrixTest)</span></span> mutated return of Object value for org/apache/commons/math4/linear/DiagonalMatrix::operate to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_296'>296</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_296'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>preMultiply<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/linear/DiagonalMatrix::preMultiply to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_303'>303</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_303'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>preMultiply<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_308'>308</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_308'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>preMultiply<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/linear/DiagonalMatrix::preMultiply to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_316'>316</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_316'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>ensureZero<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_332'>332</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_332'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>inverse<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/linear/DiagonalMatrix::inverse to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_344'>344</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_344'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>inverse<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_349'>349</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_349'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>inverse<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>inverse<br/><b>Killed by : </b>none</span></span> Changed increment from 1 to -1 &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>inverse<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_350'>350</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_350'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>inverse<br/><b>Killed by : </b>none</span></span> Replaced double division with multiplication &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_352'>352</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_352'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>inverse<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/linear/DiagonalMatrix::inverse to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_363'>363</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_363'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isSingular<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>isSingular<br/><b>Killed by : </b>none</span></span> Changed increment from 1 to -1 &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>isSingular<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_364'>364</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_364'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isSingular<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_365'>365</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_365'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isSingular<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@539c6458_368'>368</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@539c6458_368'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isSingular<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.math4.linear.EigenDecompositionTest.testSymmetric(org.apache.commons.math4.linear.EigenDecompositionTest) (1 ms)</li><li>org.apache.commons.math4.fitting.HarmonicCurveFitterTest.testUnsorted(org.apache.commons.math4.fitting.HarmonicCurveFitterTest) (2 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest.testControlParameters(org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest) (4 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest.testMoreEstimatedParametersSimple(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest.testInconsistentEquations(org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest.testMoreEstimatedParametersUnsorted(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest.testQRColumnsPermutation(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest.testInconsistentSizes1(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest.testCircleFitting(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest) (23 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest.testNoDependency(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest.testMaxEvaluations(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest) (4 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest.testInconsistentSizes1(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest) (0 ms)</li><li>org.apache.commons.math4.linear.EigenDecompositionTest.testMathpbx02(org.apache.commons.math4.linear.EigenDecompositionTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest.testCircleFittingBadInit(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest) (2 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest.testCircleFitting(org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest) (7 ms)</li><li>org.apache.commons.math4.linear.EigenDecompositionTest.testDimension4WithSplit(org.apache.commons.math4.linear.EigenDecompositionTest) (2 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest.testPointCopy(org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest.testCircleFittingBadInit(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest) (2 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest.testMaxEvaluations(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest) (8 ms)</li><li>org.apache.commons.math4.linear.MatrixUtilsTest.testInverseDiagonalMatrix(org.apache.commons.math4.linear.MatrixUtilsTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest.testNoDependency(org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest.testCircleFitting(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest) (23 ms)</li><li>org.apache.commons.math4.linear.DiagonalMatrixTest.testMultiply1(org.apache.commons.math4.linear.DiagonalMatrixTest) (2 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest.testTrivial(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest.testCircleFittingBadInit(org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest) (3 ms)</li><li>org.apache.commons.math4.fitting.GaussianCurveFitterTest.testMath798(org.apache.commons.math4.fitting.GaussianCurveFitterTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest.testQRColumnsPermutation(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest.testNoDependency(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest) (0 ms)</li><li>org.apache.commons.math4.linear.SingularValueSolverTest.testMath320B(org.apache.commons.math4.linear.SingularValueSolverTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.MinpackTest.testMinpackBrownAlmostLinear(org.apache.commons.math4.fitting.leastsquares.MinpackTest) (29 ms)</li><li>org.apache.commons.math4.linear.EigenDecompositionTest.testDimension3MultipleRoot(org.apache.commons.math4.linear.EigenDecompositionTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest.testPointCopy(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest.testInconsistentSizes2(org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.MinpackTest.testMinpackMeyer(org.apache.commons.math4.fitting.leastsquares.MinpackTest) (48 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest.testKirby2(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest) (16 ms)</li><li>org.apache.commons.math4.linear.EigenSolverTest.testInvertible(org.apache.commons.math4.linear.EigenSolverTest) (2 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest.testInconsistentSizes1(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest) (1 ms)</li><li>org.apache.commons.math4.linear.EigenDecompositionTest.testDimension4WithoutSplit(org.apache.commons.math4.linear.EigenDecompositionTest) (2 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest.testGetIterations(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest) (2 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest.testOneSet(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest.testInconsistentEquations(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest.testOneSet(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest.testNonInvertible(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest) (4 ms)</li><li>org.apache.commons.math4.fitting.GaussianCurveFitterTest.testWithMaxIterations1(org.apache.commons.math4.fitting.GaussianCurveFitterTest) (4 ms)</li><li>org.apache.commons.math4.linear.EigenDecompositionTest.testDimension3(org.apache.commons.math4.linear.EigenDecompositionTest) (2 ms)</li><li>org.apache.commons.math4.linear.DiagonalMatrixTest.testMultiply2(org.apache.commons.math4.linear.DiagonalMatrixTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.MinpackTest.testMinpackBox3Dimensional(org.apache.commons.math4.fitting.leastsquares.MinpackTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest.testOneSet(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest) (3 ms)</li><li>org.apache.commons.math4.linear.DiagonalMatrixTest.testCreateError(org.apache.commons.math4.linear.DiagonalMatrixTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.EvaluationTest.testEvaluateCopiesPoint(org.apache.commons.math4.fitting.leastsquares.EvaluationTest) (5 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest.testPointCopy(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest.testInconsistentSizes2(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest.testIllConditioned(org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest) (2 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest.testRedundantEquations(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.MinpackTest.testMinpackLinearRank1(org.apache.commons.math4.fitting.leastsquares.MinpackTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest.testInconsistentSizes1(org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest) (2 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest.testTrivial(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest) (1 ms)</li><li>org.apache.commons.math4.linear.EigenDecompositionTest.testAEqualVDVt(org.apache.commons.math4.linear.EigenDecompositionTest) (9 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.MinpackTest.testMinpackPowellSingular(org.apache.commons.math4.fitting.leastsquares.MinpackTest) (7 ms)</li><li>org.apache.commons.math4.linear.EigenSolverTest.testNonInvertible(org.apache.commons.math4.linear.EigenSolverTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.EvaluationTest.testComputeResiduals(org.apache.commons.math4.fitting.leastsquares.EvaluationTest) (3 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.MinpackTest.testMinpackOsborne2(org.apache.commons.math4.fitting.leastsquares.MinpackTest) (3 ms)</li><li>org.apache.commons.math4.fitting.GaussianCurveFitterTest.testFit04(org.apache.commons.math4.fitting.GaussianCurveFitterTest) (5 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest.testRedundantEquations(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.MinpackTest.testMinpackFreudensteinRoth(org.apache.commons.math4.fitting.leastsquares.MinpackTest) (1 ms)</li><li>org.apache.commons.math4.fitting.GaussianCurveFitterTest.testFit05(org.apache.commons.math4.fitting.GaussianCurveFitterTest) (2 ms)</li><li>org.apache.commons.math4.linear.EigenDecompositionTest.testTridiagonal(org.apache.commons.math4.linear.EigenDecompositionTest) (27 ms)</li><li>org.apache.commons.math4.linear.DiagonalMatrixTest.testMultiplyNonDiagonalEntry(org.apache.commons.math4.linear.DiagonalMatrixTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest.testIllConditioned(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest) (1 ms)</li><li>org.apache.commons.math4.fitting.SimpleCurveFitterTest.testPolynomialFit(org.apache.commons.math4.fitting.SimpleCurveFitterTest) (2 ms)</li><li>org.apache.commons.math4.fitting.GaussianCurveFitterTest.testWithStartPoint(org.apache.commons.math4.fitting.GaussianCurveFitterTest) (4 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest.testIllConditioned(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest) (2 ms)</li><li>org.apache.commons.math4.linear.EigenDecompositionTest.testMath308(org.apache.commons.math4.linear.EigenDecompositionTest) (2 ms)</li><li>org.apache.commons.math4.linear.EigenDecompositionTest.testMath848(org.apache.commons.math4.linear.EigenDecompositionTest) (23 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest.testParameterValidator(org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest) (175 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest.testQRColumnsPermutation(org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest.testNonInvertible(org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.EvaluationTestValidation.testParametersErrorMonteCarloParameters(org.apache.commons.math4.fitting.leastsquares.EvaluationTestValidation) (24 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest.testKirby2(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest) (10 ms)</li><li>org.apache.commons.math4.linear.DiagonalMatrixTest.testCopy(org.apache.commons.math4.linear.DiagonalMatrixTest) (0 ms)</li><li>org.apache.commons.math4.linear.EigenDecompositionTest.testDimension1(org.apache.commons.math4.linear.EigenDecompositionTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.MinpackTest.testMinpackKowalikOsborne(org.apache.commons.math4.fitting.leastsquares.MinpackTest) (15 ms)</li><li>org.apache.commons.math4.linear.DiagonalMatrixTest.testNull(org.apache.commons.math4.linear.DiagonalMatrixTest) (0 ms)</li><li>org.apache.commons.math4.linear.DiagonalMatrixTest.testAddToEntry(org.apache.commons.math4.linear.DiagonalMatrixTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest.testInconsistentEquations(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest) (1 ms)</li><li>org.apache.commons.math4.linear.DiagonalMatrixTest.testConstructor2(org.apache.commons.math4.linear.DiagonalMatrixTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.MinpackTest.testMinpackBrownDennis(org.apache.commons.math4.fitting.leastsquares.MinpackTest) (40 ms)</li><li>org.apache.commons.math4.linear.DiagonalMatrixTest.testGetData(org.apache.commons.math4.linear.DiagonalMatrixTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.EvaluationTest.testComputeSigma(org.apache.commons.math4.fitting.leastsquares.EvaluationTest) (6 ms)</li><li>org.apache.commons.math4.linear.DiagonalMatrixTest.testCreate(org.apache.commons.math4.linear.DiagonalMatrixTest) (0 ms)</li><li>org.apache.commons.math4.linear.DiagonalMatrixTest.testSubtract(org.apache.commons.math4.linear.DiagonalMatrixTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest.testNonInvertible(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest) (0 ms)</li><li>org.apache.commons.math4.linear.DiagonalMatrixTest.testOperate(org.apache.commons.math4.linear.DiagonalMatrixTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest.testRedundantEquations(org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest) (1 ms)</li><li>org.apache.commons.math4.linear.SingularValueDecompositionTest.testDimensions(org.apache.commons.math4.linear.SingularValueDecompositionTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest.testIllConditioned(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest.testHahn1(org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest) (7 ms)</li><li>org.apache.commons.math4.linear.EigenDecompositionTest.testRepeatedEigenvalue(org.apache.commons.math4.linear.EigenDecompositionTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest.testCircleFitting(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest) (18 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest.testKirby2(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest) (11 ms)</li><li>org.apache.commons.math4.linear.SingularValueDecompositionTest.testAEqualUSVt(org.apache.commons.math4.linear.SingularValueDecompositionTest) (1 ms)</li><li>org.apache.commons.math4.linear.SingularValueDecompositionTest.testMoreRows(org.apache.commons.math4.linear.SingularValueDecompositionTest) (2 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest.testCircleFittingGoodInit(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest) (2 ms)</li><li>org.apache.commons.math4.linear.DiagonalMatrixTest.testInverseError(org.apache.commons.math4.linear.DiagonalMatrixTest) (0 ms)</li><li>org.apache.commons.math4.fitting.PolynomialCurveFitterTest.testRedundantSolvable(org.apache.commons.math4.fitting.PolynomialCurveFitterTest) (15 ms)</li><li>org.apache.commons.math4.linear.DiagonalMatrixTest.testMultiplyNonDiagonalZero(org.apache.commons.math4.linear.DiagonalMatrixTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest.testPointCopy(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest) (5 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest.testPointCopy(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest.testInconsistentEquations(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest.testHahn1(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest) (61 ms)</li><li>org.apache.commons.math4.fitting.GaussianCurveFitterTest.testFit01(org.apache.commons.math4.fitting.GaussianCurveFitterTest) (41 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest.testCircleFittingGoodInit(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest) (4 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest.testKirby2(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest) (6 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest.testCircleFittingBadInit(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest) (22 ms)</li><li>org.apache.commons.math4.linear.DiagonalMatrixTest.testAddNonDiagonalZero(org.apache.commons.math4.linear.DiagonalMatrixTest) (1 ms)</li><li>org.apache.commons.math4.linear.EigenDecompositionTest.testSquareRootNonPositiveDefinite(org.apache.commons.math4.linear.EigenDecompositionTest) (2 ms)</li><li>org.apache.commons.math4.fitting.PolynomialCurveFitterTest.testLargeSample(org.apache.commons.math4.fitting.PolynomialCurveFitterTest) (3954 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.MinpackTest.testMinpackChebyquad(org.apache.commons.math4.fitting.leastsquares.MinpackTest) (7 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest.testNoDependency(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest.testMoreEstimatedParametersSimple(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest.testMaxEvaluations(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest) (10 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest.testInconsistentEquations(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest.testTrivial(org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.MinpackTest.testMinpackHelicalValley(org.apache.commons.math4.fitting.leastsquares.MinpackTest) (2 ms)</li><li>org.apache.commons.math4.linear.EigenDecompositionTest.testDimension2(org.apache.commons.math4.linear.EigenDecompositionTest) (2 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest.testOneSet(org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest) (0 ms)</li><li>org.apache.commons.math4.linear.DiagonalMatrixTest.testInverseError2(org.apache.commons.math4.linear.DiagonalMatrixTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest.testCircleFittingGoodInit(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest) (3 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest.testInconsistentSizes2(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest.testGetIterations(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest) (4 ms)</li><li>org.apache.commons.math4.linear.EigenDecompositionTest.testSquareRoot(org.apache.commons.math4.linear.EigenDecompositionTest) (2 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.MinpackTest.testMinpackLinearFullRank(org.apache.commons.math4.fitting.leastsquares.MinpackTest) (0 ms)</li><li>org.apache.commons.math4.linear.DiagonalMatrixTest.testSetSubMatrix(org.apache.commons.math4.linear.DiagonalMatrixTest) (1 ms)</li><li>org.apache.commons.math4.fitting.PolynomialCurveFitterTest.testSmallError(org.apache.commons.math4.fitting.PolynomialCurveFitterTest) (10 ms)</li><li>org.apache.commons.math4.fitting.GaussianCurveFitterTest.testMath519(org.apache.commons.math4.fitting.GaussianCurveFitterTest) (83 ms)</li><li>org.apache.commons.math4.linear.EigenDecompositionTest.testDistinctEigenvalues(org.apache.commons.math4.linear.EigenDecompositionTest) (1 ms)</li><li>org.apache.commons.math4.fitting.HarmonicCurveFitterTest.testNoError(org.apache.commons.math4.fitting.HarmonicCurveFitterTest) (2 ms)</li><li>org.apache.commons.math4.fitting.HarmonicCurveFitterTest.test1PercentError(org.apache.commons.math4.fitting.HarmonicCurveFitterTest) (10 ms)</li><li>org.apache.commons.math4.linear.EigenSolverTest.testSolveDimensionErrors(org.apache.commons.math4.linear.EigenSolverTest) (1 ms)</li><li>org.apache.commons.math4.linear.DiagonalMatrixTest.testConstructor3(org.apache.commons.math4.linear.DiagonalMatrixTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest.testNoDependency(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest.testTrivial(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest.testCircleFittingGoodInit(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest) (2 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest.testNonInvertible(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.EvaluationTest.testComputeRMS(org.apache.commons.math4.fitting.leastsquares.EvaluationTest) (5 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest.testQRColumnsPermutation(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest.testMoreEstimatedParametersSimple(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest.testCircleFitting2(org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest) (90 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest.testMoreEstimatedParametersSimple(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest.testCircleFittingGoodInit(org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest.testInconsistentSizes1(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.MinpackTest.testMinpackOsborne1(org.apache.commons.math4.fitting.leastsquares.MinpackTest) (1 ms)</li><li>org.apache.commons.math4.linear.EigenDecompositionTest.testMath1051(org.apache.commons.math4.linear.EigenDecompositionTest) (35 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.EvaluationTest.testComputeCost(org.apache.commons.math4.fitting.leastsquares.EvaluationTest) (10 ms)</li><li>org.apache.commons.math4.fitting.HarmonicCurveFitterTest.testTinyVariationsData(org.apache.commons.math4.fitting.HarmonicCurveFitterTest) (9 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.MinpackTest.testMinpackWatson(org.apache.commons.math4.fitting.leastsquares.MinpackTest) (31 ms)</li><li>org.apache.commons.math4.fitting.HarmonicCurveFitterTest.testInitialGuess(org.apache.commons.math4.fitting.HarmonicCurveFitterTest) (3 ms)</li><li>org.apache.commons.math4.fitting.PolynomialCurveFitterTest.testNoError(org.apache.commons.math4.fitting.PolynomialCurveFitterTest) (8 ms)</li><li>org.apache.commons.math4.linear.DiagonalMatrixTest.testSetNonDiagonalEntry(org.apache.commons.math4.linear.DiagonalMatrixTest) (0 ms)</li><li>org.apache.commons.math4.linear.EigenDecompositionTest.testDiagonal(org.apache.commons.math4.linear.EigenDecompositionTest) (2 ms)</li><li>org.apache.commons.math4.linear.EigenDecompositionTest.testTinyValues(org.apache.commons.math4.linear.EigenDecompositionTest) (2 ms)</li><li>org.apache.commons.math4.linear.EigenDecompositionTest.testZeroDivide(org.apache.commons.math4.linear.EigenDecompositionTest) (2 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest.testGetIterations(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest) (4 ms)</li><li>org.apache.commons.math4.linear.EigenDecompositionTest.testEigenvectors(org.apache.commons.math4.linear.EigenDecompositionTest) (2 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest.testTwoSets(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest) (0 ms)</li><li>org.apache.commons.math4.linear.EigenDecompositionTest.testEigenvalues(org.apache.commons.math4.linear.EigenDecompositionTest) (1 ms)</li><li>org.apache.commons.math4.linear.EigenDecompositionTest.testBigMatrix(org.apache.commons.math4.linear.EigenDecompositionTest) (782 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest.testTwoSets(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest) (0 ms)</li><li>org.apache.commons.math4.linear.EigenDecompositionTest.testUnsymmetric(org.apache.commons.math4.linear.EigenDecompositionTest) (15 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest.testMoreEstimatedParametersUnsorted(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest) (0 ms)</li><li>org.apache.commons.math4.linear.DiagonalMatrixTest.testInverse(org.apache.commons.math4.linear.DiagonalMatrixTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest.testMoreEstimatedParametersUnsorted(org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest) (1 ms)</li><li>org.apache.commons.math4.linear.DiagonalMatrixTest.testConstructor1(org.apache.commons.math4.linear.DiagonalMatrixTest) (0 ms)</li><li>org.apache.commons.math4.linear.EigenDecompositionTest.testVOrthogonal(org.apache.commons.math4.linear.EigenDecompositionTest) (2 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest.testMaxEvaluations(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest) (4 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.MinpackTest.testMinpackBard(org.apache.commons.math4.fitting.leastsquares.MinpackTest) (5 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest.testRedundantEquations(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest) (0 ms)</li><li>org.apache.commons.math4.linear.EigenDecompositionTest.testMathpbx03(org.apache.commons.math4.linear.EigenDecompositionTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest.testKirby2(org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest) (5 ms)</li><li>org.apache.commons.math4.linear.DiagonalMatrixTest.testPreMultiply(org.apache.commons.math4.linear.DiagonalMatrixTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.EvaluationTest.testComputeValueAndJacobian(org.apache.commons.math4.fitting.leastsquares.EvaluationTest) (2 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest.testIllConditioned(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest) (2 ms)</li><li>org.apache.commons.math4.fitting.GaussianCurveFitterTest.testFit06(org.apache.commons.math4.fitting.GaussianCurveFitterTest) (2 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest.testEvaluationCount(org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest.testTwoSets(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest.testMoreEstimatedParametersSimple(org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest) (1 ms)</li><li>org.apache.commons.math4.fitting.PolynomialCurveFitterTest.testFit(org.apache.commons.math4.fitting.PolynomialCurveFitterTest) (4 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest.testBevington(org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest) (9 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest.testHahn1(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest) (46 ms)</li><li>org.apache.commons.math4.linear.EigenDecompositionTest.testSquareRootNonSymmetric(org.apache.commons.math4.linear.EigenDecompositionTest) (2 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest.testMoreEstimatedParametersUnsorted(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest) (0 ms)</li><li>org.apache.commons.math4.fitting.GaussianCurveFitterTest.testFit07(org.apache.commons.math4.fitting.GaussianCurveFitterTest) (2 ms)</li><li>org.apache.commons.math4.linear.EigenDecompositionTest.testDimensions(org.apache.commons.math4.linear.EigenDecompositionTest) (2 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest.testHahn1(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest) (25 ms)</li><li>org.apache.commons.math4.linear.DiagonalMatrixTest.testMultiplyEntry(org.apache.commons.math4.linear.DiagonalMatrixTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest.testTwoSets(org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.EvaluationTestValidation.testParametersErrorMonteCarloObservations(org.apache.commons.math4.fitting.leastsquares.EvaluationTestValidation) (45 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest.testCircleFitting(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest) (10 ms)</li><li>org.apache.commons.math4.linear.DiagonalMatrixTest.testSetSubMatrixError(org.apache.commons.math4.linear.DiagonalMatrixTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest.testNonInvertible(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest.testCircleFittingBadInit(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest) (2 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest.testInconsistentSizes2(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest.testOneSet(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest) (4 ms)</li><li>org.apache.commons.math4.linear.DiagonalMatrixTest.testSetEntryOutOfRange(org.apache.commons.math4.linear.DiagonalMatrixTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.MinpackTest.testMinpackLinearRank1ZeroColsAndRows(org.apache.commons.math4.fitting.leastsquares.MinpackTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest.testInconsistentSizes2(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.EvaluationTest.testComputeCovariance(org.apache.commons.math4.fitting.leastsquares.EvaluationTest) (6 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest.testGetIterations(org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest.testTrivial(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithQRTest) (1 ms)</li><li>org.apache.commons.math4.linear.DiagonalMatrixTest.testPreMultiplyVector(org.apache.commons.math4.linear.DiagonalMatrixTest) (0 ms)</li><li>org.apache.commons.math4.fitting.GaussianCurveFitterTest.testWithMaxIterations2(org.apache.commons.math4.fitting.GaussianCurveFitterTest) (3 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest.testMoreEstimatedParametersUnsorted(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest.testHahn1(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest) (1351 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest.testQRColumnsPermutation(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithLUTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.MinpackTest.testMinpackRosenbrok(org.apache.commons.math4.fitting.leastsquares.MinpackTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.MinpackTest.testMinpackJennrichSampson(org.apache.commons.math4.fitting.leastsquares.MinpackTest) (2 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest.testGetIterations(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest) (5 ms)</li><li>org.apache.commons.math4.linear.SingularValueDecompositionTest.testMoreColumns(org.apache.commons.math4.linear.SingularValueDecompositionTest) (3 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest.testRedundantEquations(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest) (1 ms)</li><li>org.apache.commons.math4.linear.DiagonalMatrixTest.testSetNonDiagonalZero(org.apache.commons.math4.linear.DiagonalMatrixTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest.testTwoSets(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest) (3 ms)</li><li>org.apache.commons.math4.linear.DiagonalMatrixTest.testAdd(org.apache.commons.math4.linear.DiagonalMatrixTest) (1 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

@@ -1,0 +1,943 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>Cartesian3D.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_112'>112</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_112'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_130'>130</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_130'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_131'>131</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_131'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_142'>142</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_142'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_143'>143</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_143'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_144'>144</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_144'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_202'>202</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_202'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getX<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testNegate(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::getX &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_210'>210</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_210'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getY<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testNegate(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::getY &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_218'>218</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_218'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getZ<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testNegate(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::getZ &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_226'>226</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_226'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toArray<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::toArray to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_232'>232</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_232'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getSpace<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::getSpace to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_238'>238</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_238'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getZero<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::getZero to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_244'>244</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_244'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getNorm1<br/><b>Killed by : </b>none</span></span> Replaced double addition with subtraction &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>getNorm1<br/><b>Killed by : </b>none</span></span> Replaced double addition with subtraction &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>getNorm1<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::getNorm1 &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_251'>251</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_251'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getNorm<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testNorm(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> Replaced double multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>getNorm<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testNorm(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> Replaced double multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>getNorm<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testNorm(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> Replaced double addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>getNorm<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testNorm(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> Replaced double multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>5.<span><b>5</b><br/><b>Location : </b>getNorm<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testNorm(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> Replaced double addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>6.<span><b>6</b><br/><b>Location : </b>getNorm<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testNorm(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::getNorm &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_258'>258</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_258'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getNormSq<br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>getNormSq<br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>getNormSq<br/><b>Killed by : </b>none</span></span> Replaced double addition with subtraction &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>getNormSq<br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>5.<span><b>5</b><br/><b>Location : </b>getNormSq<br/><b>Killed by : </b>none</span></span> Replaced double addition with subtraction &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>6.<span><b>6</b><br/><b>Location : </b>getNormSq<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::getNormSq &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_264'>264</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_264'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getNormInf<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::getNormInf &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_272'>272</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_272'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getAlpha<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::getAlpha &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_280'>280</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_280'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getDelta<br/><b>Killed by : </b>none</span></span> Replaced double division with multiplication &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>getDelta<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::getDelta &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_287'>287</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_287'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>add<br/><b>Killed by : </b>none</span></span> Replaced double addition with subtraction &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>add<br/><b>Killed by : </b>none</span></span> Replaced double addition with subtraction &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>add<br/><b>Killed by : </b>none</span></span> Replaced double addition with subtraction &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>add<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::add to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_293'>293</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_293'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>add<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::add to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_300'>300</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_300'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>subtract<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testDistance1(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> Replaced double subtraction with addition &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>subtract<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testDistance1(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> Replaced double subtraction with addition &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>subtract<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testSubtract(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> Replaced double subtraction with addition &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>subtract<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testDistance1(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> mutated return of Object value for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::subtract to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_306'>306</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_306'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>subtract<br/><b>Killed by : </b>none</span></span> removed negation &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>subtract<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::subtract to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_313'>313</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_313'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>normalize<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testNormalize(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_316'>316</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_316'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>normalize<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testNormalize(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> Replaced double division with multiplication &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>normalize<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testNormalize(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> mutated return of Object value for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::normalize to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_336'>336</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_336'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>orthogonal<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testOrthogonal(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> Replaced double multiplication with division &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_337'>337</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_337'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>orthogonal<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.PlaneTest.testContains(org.apache.commons.math4.geometry.euclidean.threed.PlaneTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_341'>341</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_341'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>orthogonal<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>orthogonal<br/><b>Killed by : </b>org.apache.commons.math4.geometry.spherical.twod.SubCircleTest.testSideSplitConsistency(org.apache.commons.math4.geometry.spherical.twod.SubCircleTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_342'>342</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_342'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>orthogonal<br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>orthogonal<br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>orthogonal<br/><b>Killed by : </b>none</span></span> Replaced double addition with subtraction &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>orthogonal<br/><b>Killed by : </b>none</span></span> Replaced double division with multiplication &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_343'>343</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_343'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>orthogonal<br/><b>Killed by : </b>none</span></span> removed negation &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>orthogonal<br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>orthogonal<br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>orthogonal<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::orthogonal to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_344'>344</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_344'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>orthogonal<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='SURVIVED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>orthogonal<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_345'>345</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_345'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>orthogonal<br/><b>Killed by : </b>org.apache.commons.math4.geometry.spherical.twod.CircleTest.testReverse(org.apache.commons.math4.geometry.spherical.twod.CircleTest)</span></span> Replaced double multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>orthogonal<br/><b>Killed by : </b>org.apache.commons.math4.geometry.spherical.twod.CircleTest.testReverse(org.apache.commons.math4.geometry.spherical.twod.CircleTest)</span></span> Replaced double multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>orthogonal<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.PlaneTest.testIntersection(org.apache.commons.math4.geometry.euclidean.threed.PlaneTest)</span></span> Replaced double addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>orthogonal<br/><b>Killed by : </b>org.apache.commons.math4.geometry.spherical.twod.CircleTest.testReverse(org.apache.commons.math4.geometry.spherical.twod.CircleTest)</span></span> Replaced double division with multiplication &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_346'>346</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_346'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>orthogonal<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testOrthogonal(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> removed negation &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>orthogonal<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testOrthogonal(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> Replaced double multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>orthogonal<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testOrthogonal(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> Replaced double multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>orthogonal<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.PlaneTest.testIntersection3(org.apache.commons.math4.geometry.euclidean.threed.PlaneTest)</span></span> mutated return of Object value for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::orthogonal to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_348'>348</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_348'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>orthogonal<br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>orthogonal<br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>orthogonal<br/><b>Killed by : </b>none</span></span> Replaced double addition with subtraction &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>orthogonal<br/><b>Killed by : </b>none</span></span> Replaced double division with multiplication &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_349'>349</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_349'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>orthogonal<br/><b>Killed by : </b>none</span></span> removed negation &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>orthogonal<br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>orthogonal<br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>orthogonal<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::orthogonal to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_366'>366</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_366'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>angle<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testAngle(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> Replaced double multiplication with division &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_367'>367</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_367'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>angle<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.RotationTest.testIssue801(org.apache.commons.math4.geometry.euclidean.threed.RotationTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_372'>372</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_372'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>angle<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testAngle(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> Replaced double multiplication with division &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_373'>373</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_373'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>angle<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='SURVIVED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>angle<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>angle<br/><b>Killed by : </b>org.apache.commons.math4.geometry.spherical.twod.CircleTest.testReverse(org.apache.commons.math4.geometry.spherical.twod.CircleTest)</span></span> removed negation &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>angle<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testAngle(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>5.<span><b>5</b><br/><b>Location : </b>angle<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testAngle(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_376'>376</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_376'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>angle<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>angle<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.RotationTest.testIssue801(org.apache.commons.math4.geometry.euclidean.threed.RotationTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_377'>377</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_377'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>angle<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testAngle(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> Replaced double division with multiplication &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>angle<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.RotationTest.testIssue801(org.apache.commons.math4.geometry.euclidean.threed.RotationTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::angle &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_379'>379</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_379'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>angle<br/><b>Killed by : </b>none</span></span> Replaced double division with multiplication &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>angle<br/><b>Killed by : </b>none</span></span> Replaced double subtraction with addition &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>angle<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::angle &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_383'>383</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_383'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>angle<br/><b>Killed by : </b>none</span></span> Replaced double division with multiplication &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>angle<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::angle &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_390'>390</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_390'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>negate<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testNegate(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> removed negation &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>negate<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testNegate(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> removed negation &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>negate<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testNegate(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> removed negation &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>negate<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testNegate(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> mutated return of Object value for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::negate to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_396'>396</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_396'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>scalarMultiply<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testScalarProduct(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> Replaced double multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>scalarMultiply<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testScalarProduct(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> Replaced double multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>scalarMultiply<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testScalarProduct(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> Replaced double multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>scalarMultiply<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testScalarProduct(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> mutated return of Object value for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::scalarMultiply to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_402'>402</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_402'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isNaN<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>isNaN<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>isNaN<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>isNaN<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_408'>408</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_408'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isInfinite<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>isInfinite<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>isInfinite<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>isInfinite<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>5.<span><b>5</b><br/><b>Location : </b>isInfinite<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_433'>433</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_433'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_434'>434</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_434'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_437'>437</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_437'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_439'>439</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_439'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_440'>440</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_440'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_443'>443</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_443'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_445'>445</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_445'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_457'>457</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_457'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>hashCode<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_458'>458</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_458'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>hashCode<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_460'>460</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_460'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>hashCode<br/><b>Killed by : </b>none</span></span> Replaced integer multiplication with division &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>hashCode<br/><b>Killed by : </b>none</span></span> Replaced integer multiplication with division &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>hashCode<br/><b>Killed by : </b>none</span></span> Replaced integer addition with subtraction &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>hashCode<br/><b>Killed by : </b>none</span></span> Replaced integer addition with subtraction &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>5.<span><b>5</b><br/><b>Location : </b>hashCode<br/><b>Killed by : </b>none</span></span> Replaced integer multiplication with division &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>6.<span><b>6</b><br/><b>Location : </b>hashCode<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_474'>474</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_474'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>dotProduct<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testAccurateDotProduct(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::dotProduct &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_483'>483</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_483'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>crossProduct<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testAccurateCrossProduct(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> removed negation &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>crossProduct<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testAccurateCrossProduct(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> removed negation &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>crossProduct<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testAccurateCrossProduct(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> mutated return of Object value for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::crossProduct to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_484'>484</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_484'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>crossProduct<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testAccurateCrossProduct(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> removed negation &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_492'>492</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_492'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>distance1<br/><b>Killed by : </b>none</span></span> Replaced double subtraction with addition &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_493'>493</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_493'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>distance1<br/><b>Killed by : </b>none</span></span> Replaced double subtraction with addition &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_494'>494</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_494'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>distance1<br/><b>Killed by : </b>none</span></span> Replaced double subtraction with addition &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_495'>495</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_495'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>distance1<br/><b>Killed by : </b>none</span></span> Replaced double addition with subtraction &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>distance1<br/><b>Killed by : </b>none</span></span> Replaced double addition with subtraction &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>distance1<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::distance1 &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_501'>501</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_501'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>distance<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::distance &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_507'>507</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_507'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>distance<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::distance &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_515'>515</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_515'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>distance<br/><b>Killed by : </b>none</span></span> Replaced double subtraction with addition &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_516'>516</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_516'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>distance<br/><b>Killed by : </b>none</span></span> Replaced double subtraction with addition &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_517'>517</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_517'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>distance<br/><b>Killed by : </b>none</span></span> Replaced double subtraction with addition &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_518'>518</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_518'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>distance<br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>distance<br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>distance<br/><b>Killed by : </b>none</span></span> Replaced double addition with subtraction &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>distance<br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>5.<span><b>5</b><br/><b>Location : </b>distance<br/><b>Killed by : </b>none</span></span> Replaced double addition with subtraction &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>6.<span><b>6</b><br/><b>Location : </b>distance<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::distance &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_525'>525</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_525'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>distanceInf<br/><b>Killed by : </b>none</span></span> Replaced double subtraction with addition &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_526'>526</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_526'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>distanceInf<br/><b>Killed by : </b>none</span></span> Replaced double subtraction with addition &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_527'>527</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_527'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>distanceInf<br/><b>Killed by : </b>none</span></span> Replaced double subtraction with addition &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_528'>528</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_528'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>distanceInf<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::distanceInf &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_535'>535</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_535'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>distanceSq<br/><b>Killed by : </b>none</span></span> Replaced double subtraction with addition &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_536'>536</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_536'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>distanceSq<br/><b>Killed by : </b>none</span></span> Replaced double subtraction with addition &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_537'>537</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_537'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>distanceSq<br/><b>Killed by : </b>none</span></span> Replaced double subtraction with addition &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_538'>538</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_538'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>distanceSq<br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>distanceSq<br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>distanceSq<br/><b>Killed by : </b>none</span></span> Replaced double addition with subtraction &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>distanceSq<br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>5.<span><b>5</b><br/><b>Location : </b>distanceSq<br/><b>Killed by : </b>none</span></span> Replaced double addition with subtraction &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>6.<span><b>6</b><br/><b>Location : </b>distanceSq<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::distanceSq &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_547'>547</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_547'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>dotProduct<br/><b>Killed by : </b>org.apache.commons.math4.complex.QuaternionTest.testProductQuaternionQuaternion(org.apache.commons.math4.complex.QuaternionTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::dotProduct &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_556'>556</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_556'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>crossProduct<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testCrossProductCancellation(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest)</span></span> mutated return of Object value for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::crossProduct to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_568'>568</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_568'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>distance1<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::distance1 &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_580'>580</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_580'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>distance<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::distance &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_592'>592</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_592'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>distanceInf<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::distanceInf &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_604'>604</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_604'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>distanceSq<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::distanceSq &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_612'>612</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_612'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::toString to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1ada197a_618'>618</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1ada197a_618'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/geometry/euclidean/threed/Cartesian3D::toString to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.math4.geometry.enclosing.WelzlEncloser3DTest.testReducingBall(org.apache.commons.math4.geometry.enclosing.WelzlEncloser3DTest) (16 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testNonDefaultSetting(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest.testFullSphere(org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest) (11 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testCrossProductCancellation(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.SphericalCoordinatesTest.testCoordinatesCtoS(org.apache.commons.math4.geometry.euclidean.threed.SphericalCoordinatesTest) (3 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.RotationTest.testSingularities(org.apache.commons.math4.geometry.euclidean.threed.RotationTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FieldRotationDfpTest.testDoubleVectors(org.apache.commons.math4.geometry.euclidean.threed.FieldRotationDfpTest) (1981 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testSimpleWithDecimalsTrunc(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.SphereGeneratorTest.testSupport3Points(org.apache.commons.math4.geometry.euclidean.threed.SphereGeneratorTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.PolyhedronsSetTest.testTooClose(org.apache.commons.math4.geometry.euclidean.threed.PolyhedronsSetTest) (28 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.LineTest.testIntersection(org.apache.commons.math4.geometry.euclidean.threed.LineTest) (1 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest.testNonConvex(org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest) (10 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testAngular(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testAngle(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest) (1 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest.testEmpty(org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest) (11 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.SubLineTest.testHalfInfinitePos(org.apache.commons.math4.geometry.euclidean.threed.SubLineTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.RotationTest.testComposeInverseVectorOperator(org.apache.commons.math4.geometry.euclidean.threed.RotationTest) (1 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.CircleTest.testReverse(org.apache.commons.math4.geometry.spherical.twod.CircleTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testDefaultFormatVector3D(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testSimpleNoDecimals(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.CircleTest.testXY(org.apache.commons.math4.geometry.spherical.twod.CircleTest) (1 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.SubCircleTest.testFullCircle(org.apache.commons.math4.geometry.spherical.twod.SubCircleTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.RotationTest.testQuaternion(org.apache.commons.math4.geometry.euclidean.threed.RotationTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testNonDefaultSetting(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testNegativeY(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.SphereGeneratorTest.testSupport1Point(org.apache.commons.math4.geometry.euclidean.threed.SphereGeneratorTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FieldRotationDSTest.testSingularities(org.apache.commons.math4.geometry.euclidean.threed.FieldRotationDSTest) (4 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.SubLineTest.testIntersectionInsideInside(org.apache.commons.math4.geometry.euclidean.threed.SubLineTest) (0 ms)</li><li>org.apache.commons.math4.complex.QuaternionTest.testPolarForm(org.apache.commons.math4.complex.QuaternionTest) (23 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest.testSouthHemisphere(org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest) (4 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.PolyhedronsSetTest.testBox(org.apache.commons.math4.geometry.euclidean.threed.PolyhedronsSetTest) (103 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.SphericalCoordinatesTest.testSerialization(org.apache.commons.math4.geometry.euclidean.threed.SphericalCoordinatesTest) (2 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FieldRotationDfpTest.testSingularities(org.apache.commons.math4.geometry.euclidean.threed.FieldRotationDfpTest) (18 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest.testGeographicalMap(org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest) (290 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.RotationTest.testIdentity(org.apache.commons.math4.geometry.euclidean.threed.RotationTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FieldRotationDSTest.testAnglesDeprecated(org.apache.commons.math4.geometry.euclidean.threed.FieldRotationDSTest) (2207 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FieldVector3DTest.testToString(org.apache.commons.math4.geometry.euclidean.threed.FieldVector3DTest) (2 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FieldRotationDfpTest.testAngles(org.apache.commons.math4.geometry.euclidean.threed.FieldRotationDfpTest) (2228 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.PlaneTest.testContains(org.apache.commons.math4.geometry.euclidean.threed.PlaneTest) (0 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.CircleTest.testInsideArc(org.apache.commons.math4.geometry.spherical.twod.CircleTest) (79 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.tesNegativeInfinity(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.SphereGeneratorTest.testRandom(org.apache.commons.math4.geometry.euclidean.threed.SphereGeneratorTest) (94 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.PlaneTest.testOffset(org.apache.commons.math4.geometry.euclidean.threed.PlaneTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.PlaneTest.testSimilar(org.apache.commons.math4.geometry.euclidean.threed.PlaneTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testNormalize(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.PlaneTest.testIntersection3(org.apache.commons.math4.geometry.euclidean.threed.PlaneTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.SubLineTest.testIntersectionOutsideOutside(org.apache.commons.math4.geometry.euclidean.threed.SubLineTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testDefaultFormatVector3D(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FieldVector3DTest.testDistanceInf(org.apache.commons.math4.geometry.euclidean.threed.FieldVector3DTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.RotationTest.testIssue801(org.apache.commons.math4.geometry.euclidean.threed.RotationTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.PolyhedronsSetTest.testNonPlanar(org.apache.commons.math4.geometry.euclidean.threed.PolyhedronsSetTest) (13 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.RotationTest.testAxisAngleDeprecated(org.apache.commons.math4.geometry.euclidean.threed.RotationTest) (0 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest.testConcentricSubParts(org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest) (450 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FieldVector3DTest.testSubtract(org.apache.commons.math4.geometry.euclidean.threed.FieldVector3DTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.SubLineTest.testEndPoints(org.apache.commons.math4.geometry.euclidean.threed.SubLineTest) (3 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FieldRotationDfpTest.testAnglesDeprecated(org.apache.commons.math4.geometry.euclidean.threed.FieldRotationDfpTest) (559 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.RotationTest.testVectorOnePair(org.apache.commons.math4.geometry.euclidean.threed.RotationTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testSimpleWithDecimalsTrunc(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.RotationTest.testApplyInverseTo(org.apache.commons.math4.geometry.euclidean.threed.RotationTest) (5 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testCrossProduct(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest) (15 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.PlaneTest.testRotate(org.apache.commons.math4.geometry.euclidean.threed.PlaneTest) (0 ms)</li><li>org.apache.commons.math4.complex.QuaternionTest.testProductQuaternionVector(org.apache.commons.math4.complex.QuaternionTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.SubLineTest.testIntersectionBoundaryBoundary(org.apache.commons.math4.geometry.euclidean.threed.SubLineTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testDotProduct(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest) (9 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.RotationTest.testAxisAngleVectorOperator(org.apache.commons.math4.geometry.euclidean.threed.RotationTest) (0 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.SubCircleTest.testSideSplitConsistency(org.apache.commons.math4.geometry.spherical.twod.SubCircleTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.PolyhedronsSetTest.testIssue1211(org.apache.commons.math4.geometry.euclidean.threed.PolyhedronsSetTest) (110 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.CircleTest.testSubSpace(org.apache.commons.math4.geometry.spherical.twod.CircleTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FieldVector3DTest.testDistanceSq(org.apache.commons.math4.geometry.euclidean.threed.FieldVector3DTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FieldVector3DTest.testAdd(org.apache.commons.math4.geometry.euclidean.threed.FieldVector3DTest) (1 ms)</li><li>org.apache.commons.math4.geometry.enclosing.WelzlEncloser3DTest.testLargeSamples(org.apache.commons.math4.geometry.enclosing.WelzlEncloser3DTest) (573 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.RotationTest.testAxisAngleFrameTransform(org.apache.commons.math4.geometry.euclidean.threed.RotationTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.RotationTest.testRevertVectorOperator(org.apache.commons.math4.geometry.euclidean.threed.RotationTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testScalarProduct(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest) (0 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest.testPositiveOctantByIntersection(org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest) (11 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testSimpleNoDecimals(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest.testNonInvertible(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithSVDTest) (4 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testPositiveInfinity(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testNan(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.SubLineTest.testIntersectionNotIntersecting(org.apache.commons.math4.geometry.euclidean.threed.SubLineTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.RotationTest.testGithubPullRequest22A(org.apache.commons.math4.geometry.euclidean.threed.RotationTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.RotationTest.testVectorTwoPairs(org.apache.commons.math4.geometry.euclidean.threed.RotationTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FieldRotationDSTest.testDoubleRotations(org.apache.commons.math4.geometry.euclidean.threed.FieldRotationDSTest) (754 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testVectorialProducts(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testOrthogonal(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.PolyhedronsSetTest.testOrientation(org.apache.commons.math4.geometry.euclidean.threed.PolyhedronsSetTest) (11 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testAccurateDotProduct(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testNan(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testSubtract(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.SphereGeneratorTest.testDegeneratedCase(org.apache.commons.math4.geometry.euclidean.threed.SphereGeneratorTest) (2 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.PlaneTest.testIntersection2(org.apache.commons.math4.geometry.euclidean.threed.PlaneTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testNegativeZ(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testNorm(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.RotationTest.testMatrix(org.apache.commons.math4.geometry.euclidean.threed.RotationTest) (0 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.CircleTest.testTransform(org.apache.commons.math4.geometry.spherical.twod.CircleTest) (11 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FieldRotationDfpTest.testDoubleRotations(org.apache.commons.math4.geometry.euclidean.threed.FieldRotationDfpTest) (1979 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.S2PointTest.testS2Point(org.apache.commons.math4.geometry.spherical.twod.S2PointTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.PolyhedronsSetTest.testIssue780(org.apache.commons.math4.geometry.euclidean.threed.PolyhedronsSetTest) (43 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FieldVector3DTest.testDistance1(org.apache.commons.math4.geometry.euclidean.threed.FieldVector3DTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.LineTest.testSimilar(org.apache.commons.math4.geometry.euclidean.threed.LineTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FieldRotationDSTest.testDerivatives(org.apache.commons.math4.geometry.euclidean.threed.FieldRotationDSTest) (15 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testPositiveInfinity(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest.testPartWithHole(org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest) (14 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.RotationTest.testRevertDeprecated(org.apache.commons.math4.geometry.euclidean.threed.RotationTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.PlaneTest.testIntersection(org.apache.commons.math4.geometry.euclidean.threed.PlaneTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.RotationTest.testComposeVectorOperator(org.apache.commons.math4.geometry.euclidean.threed.RotationTest) (0 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.CircleTest.testPhase(org.apache.commons.math4.geometry.spherical.twod.CircleTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.RotationTest.testAngles(org.apache.commons.math4.geometry.euclidean.threed.RotationTest) (687 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.RotationTest.testComposeFrameTransform(org.apache.commons.math4.geometry.euclidean.threed.RotationTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testDistance1(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testAdd(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.LineTest.testClosest(org.apache.commons.math4.geometry.euclidean.threed.LineTest) (5 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.RotationTest.testGithubPullRequest22B(org.apache.commons.math4.geometry.euclidean.threed.RotationTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FieldVector3DTest.testAngularSeparation(org.apache.commons.math4.geometry.euclidean.threed.FieldVector3DTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.PolyhedronsSetTest.testCross(org.apache.commons.math4.geometry.euclidean.threed.PolyhedronsSetTest) (98 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.SubLineTest.testNoSegments(org.apache.commons.math4.geometry.euclidean.threed.SubLineTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testSimpleWithDecimals(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.SubCircleTest.testSide(org.apache.commons.math4.geometry.spherical.twod.SubCircleTest) (1 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest.testModeratlyComplexShape(org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest) (2 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.LineTest.testLineDistance(org.apache.commons.math4.geometry.euclidean.threed.LineTest) (1 ms)</li><li>org.apache.commons.math4.geometry.enclosing.WelzlEncloser3DTest.testInfiniteLoop(org.apache.commons.math4.geometry.enclosing.WelzlEncloser3DTest) (30 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testNegativeX(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testAccurateCrossProduct(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testToString(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest) (0 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest.testSeveralParts(org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest) (10 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FieldVector3DTest.testVectorialProducts(org.apache.commons.math4.geometry.euclidean.threed.FieldVector3DTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FieldVector3DTest.testDistance(org.apache.commons.math4.geometry.euclidean.threed.FieldVector3DTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.SubLineTest.testHalfInfiniteNeg(org.apache.commons.math4.geometry.euclidean.threed.SubLineTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.SubLineTest.testIntersectionInsideOutside(org.apache.commons.math4.geometry.euclidean.threed.SubLineTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.SphericalCoordinatesTest.testGradient(org.apache.commons.math4.geometry.euclidean.threed.SphericalCoordinatesTest) (1111 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FieldRotationDSTest.testDoubleVectors(org.apache.commons.math4.geometry.euclidean.threed.FieldRotationDSTest) (454 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.PolyhedronsSetTest.testConnectedFacets(org.apache.commons.math4.geometry.euclidean.threed.PolyhedronsSetTest) (134 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.SphericalCoordinatesTest.testHessian(org.apache.commons.math4.geometry.euclidean.threed.SphericalCoordinatesTest) (397 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testNegativeX(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testNegativeZ(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.PolyhedronsSetTest.testIsometry(org.apache.commons.math4.geometry.euclidean.threed.PolyhedronsSetTest) (29 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.PolyhedronsSetTest.testHole(org.apache.commons.math4.geometry.euclidean.threed.PolyhedronsSetTest) (14 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FieldRotationDSTest.testAngles(org.apache.commons.math4.geometry.euclidean.threed.FieldRotationDSTest) (5684 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.RotationTest.testComposeInverseFrameTransform(org.apache.commons.math4.geometry.euclidean.threed.RotationTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.RotationTest.testApplyTo(org.apache.commons.math4.geometry.euclidean.threed.RotationTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FieldVector3DTest.testCrossProduct(org.apache.commons.math4.geometry.euclidean.threed.FieldVector3DTest) (163 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testZero(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.tesNegativeInfinity(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.LineTest.testRevert(org.apache.commons.math4.geometry.euclidean.threed.LineTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.LineTest.testPointDistance(org.apache.commons.math4.geometry.euclidean.threed.LineTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.RotationTest.testRevertFrameTransform(org.apache.commons.math4.geometry.euclidean.threed.RotationTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testSimpleWithDecimals(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testDistanceInf(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest) (0 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest.testPositiveOctantByVertices(org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest) (5 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.PlaneTest.testThreePoints(org.apache.commons.math4.geometry.euclidean.threed.PlaneTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.RotationTest.testAnglesDeprecated(org.apache.commons.math4.geometry.euclidean.threed.RotationTest) (202 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.PlaneTest.testTranslate(org.apache.commons.math4.geometry.euclidean.threed.PlaneTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testDistance(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.RotationTest.testIssue639(org.apache.commons.math4.geometry.euclidean.threed.RotationTest) (1 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.CircleTest.testOffset(org.apache.commons.math4.geometry.spherical.twod.CircleTest) (2 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testAngularSeparation(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testConstructors(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.SubLineTest.testSeveralSegments(org.apache.commons.math4.geometry.euclidean.threed.SubLineTest) (0 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.CircleTest.testSpace(org.apache.commons.math4.geometry.spherical.twod.CircleTest) (2 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.S2PointTest.testDistance(org.apache.commons.math4.geometry.spherical.twod.S2PointTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.LineTest.testContains(org.apache.commons.math4.geometry.euclidean.threed.LineTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.PolyhedronsSetTest.testBuildBox(org.apache.commons.math4.geometry.euclidean.threed.PolyhedronsSetTest) (25 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.SubLineTest.testIntersectionInsideBoundary(org.apache.commons.math4.geometry.euclidean.threed.SubLineTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testNegativeY(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.PolyhedronsSetTest.testTetrahedron(org.apache.commons.math4.geometry.euclidean.threed.PolyhedronsSetTest) (6 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.SubLineTest.testIntersectionBoundaryOutside(org.apache.commons.math4.geometry.euclidean.threed.SubLineTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.SubLineTest.testNoEndPoints(org.apache.commons.math4.geometry.euclidean.threed.SubLineTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.RotationTest.testApplyInverseToRotation(org.apache.commons.math4.geometry.euclidean.threed.RotationTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.PlaneTest.testPoint(org.apache.commons.math4.geometry.euclidean.threed.PlaneTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.PolyhedronsSetTest.testDumpParse(org.apache.commons.math4.geometry.euclidean.threed.PolyhedronsSetTest) (78 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FieldVector3DTest.testDotProduct(org.apache.commons.math4.geometry.euclidean.threed.FieldVector3DTest) (75 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.RotationTest.testArray(org.apache.commons.math4.geometry.euclidean.threed.RotationTest) (3 ms)</li><li>org.apache.commons.math4.complex.QuaternionTest.testProductQuaternionQuaternion(org.apache.commons.math4.complex.QuaternionTest) (0 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.SubCircleTest.testSPlit(org.apache.commons.math4.geometry.spherical.twod.SubCircleTest) (1 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.CircleTest.testEquator(org.apache.commons.math4.geometry.spherical.twod.CircleTest) (3 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testNegate(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testCoordinates(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.SphereGeneratorTest.testSupport4Points(org.apache.commons.math4.geometry.euclidean.threed.SphereGeneratorTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FieldVector3DTest.testConstructors(org.apache.commons.math4.geometry.euclidean.threed.FieldVector3DTest) (1 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

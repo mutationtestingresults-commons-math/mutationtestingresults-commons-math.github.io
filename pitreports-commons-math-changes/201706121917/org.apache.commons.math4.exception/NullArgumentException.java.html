@@ -1,0 +1,133 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>NullArgumentException.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@57f0bdd1_60'>60</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@57f0bdd1_60'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/math4/exception/util/ExceptionContext::addMessage &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@57f0bdd1_69'>69</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@57f0bdd1_69'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getContext<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/exception/NullArgumentException::getContext to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@57f0bdd1_75'>75</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@57f0bdd1_75'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getMessage<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/exception/NullArgumentException::getMessage to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@57f0bdd1_81'>81</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@57f0bdd1_81'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getLocalizedMessage<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/exception/NullArgumentException::getLocalizedMessage to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.math4.analysis.function.GaussianTest.testParametricUsage1(org.apache.commons.math4.analysis.function.GaussianTest) (2 ms)</li><li>org.apache.commons.math4.stat.StatUtilsTest.testPopulationVariance(org.apache.commons.math4.stat.StatUtilsTest) (1 ms)</li><li>org.apache.commons.math4.analysis.solvers.UnivariateSolverUtilsTest.testSolveNull(org.apache.commons.math4.analysis.solvers.UnivariateSolverUtilsTest) (1 ms)</li><li>org.apache.commons.math4.stat.StatUtilsTest.testMode(org.apache.commons.math4.stat.StatUtilsTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest.testNull(org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest) (0 ms)</li><li>org.apache.commons.math4.stat.regression.OLSMultipleLinearRegressionTest.testNewSampleDataYNull(org.apache.commons.math4.stat.regression.OLSMultipleLinearRegressionTest) (1 ms)</li><li>org.apache.commons.math4.fraction.BigFractionTest.testSubtract(org.apache.commons.math4.fraction.BigFractionTest) (1 ms)</li><li>org.apache.commons.math4.util.MathUtilsTest.testCheckNotNull2(org.apache.commons.math4.util.MathUtilsTest) (1 ms)</li><li>org.apache.commons.math4.stat.StatUtilsTest.testSumSq(org.apache.commons.math4.stat.StatUtilsTest) (1 ms)</li><li>org.apache.commons.math4.stat.inference.InferenceTestUtilsTest.testTwoSampleTHeterscedastic(org.apache.commons.math4.stat.inference.InferenceTestUtilsTest) (1 ms)</li><li>org.apache.commons.math4.stat.StatUtilsTest.testGeometricMean(org.apache.commons.math4.stat.StatUtilsTest) (1 ms)</li><li>org.apache.commons.math4.analysis.function.LogitTest.testParametricUsage1(org.apache.commons.math4.analysis.function.LogitTest) (4 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testConstructorExceptions(org.apache.commons.math4.complex.FrenchComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.stat.StatUtilsTest.testMax(org.apache.commons.math4.stat.StatUtilsTest) (0 ms)</li><li>org.apache.commons.math4.stat.StatUtilsTest.testVariance(org.apache.commons.math4.stat.StatUtilsTest) (0 ms)</li><li>org.apache.commons.math4.analysis.interpolation.PiecewiseBicubicSplineInterpolatorTest.testPreconditions(org.apache.commons.math4.analysis.interpolation.PiecewiseBicubicSplineInterpolatorTest) (2 ms)</li><li>org.apache.commons.math4.linear.FieldMatrixImplTest.testSetSubMatrix(org.apache.commons.math4.linear.FieldMatrixImplTest) (1 ms)</li><li>org.apache.commons.math4.linear.MatrixUtilsTest.testCreateColumnFieldMatrix(org.apache.commons.math4.linear.MatrixUtilsTest) (1 ms)</li><li>org.apache.commons.math4.fraction.BigFractionTest.testMultiply(org.apache.commons.math4.fraction.BigFractionTest) (0 ms)</li><li>org.apache.commons.math4.util.ResizableDoubleArrayTest.testConstructors(org.apache.commons.math4.util.ResizableDoubleArrayTest) (1 ms)</li><li>org.apache.commons.math4.stat.regression.OLSMultipleLinearRegressionTest.testNewSampleDataXNull(org.apache.commons.math4.stat.regression.OLSMultipleLinearRegressionTest) (1 ms)</li><li>org.apache.commons.math4.fraction.FractionTest.testAdd(org.apache.commons.math4.fraction.FractionTest) (2 ms)</li><li>org.apache.commons.math4.analysis.function.StepFunctionTest.testPreconditions2(org.apache.commons.math4.analysis.function.StepFunctionTest) (0 ms)</li><li>org.apache.commons.math4.analysis.solvers.UnivariateSolverUtilsTest.testNullFunction(org.apache.commons.math4.analysis.solvers.UnivariateSolverUtilsTest) (1 ms)</li><li>org.apache.commons.math4.util.DefaultTransformerTest.testTransformNull(org.apache.commons.math4.util.DefaultTransformerTest) (0 ms)</li><li>org.apache.commons.math4.linear.MatrixUtilsTest.testCreateColumnRealMatrix(org.apache.commons.math4.linear.MatrixUtilsTest) (1 ms)</li><li>org.apache.commons.math4.stat.StatUtilsTest.testProduct(org.apache.commons.math4.stat.StatUtilsTest) (0 ms)</li><li>org.apache.commons.math4.fraction.BigFractionTest.testAdd(org.apache.commons.math4.fraction.BigFractionTest) (1 ms)</li><li>org.apache.commons.math4.linear.MatrixUtilsTest.testCreateRowFieldMatrix(org.apache.commons.math4.linear.MatrixUtilsTest) (0 ms)</li><li>org.apache.commons.math4.stat.inference.MannWhitneyUTestTest.testMannWhitneyUInputValidation(org.apache.commons.math4.stat.inference.MannWhitneyUTestTest) (1 ms)</li><li>org.apache.commons.math4.fraction.FractionTest.testDivide(org.apache.commons.math4.fraction.FractionTest) (1 ms)</li><li>org.apache.commons.math4.stat.regression.GLSMultipleLinearRegressionTest.testNewSampleNullData(org.apache.commons.math4.stat.regression.GLSMultipleLinearRegressionTest) (1 ms)</li><li>org.apache.commons.math4.util.MathArraysTest.testConvolve(org.apache.commons.math4.util.MathArraysTest) (1 ms)</li><li>org.apache.commons.math4.analysis.function.HarmonicOscillatorTest.testParametricUsage1(org.apache.commons.math4.analysis.function.HarmonicOscillatorTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.hull.MonotoneChainTest.testNullArgument(org.apache.commons.math4.geometry.euclidean.twod.hull.MonotoneChainTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.rank.PercentileTest.testNullEstimation(org.apache.commons.math4.stat.descriptive.rank.PercentileTest) (0 ms)</li><li>org.apache.commons.math4.stat.regression.OLSMultipleLinearRegressionTest.testNewSampleNullData(org.apache.commons.math4.stat.regression.OLSMultipleLinearRegressionTest) (0 ms)</li><li>org.apache.commons.math4.analysis.function.HarmonicOscillatorTest.testParametricUsage3(org.apache.commons.math4.analysis.function.HarmonicOscillatorTest) (1 ms)</li><li>org.apache.commons.math4.complex.ComplexTest.testpowNull(org.apache.commons.math4.complex.ComplexTest) (3 ms)</li><li>org.apache.commons.math4.stat.regression.GLSMultipleLinearRegressionTest.cannotAddNullYSampleData(org.apache.commons.math4.stat.regression.GLSMultipleLinearRegressionTest) (0 ms)</li><li>org.apache.commons.math4.analysis.function.SigmoidTest.testParametricUsage1(org.apache.commons.math4.analysis.function.SigmoidTest) (1 ms)</li><li>org.apache.commons.math4.linear.MatrixUtilsTest.testCreateRealMatrix(org.apache.commons.math4.linear.MatrixUtilsTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.SemiVarianceTest.testInsufficientData(org.apache.commons.math4.stat.descriptive.moment.SemiVarianceTest) (3 ms)</li><li>org.apache.commons.math4.linear.DiagonalMatrixTest.testNull(org.apache.commons.math4.linear.DiagonalMatrixTest) (0 ms)</li><li>org.apache.commons.math4.stat.StatUtilsTest.testMean(org.apache.commons.math4.stat.StatUtilsTest) (0 ms)</li><li>org.apache.commons.math4.linear.Array2DRowRealMatrixTest.testSetSubMatrix(org.apache.commons.math4.linear.Array2DRowRealMatrixTest) (1 ms)</li><li>org.apache.commons.math4.ml.clustering.DBSCANClustererTest.testNullDataset(org.apache.commons.math4.ml.clustering.DBSCANClustererTest) (0 ms)</li><li>org.apache.commons.math4.fraction.BigFractionTest.testConstructor(org.apache.commons.math4.fraction.BigFractionTest) (0 ms)</li><li>org.apache.commons.math4.analysis.function.StepFunctionTest.testPreconditions1(org.apache.commons.math4.analysis.function.StepFunctionTest) (0 ms)</li><li>org.apache.commons.math4.analysis.solvers.UnivariateSolverUtilsTest.testSolveAccuracyNull(org.apache.commons.math4.analysis.solvers.UnivariateSolverUtilsTest) (2 ms)</li><li>org.apache.commons.math4.fraction.BigFractionTest.testDivide(org.apache.commons.math4.fraction.BigFractionTest) (1 ms)</li><li>org.apache.commons.math4.analysis.function.LogitTest.testParametricUsage3(org.apache.commons.math4.analysis.function.LogitTest) (1 ms)</li><li>org.apache.commons.math4.stat.StatUtilsTest.testPercentile(org.apache.commons.math4.stat.StatUtilsTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.rank.PercentileTest.testAllTechniquesSpecialValuesWithNaNStrategy(org.apache.commons.math4.stat.descriptive.rank.PercentileTest) (1 ms)</li><li>org.apache.commons.math4.util.MathArraysTest.testCheckRectangular(org.apache.commons.math4.util.MathArraysTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.hull.AklToussaintHeuristicTest.testNullArgument(org.apache.commons.math4.geometry.euclidean.twod.hull.AklToussaintHeuristicTest) (1 ms)</li><li>org.apache.commons.math4.stat.StatUtilsTest.testMin(org.apache.commons.math4.stat.StatUtilsTest) (1 ms)</li><li>org.apache.commons.math4.analysis.function.LogisticTest.testParametricUsage3(org.apache.commons.math4.analysis.function.LogisticTest) (1 ms)</li><li>org.apache.commons.math4.analysis.function.SigmoidTest.testParametricUsage3(org.apache.commons.math4.analysis.function.SigmoidTest) (1 ms)</li><li>org.apache.commons.math4.ml.clustering.FuzzyKMeansClustererTest.testNullDataset(org.apache.commons.math4.ml.clustering.FuzzyKMeansClustererTest) (1 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testConstructorExceptions(org.apache.commons.math4.complex.ComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testStringConstructor(org.apache.commons.math4.complex.FrenchComplexFormatTest) (0 ms)</li><li>org.apache.commons.math4.random.HaltonSequenceGeneratorTest.testConstructor2(org.apache.commons.math4.random.HaltonSequenceGeneratorTest) (1 ms)</li><li>org.apache.commons.math4.util.MathArraysTest.testVerifyValuesNegative(org.apache.commons.math4.util.MathArraysTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.rank.PercentileTest.testAllEstimationTechniquesOnlyForNullsAndOOR(org.apache.commons.math4.stat.descriptive.rank.PercentileTest) (1 ms)</li><li>org.apache.commons.math4.fraction.FractionTest.testMultiply(org.apache.commons.math4.fraction.FractionTest) (1 ms)</li><li>org.apache.commons.math4.stat.inference.TTestTest.testOneSampleT(org.apache.commons.math4.stat.inference.TTestTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.rank.PercentileTest.testNullEmpty(org.apache.commons.math4.stat.descriptive.rank.PercentileTest) (1 ms)</li><li>org.apache.commons.math4.stat.inference.WilcoxonSignedRankTestTest.testWilcoxonSignedRankInputValidation(org.apache.commons.math4.stat.inference.WilcoxonSignedRankTestTest) (1 ms)</li><li>org.apache.commons.math4.util.MathUtilsTest.testCheckNotNull1(org.apache.commons.math4.util.MathUtilsTest) (0 ms)</li><li>org.apache.commons.math4.stat.regression.GLSMultipleLinearRegressionTest.cannotAddXSampleData(org.apache.commons.math4.stat.regression.GLSMultipleLinearRegressionTest) (1 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testLoadNullDoubleArray(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (22 ms)</li><li>org.apache.commons.math4.linear.MatrixUtilsTest.testCreateRowRealMatrix(org.apache.commons.math4.linear.MatrixUtilsTest) (0 ms)</li><li>org.apache.commons.math4.analysis.function.GaussianTest.testParametricUsage4(org.apache.commons.math4.analysis.function.GaussianTest) (1 ms)</li><li>org.apache.commons.math4.stat.StatUtilsTest.testSumLog(org.apache.commons.math4.stat.StatUtilsTest) (0 ms)</li><li>org.apache.commons.math4.analysis.function.LogisticTest.testParametricUsage1(org.apache.commons.math4.analysis.function.LogisticTest) (1 ms)</li><li>org.apache.commons.math4.linear.SparseRealMatrixTest.testSetSubMatrix(org.apache.commons.math4.linear.SparseRealMatrixTest) (1 ms)</li><li>org.apache.commons.math4.fraction.FractionTest.testSubtract(org.apache.commons.math4.fraction.FractionTest) (2 ms)</li><li>org.apache.commons.math4.stat.regression.OLSMultipleLinearRegressionTest.testYSampleDataNull(org.apache.commons.math4.stat.regression.OLSMultipleLinearRegressionTest) (1 ms)</li><li>org.apache.commons.math4.linear.SparseFieldMatrixTest.testSetSubMatrix(org.apache.commons.math4.linear.SparseFieldMatrixTest) (3 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testLoadNullURL(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (22 ms)</li><li>org.apache.commons.math4.stat.regression.GLSMultipleLinearRegressionTest.testXSampleDataNull(org.apache.commons.math4.stat.regression.GLSMultipleLinearRegressionTest) (1 ms)</li><li>org.apache.commons.math4.analysis.interpolation.AkimaSplineInterpolatorTest.testIllegalArguments(org.apache.commons.math4.analysis.interpolation.AkimaSplineInterpolatorTest) (3 ms)</li><li>org.apache.commons.math4.util.MathArraysTest.testSortInPlaceFailures(org.apache.commons.math4.util.MathArraysTest) (0 ms)</li><li>org.apache.commons.math4.linear.BlockFieldMatrixTest.testSetSubMatrix(org.apache.commons.math4.linear.BlockFieldMatrixTest) (1 ms)</li><li>org.apache.commons.math4.linear.BlockRealMatrixTest.testSetSubMatrix(org.apache.commons.math4.linear.BlockRealMatrixTest) (2 ms)</li><li>org.apache.commons.math4.stat.inference.InferenceTestUtilsTest.testOneSampleT(org.apache.commons.math4.stat.inference.InferenceTestUtilsTest) (1 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testStringConstructor(org.apache.commons.math4.complex.ComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.analysis.interpolation.PiecewiseBicubicSplineInterpolatingFunctionTest.testPreconditions(org.apache.commons.math4.analysis.interpolation.PiecewiseBicubicSplineInterpolatingFunctionTest) (1 ms)</li><li>org.apache.commons.math4.stat.regression.OLSMultipleLinearRegressionTest.testXSampleDataNull(org.apache.commons.math4.stat.regression.OLSMultipleLinearRegressionTest) (1 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testLoadNullFile(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (21 ms)</li><li>org.apache.commons.math4.stat.descriptive.rank.PercentileTest.testAllTechniquesNullEmpty(org.apache.commons.math4.stat.descriptive.rank.PercentileTest) (1 ms)</li><li>org.apache.commons.math4.stat.regression.GLSMultipleLinearRegressionTest.testYSampleDataNull(org.apache.commons.math4.stat.regression.GLSMultipleLinearRegressionTest) (0 ms)</li><li>org.apache.commons.math4.linear.MatrixUtilsTest.testcreateFieldMatrix(org.apache.commons.math4.linear.MatrixUtilsTest) (1 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

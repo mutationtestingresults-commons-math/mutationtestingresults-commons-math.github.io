@@ -1,0 +1,813 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>PolynomialFunction.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_67'>67</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_67'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/math4/util/MathUtils::checkNotNull &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_69'>69</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_69'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testConstants(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_72'>72</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_72'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testConstants(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testQuintic(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testConstants(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testQuintic(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_73'>73</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_73'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testAddition(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> Changed increment from -1 to 1 &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_76'>76</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_76'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testConstants(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> removed call to java/lang/System::arraycopy &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_93'>93</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_93'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>value<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testConstants(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/analysis/polynomials/PolynomialFunction::value &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_102'>102</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_102'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>degree<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testConstants(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>degree<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testConstants(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_114'>114</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_114'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getCoefficients<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testAddition(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> mutated return of Object value for org/apache/commons/math4/analysis/polynomials/PolynomialFunction::getCoefficients to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_129'>129</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_129'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>evaluate<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/math4/util/MathUtils::checkNotNull &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_131'>131</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_131'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>evaluate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testConstants(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_134'>134</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_134'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>evaluate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testConstants(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_135'>135</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_135'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>evaluate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testQuintic(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>evaluate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testQuintic(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> Changed increment from -1 to 1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>evaluate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testConstants(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>evaluate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testConstants(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_136'>136</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_136'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>evaluate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testQuintic(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> Replaced double multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>evaluate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testQuintic(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> Replaced double addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_138'>138</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_138'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>evaluate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testConstants(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/analysis/polynomials/PolynomialFunction::evaluate &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_150'>150</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_150'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>value<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/math4/util/MathUtils::checkNotNull &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_152'>152</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_152'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>value<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_156'>156</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_156'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>value<br/><b>Killed by : </b>none</span></span> Replaced integer subtraction with addition &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_157'>157</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_157'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>value<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>value<br/><b>Killed by : </b>none</span></span> Changed increment from -1 to 1 &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>value<br/><b>Killed by : </b>none</span></span> Replaced integer subtraction with addition &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>value<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_160'>160</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_160'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>value<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/analysis/polynomials/PolynomialFunction::value to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_176'>176</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_176'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>add<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testAddition(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>add<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testAddition(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>add<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testAddition(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_177'>177</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_177'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>add<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testAddition(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> Replaced double addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_179'>179</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_179'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>add<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>add<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testAddition(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>add<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testChebyshevDifferentials(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>add<br/><b>Killed by : </b>org.apache.commons.math4.analysis.interpolation.HermiteInterpolatorTest.testQuadratic(org.apache.commons.math4.analysis.interpolation.HermiteInterpolatorTest)</span></span> removed call to java/lang/System::arraycopy &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_185'>185</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_185'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>add<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testAddition(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> mutated return of Object value for org/apache/commons/math4/analysis/polynomials/PolynomialFunction::add to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_201'>201</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_201'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>subtract<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testSubtraction(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>subtract<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testSubtraction(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>subtract<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testSubtraction(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_202'>202</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_202'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>subtract<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testSubtraction(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> Replaced double subtraction with addition &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_204'>204</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_204'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>subtract<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='SURVIVED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>subtract<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_205'>205</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_205'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>subtract<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>subtract<br/><b>Killed by : </b>none</span></span> Changed increment from 1 to -1 &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>subtract<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_206'>206</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_206'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>subtract<br/><b>Killed by : </b>none</span></span> removed negation &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_209'>209</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_209'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>subtract<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testSubtraction(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> <p class='SURVIVED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>subtract<br/><b>Killed by : </b>none</span></span> removed call to java/lang/System::arraycopy &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_213'>213</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_213'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>subtract<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testSubtraction(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> mutated return of Object value for org/apache/commons/math4/analysis/polynomials/PolynomialFunction::subtract to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_223'>223</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_223'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>negate<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>negate<br/><b>Killed by : </b>none</span></span> Changed increment from 1 to -1 &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>negate<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_224'>224</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_224'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>negate<br/><b>Killed by : </b>none</span></span> removed negation &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_226'>226</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_226'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>negate<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/analysis/polynomials/PolynomialFunction::negate to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_236'>236</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_236'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testMultiplication(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='SURVIVED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>none</span></span> Replaced integer subtraction with addition &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_238'>238</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_238'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testMultiplication(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testMultiplication(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testMultiplication(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_240'>240</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_240'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testMultiplication(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testMultiplication(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_241'>241</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_241'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testMultiplication(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testMultiplication(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testMultiplication(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_242'>242</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_242'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testMultiplication(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_243'>243</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_243'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testMultiplication(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testMultiplication(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> Replaced double multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testMultiplication(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> Replaced double addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_247'>247</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_247'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>multiply<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testMultiplication(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> mutated return of Object value for org/apache/commons/math4/analysis/polynomials/PolynomialFunction::multiply to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_260'>260</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_260'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>differentiate<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/math4/util/MathUtils::checkNotNull &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_262'>262</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_262'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>differentiate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testConstants(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_265'>265</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_265'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>differentiate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testConstants(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_266'>266</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_266'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>differentiate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testConstants(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> mutated return of Object value for org/apache/commons/math4/analysis/polynomials/PolynomialFunction::differentiate to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_268'>268</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_268'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>differentiate<br/><b>Killed by : </b>none</span></span> Replaced integer subtraction with addition &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_269'>269</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_269'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>differentiate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testMath341(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>differentiate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testMath341(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> Changed increment from -1 to 1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>differentiate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testMath341(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>differentiate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testMath341(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_270'>270</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_270'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>differentiate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testMath341(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>differentiate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testMath341(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> Replaced double multiplication with division &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_272'>272</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_272'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>differentiate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testMath341(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> mutated return of Object value for org/apache/commons/math4/analysis/polynomials/PolynomialFunction::differentiate to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_281'>281</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_281'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>polynomialDerivative<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testConstants(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> mutated return of Object value for org/apache/commons/math4/analysis/polynomials/PolynomialFunction::polynomialDerivative to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_302'>302</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_302'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testString(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_303'>303</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_303'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testString(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_304'>304</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_304'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/analysis/polynomials/PolynomialFunction::toString to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_310'>310</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_310'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testString(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testString(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testString(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_311'>311</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_311'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testString(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_312'>312</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_312'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testString(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testString(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_313'>313</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_313'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testString(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_319'>319</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_319'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testString(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_325'>325</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_325'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testString(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> Replaced double subtraction with addition &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testString(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_331'>331</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_331'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testString(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testString(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_338'>338</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_338'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testString(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> mutated return of Object value for org/apache/commons/math4/analysis/polynomials/PolynomialFunction::toString to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_349'>349</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_349'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testString(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_350'>350</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_350'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testString(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testString(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest)</span></span> mutated return of Object value for org/apache/commons/math4/analysis/polynomials/PolynomialFunction::toString to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_352'>352</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_352'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/analysis/polynomials/PolynomialFunction::toString to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_361'>361</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_361'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>hashCode<br/><b>Killed by : </b>none</span></span> Replaced integer multiplication with division &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>hashCode<br/><b>Killed by : </b>none</span></span> Replaced integer addition with subtraction &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_362'>362</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_362'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>hashCode<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_368'>368</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_368'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_369'>369</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_369'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_371'>371</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_371'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_372'>372</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_372'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_375'>375</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_375'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_376'>376</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_376'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@75869097_378'>378</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@75869097_378'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.math4.analysis.solvers.LaguerreSolverTest.testLinearFunction(org.apache.commons.math4.analysis.solvers.LaguerreSolverTest) (19 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testChebyshevDifferentials(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (1 ms)</li><li>org.apache.commons.math4.analysis.solvers.LaguerreSolverTest.testParameters(org.apache.commons.math4.analysis.solvers.LaguerreSolverTest) (0 ms)</li><li>org.apache.commons.math4.fitting.PolynomialCurveFitterTest.testLargeSample(org.apache.commons.math4.fitting.PolynomialCurveFitterTest) (4898 ms)</li><li>org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest.testMarkersWithLowerIndex(org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest) (1 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testHighDegreeLegendre(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (33 ms)</li><li>org.apache.commons.math4.analysis.differentiation.DerivativeStructureTest.testCompose(org.apache.commons.math4.analysis.differentiation.DerivativeStructureTest) (87 ms)</li><li>org.apache.commons.math4.analysis.interpolation.HermiteInterpolatorTest.testMixedDerivatives(org.apache.commons.math4.analysis.interpolation.HermiteInterpolatorTest) (1 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testJacobiLegendre(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (1 ms)</li><li>org.apache.commons.math4.analysis.interpolation.AkimaSplineInterpolatorTest.testInterpolateCubic(org.apache.commons.math4.analysis.interpolation.AkimaSplineInterpolatorTest) (4 ms)</li><li>org.apache.commons.math4.analysis.interpolation.UnivariatePeriodicInterpolatorTest.testLessThanOnePeriodCoverage(org.apache.commons.math4.analysis.interpolation.UnivariatePeriodicInterpolatorTest) (4 ms)</li><li>org.apache.commons.math4.analysis.interpolation.PiecewiseBicubicSplineInterpolatingFunctionTest.testParabaloid(org.apache.commons.math4.analysis.interpolation.PiecewiseBicubicSplineInterpolatingFunctionTest) (17 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testLinear(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest) (1 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialSplineFunctionTest.testIsValidPoint(org.apache.commons.math4.analysis.polynomials.PolynomialSplineFunctionTest) (0 ms)</li><li>org.apache.commons.math4.ode.nonstiff.AdamsNordsieckTransformerTest.testTransformInexact(org.apache.commons.math4.ode.nonstiff.AdamsNordsieckTransformerTest) (0 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testSubtraction(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest) (1 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LaguerreTest.testGamma(org.apache.commons.math4.analysis.integration.gauss.LaguerreTest) (136 ms)</li><li>org.apache.commons.math4.analysis.interpolation.HermiteInterpolatorTest.testZero(org.apache.commons.math4.analysis.interpolation.HermiteInterpolatorTest) (0 ms)</li><li>org.apache.commons.math4.analysis.interpolation.PiecewiseBicubicSplineInterpolatorTest.testInterpolation1(org.apache.commons.math4.analysis.interpolation.PiecewiseBicubicSplineInterpolatorTest) (45 ms)</li><li>org.apache.commons.math4.analysis.interpolation.PiecewiseBicubicSplineInterpolatorTest.testInterpolation2(org.apache.commons.math4.analysis.interpolation.PiecewiseBicubicSplineInterpolatorTest) (32 ms)</li><li>org.apache.commons.math4.analysis.solvers.LaguerreSolverTest.testQuadraticFunction(org.apache.commons.math4.analysis.solvers.LaguerreSolverTest) (1 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testLegendreOrthogonality(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (2 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testString(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest) (0 ms)</li><li>org.apache.commons.math4.fitting.PolynomialCurveFitterTest.testFit(org.apache.commons.math4.fitting.PolynomialCurveFitterTest) (14 ms)</li><li>org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest.testHashCodeInMarkers(org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest) (0 ms)</li><li>org.apache.commons.math4.analysis.interpolation.UnivariatePeriodicInterpolatorTest.testMoreThanOnePeriodCoverage(org.apache.commons.math4.analysis.interpolation.UnivariatePeriodicInterpolatorTest) (1 ms)</li><li>org.apache.commons.math4.analysis.differentiation.SparseGradientTest.testCompose(org.apache.commons.math4.analysis.differentiation.SparseGradientTest) (20 ms)</li><li>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testExactIntegration(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest) (107 ms)</li><li>org.apache.commons.math4.analysis.interpolation.LinearInterpolatorTest.testInterpolateLinear(org.apache.commons.math4.analysis.interpolation.LinearInterpolatorTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest.testEvaluation(org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest) (0 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testMath341(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest.testEvaluateInternalState(org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest) (1 ms)</li><li>org.apache.commons.math4.fitting.SimpleCurveFitterTest.testPolynomialFit(org.apache.commons.math4.fitting.SimpleCurveFitterTest) (3 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testAddition(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest) (0 ms)</li><li>org.apache.commons.math4.analysis.interpolation.SplineInterpolatorTest.testInterpolateLinear(org.apache.commons.math4.analysis.interpolation.SplineInterpolatorTest) (0 ms)</li><li>org.apache.commons.math4.analysis.solvers.LaguerreSolverTest.testQuinticFunction(org.apache.commons.math4.analysis.solvers.LaguerreSolverTest) (2 ms)</li><li>org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest.testCopy(org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest.testConsistency(org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest) (1 ms)</li><li>org.apache.commons.math4.fitting.PolynomialCurveFitterTest.testSmallError(org.apache.commons.math4.fitting.PolynomialCurveFitterTest) (11 ms)</li><li>org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest.testIncrementation(org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest.testSerialization(org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest) (5 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialSplineFunctionTest.testConstructor(org.apache.commons.math4.analysis.polynomials.PolynomialSplineFunctionTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest.testArrayExample(org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest) (2 ms)</li><li>org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest.testCopyConsistencyWithInitialFirstFewElements(org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest) (2 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testLegendreDifferentials(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (1 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testFirstHermitePolynomials(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (3 ms)</li><li>org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest.testCopyConsistencyWithInitialMostElements(org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest) (2 ms)</li><li>org.apache.commons.math4.analysis.interpolation.HermiteInterpolatorTest.testQuadratic(org.apache.commons.math4.analysis.interpolation.HermiteInterpolatorTest) (0 ms)</li><li>org.apache.commons.math4.analysis.interpolation.SplineInterpolatorTest.testInterpolateLinearDegenerateTwoSegment(org.apache.commons.math4.analysis.interpolation.SplineInterpolatorTest) (0 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testSerial(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest) (2 ms)</li><li>org.apache.commons.math4.analysis.interpolation.PiecewiseBicubicSplineInterpolatingFunctionTest.testPlane(org.apache.commons.math4.analysis.interpolation.PiecewiseBicubicSplineInterpolatingFunctionTest) (4 ms)</li><li>org.apache.commons.math4.analysis.interpolation.FieldHermiteInterpolatorTest.testRandomPolynomialsValuesOnly(org.apache.commons.math4.analysis.interpolation.FieldHermiteInterpolatorTest) (1090 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testShift(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (0 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testLaguerreDifferentials(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (1 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testChebyshevBounds(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (5 ms)</li><li>org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest.testDistribution(org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest) (52680 ms)</li><li>org.apache.commons.math4.analysis.interpolation.LinearInterpolatorTest.testInterpolateLinearDegenerateThreeSegment(org.apache.commons.math4.analysis.interpolation.LinearInterpolatorTest) (0 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testFirstChebyshevPolynomials(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (1 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testJacobiEvaluationAt1(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (98 ms)</li><li>org.apache.commons.math4.analysis.interpolation.HermiteInterpolatorTest.testRandomPolynomialsValuesOnly(org.apache.commons.math4.analysis.interpolation.HermiteInterpolatorTest) (16 ms)</li><li>org.apache.commons.math4.analysis.interpolation.HermiteInterpolatorTest.testRandomPolynomialsFirstDerivative(org.apache.commons.math4.analysis.interpolation.HermiteInterpolatorTest) (51 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testFirstLaguerrePolynomials(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (2 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testConstants(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest) (0 ms)</li><li>org.apache.commons.math4.analysis.interpolation.AkimaSplineInterpolatorTest.testInterpolateLine(org.apache.commons.math4.analysis.interpolation.AkimaSplineInterpolatorTest) (1 ms)</li><li>org.apache.commons.math4.analysis.interpolation.FieldHermiteInterpolatorTest.testRandomPolynomialsFirstDerivative(org.apache.commons.math4.analysis.interpolation.FieldHermiteInterpolatorTest) (2527 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testHermiteOrthogonality(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (362 ms)</li><li>org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest.testString(org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest) (0 ms)</li><li>org.apache.commons.math4.ode.nonstiff.AdamsNordsieckTransformerTest.testPolynomialMissingLastDerivative(org.apache.commons.math4.ode.nonstiff.AdamsNordsieckTransformerTest) (1 ms)</li><li>org.apache.commons.math4.analysis.interpolation.HermiteInterpolatorTest.testOnePointParabola(org.apache.commons.math4.analysis.interpolation.HermiteInterpolatorTest) (1 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testfirstDerivativeComparison(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest) (0 ms)</li><li>org.apache.commons.math4.fitting.PolynomialCurveFitterTest.testNoError(org.apache.commons.math4.fitting.PolynomialCurveFitterTest) (6 ms)</li><li>org.apache.commons.math4.analysis.interpolation.HermiteInterpolatorTest.testWikipedia(org.apache.commons.math4.analysis.interpolation.HermiteInterpolatorTest) (0 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testQuintic(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest) (0 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testQuadratic(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest) (1 ms)</li><li>org.apache.commons.math4.ode.nonstiff.AdamsNordsieckTransformerTest.testPolynomialRegular(org.apache.commons.math4.ode.nonstiff.AdamsNordsieckTransformerTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest.testNISTExample(org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest) (1 ms)</li><li>org.apache.commons.math4.analysis.interpolation.SplineInterpolatorTest.testInterpolateSin(org.apache.commons.math4.analysis.interpolation.SplineInterpolatorTest) (0 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest.testMultiplication(org.apache.commons.math4.analysis.polynomials.PolynomialFunctionTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest.testCopyConsistency(org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest) (3 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialSplineFunctionTest.testValues(org.apache.commons.math4.analysis.polynomials.PolynomialSplineFunctionTest) (0 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testHermiteDifferentials(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (2 ms)</li><li>org.apache.commons.math4.ode.nonstiff.AdamsNordsieckTransformerTest.testTransformExact(org.apache.commons.math4.ode.nonstiff.AdamsNordsieckTransformerTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest.testCannedDataSet(org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest) (48 ms)</li><li>org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest.testMarkersWithHigherIndex(org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest) (0 ms)</li><li>org.apache.commons.math4.ode.nonstiff.AdamsNordsieckTransformerTest.testPolynomialExtraDerivative(org.apache.commons.math4.ode.nonstiff.AdamsNordsieckTransformerTest) (0 ms)</li><li>org.apache.commons.math4.fitting.PolynomialCurveFitterTest.testRedundantSolvable(org.apache.commons.math4.fitting.PolynomialCurveFitterTest) (14 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testChebyshevOrthogonality(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (1186 ms)</li><li>org.apache.commons.math4.analysis.interpolation.LinearInterpolatorTest.testInterpolateLinearDegenerateTwoSegment(org.apache.commons.math4.analysis.interpolation.LinearInterpolatorTest) (0 ms)</li><li>org.apache.commons.math4.analysis.interpolation.SplineInterpolatorTest.testInterpolateLinearDegenerateThreeSegment(org.apache.commons.math4.analysis.interpolation.SplineInterpolatorTest) (0 ms)</li><li>org.apache.commons.math4.analysis.solvers.LaguerreSolverTest.testQuinticFunction2(org.apache.commons.math4.analysis.solvers.LaguerreSolverTest) (3 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testLaguerreOrthogonality(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (54 ms)</li><li>org.apache.commons.math4.analysis.interpolation.UnivariatePeriodicInterpolatorTest.testSine(org.apache.commons.math4.analysis.interpolation.UnivariatePeriodicInterpolatorTest) (1 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testFirstLegendrePolynomials(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (4 ms)</li><li>org.apache.commons.math4.analysis.interpolation.AkimaSplineInterpolatorTest.testInterpolateParabola(org.apache.commons.math4.analysis.interpolation.AkimaSplineInterpolatorTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest.test5PercentileHighValues(org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest) (192 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testJacobiOrthogonality(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (235 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

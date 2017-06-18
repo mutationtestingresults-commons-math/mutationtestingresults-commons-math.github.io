@@ -1,0 +1,353 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>NormalDistribution.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6a4f795c_92'>92</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6a4f795c_92'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.math4.distribution.NormalDistributionTest.testPreconditions(org.apache.commons.math4.distribution.NormalDistributionTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.math4.distribution.NormalDistributionTest.testGetMean(org.apache.commons.math4.distribution.NormalDistributionTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6a4f795c_98'>98</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6a4f795c_98'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.math4.distribution.NormalDistributionTest.testLogDensities(org.apache.commons.math4.distribution.NormalDistributionTest)</span></span> Replaced double multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.math4.distribution.NormalDistributionTest.testLogDensities(org.apache.commons.math4.distribution.NormalDistributionTest)</span></span> Replaced double addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6a4f795c_108'>108</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6a4f795c_108'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getMean<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/distribution/NormalDistribution::getMean &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6a4f795c_117'>117</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6a4f795c_117'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getStandardDeviation<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/distribution/NormalDistribution::getStandardDeviation &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6a4f795c_123'>123</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6a4f795c_123'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>density<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/distribution/NormalDistribution::density &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6a4f795c_129'>129</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6a4f795c_129'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>logDensity<br/><b>Killed by : </b>none</span></span> Replaced double subtraction with addition &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6a4f795c_130'>130</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6a4f795c_130'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>logDensity<br/><b>Killed by : </b>none</span></span> Replaced double division with multiplication &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6a4f795c_131'>131</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6a4f795c_131'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>logDensity<br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>logDensity<br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>logDensity<br/><b>Killed by : </b>none</span></span> Replaced double subtraction with addition &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>logDensity<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/distribution/NormalDistribution::logDensity &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6a4f795c_143'>143</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6a4f795c_143'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>cumulativeProbability<br/><b>Killed by : </b>org.apache.commons.math4.distribution.NormalDistributionTest.testConsistency(org.apache.commons.math4.distribution.NormalDistributionTest)</span></span> Replaced double subtraction with addition &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6a4f795c_144'>144</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6a4f795c_144'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>cumulativeProbability<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>cumulativeProbability<br/><b>Killed by : </b>org.apache.commons.math4.distribution.PoissonDistributionTest.testNormalApproximateProbability(org.apache.commons.math4.distribution.PoissonDistributionTest)</span></span> Replaced double multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>cumulativeProbability<br/><b>Killed by : </b>org.apache.commons.math4.distribution.NormalDistributionTest.testCumulativeProbability(org.apache.commons.math4.distribution.NormalDistributionTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6a4f795c_145'>145</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6a4f795c_145'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>cumulativeProbability<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>cumulativeProbability<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>cumulativeProbability<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/distribution/NormalDistribution::cumulativeProbability &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6a4f795c_147'>147</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6a4f795c_147'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>cumulativeProbability<br/><b>Killed by : </b>org.apache.commons.math4.distribution.NormalDistributionTest.testCumulativeProbability(org.apache.commons.math4.distribution.NormalDistributionTest)</span></span> removed negation &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>cumulativeProbability<br/><b>Killed by : </b>org.apache.commons.math4.distribution.NormalDistributionTest.testCumulativeProbability(org.apache.commons.math4.distribution.NormalDistributionTest)</span></span> Replaced double multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>cumulativeProbability<br/><b>Killed by : </b>org.apache.commons.math4.distribution.NormalDistributionTest.testCumulativeProbability(org.apache.commons.math4.distribution.NormalDistributionTest)</span></span> Replaced double division with multiplication &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>cumulativeProbability<br/><b>Killed by : </b>org.apache.commons.math4.distribution.NormalDistributionTest.testCumulativeProbability(org.apache.commons.math4.distribution.NormalDistributionTest)</span></span> Replaced double multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>5.<span><b>5</b><br/><b>Location : </b>cumulativeProbability<br/><b>Killed by : </b>org.apache.commons.math4.distribution.NormalDistributionTest.testCumulativeProbability(org.apache.commons.math4.distribution.NormalDistributionTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/distribution/NormalDistribution::cumulativeProbability &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6a4f795c_155'>155</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6a4f795c_155'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>inverseCumulativeProbability<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>inverseCumulativeProbability<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>inverseCumulativeProbability<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>inverseCumulativeProbability<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6a4f795c_158'>158</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6a4f795c_158'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>inverseCumulativeProbability<br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>inverseCumulativeProbability<br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>inverseCumulativeProbability<br/><b>Killed by : </b>none</span></span> Replaced double subtraction with addition &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>inverseCumulativeProbability<br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>5.<span><b>5</b><br/><b>Location : </b>inverseCumulativeProbability<br/><b>Killed by : </b>none</span></span> Replaced double addition with subtraction &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>6.<span><b>6</b><br/><b>Location : </b>inverseCumulativeProbability<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/distribution/NormalDistribution::inverseCumulativeProbability &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6a4f795c_166'>166</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6a4f795c_166'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>probability<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>probability<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6a4f795c_170'>170</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6a4f795c_170'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>probability<br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6a4f795c_171'>171</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6a4f795c_171'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>probability<br/><b>Killed by : </b>none</span></span> Replaced double subtraction with addition &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>probability<br/><b>Killed by : </b>none</span></span> Replaced double division with multiplication &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6a4f795c_172'>172</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6a4f795c_172'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>probability<br/><b>Killed by : </b>none</span></span> Replaced double subtraction with addition &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>probability<br/><b>Killed by : </b>none</span></span> Replaced double division with multiplication &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6a4f795c_173'>173</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6a4f795c_173'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>probability<br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>probability<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/distribution/NormalDistribution::probability &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6a4f795c_179'>179</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6a4f795c_179'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getSolverAbsoluteAccuracy<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/distribution/NormalDistribution::getSolverAbsoluteAccuracy &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6a4f795c_189'>189</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6a4f795c_189'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getNumericalMean<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/distribution/NormalDistribution::getNumericalMean &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6a4f795c_200'>200</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6a4f795c_200'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getNumericalVariance<br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>getNumericalVariance<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/distribution/NormalDistribution::getNumericalVariance &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6a4f795c_214'>214</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6a4f795c_214'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getSupportLowerBound<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/distribution/NormalDistribution::getSupportLowerBound &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6a4f795c_228'>228</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6a4f795c_228'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getSupportUpperBound<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/distribution/NormalDistribution::getSupportUpperBound &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6a4f795c_240'>240</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6a4f795c_240'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isSupportConnected<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6a4f795c_246'>246</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6a4f795c_246'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>createSampler<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/distribution/NormalDistribution::createSampler to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.math4.random.CorrelatedRandomVectorGeneratorTest.testRootMatrix(org.apache.commons.math4.random.CorrelatedRandomVectorGeneratorTest) (0 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testSampler(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (53 ms)</li><li>org.apache.commons.math4.distribution.PoissonDistributionTest.testLogDensities(org.apache.commons.math4.distribution.PoissonDistributionTest) (0 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest.testFullSphere(org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest) (2 ms)</li><li>org.apache.commons.math4.distribution.NormalDistributionTest.testDensities(org.apache.commons.math4.distribution.NormalDistributionTest) (0 ms)</li><li>org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest.testInputSigmaDimensionMismatch(org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) (1 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testDoubleLoad(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (35 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testSerialization(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (44 ms)</li><li>org.apache.commons.math4.distribution.PoissonDistributionTest.testNormalApproximateProbability(org.apache.commons.math4.distribution.PoissonDistributionTest) (1 ms)</li><li>org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest.testCigarWithBoundaries(org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) (2054 ms)</li><li>org.apache.commons.math4.distribution.NormalDistributionTest.testCumulativeProbability(org.apache.commons.math4.distribution.NormalDistributionTest) (0 ms)</li><li>org.apache.commons.math4.stat.interval.IntervalUtilsTest.testAgrestiCoull(org.apache.commons.math4.stat.interval.IntervalUtilsTest) (0 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testDistributionClone(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (203 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FieldRotationDfpTest.testDoubleVectors(org.apache.commons.math4.geometry.euclidean.threed.FieldRotationDfpTest) (1933 ms)</li><li>org.apache.commons.math4.distribution.MultivariateNormalDistributionTest.testUnivariateDistribution(org.apache.commons.math4.distribution.MultivariateNormalDistributionTest) (1 ms)</li><li>org.apache.commons.math4.random.CorrelatedRandomVectorGeneratorTest.testMeanAndCovariance(org.apache.commons.math4.random.CorrelatedRandomVectorGeneratorTest) (14 ms)</li><li>org.apache.commons.math4.distribution.NormalDistributionTest.testDensity(org.apache.commons.math4.distribution.NormalDistributionTest) (0 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testGridTooFine(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (95 ms)</li><li>org.apache.commons.math4.stat.inference.WilcoxonSignedRankTestTest.testWilcoxonSignedRankSimple(org.apache.commons.math4.stat.inference.WilcoxonSignedRankTestTest) (2 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest.testNonConvex(org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest) (8 ms)</li><li>org.apache.commons.math4.distribution.PoissonDistributionTest.testDegenerateInverseCumulativeProbability(org.apache.commons.math4.distribution.PoissonDistributionTest) (1 ms)</li><li>org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest.testDiagonalRosen(org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) (3962 ms)</li><li>org.apache.commons.math4.distribution.NormalDistributionTest.testIllegalArguments(org.apache.commons.math4.distribution.NormalDistributionTest) (0 ms)</li><li>org.apache.commons.math4.distribution.PoissonDistributionTest.testMean(org.apache.commons.math4.distribution.PoissonDistributionTest) (1 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest.testEmpty(org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest) (3 ms)</li><li>org.apache.commons.math4.distribution.NormalDistributionTest.testExtremeValues(org.apache.commons.math4.distribution.NormalDistributionTest) (1 ms)</li><li>org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest.testDiffPow(org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) (1794 ms)</li><li>org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest.testInitOutofbounds2(org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) (2 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest.testSouthHemisphere(org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest) (3 ms)</li><li>org.apache.commons.math4.stat.inference.KolmogorovSmirnovTestTest.testOneSampleGaussianUniform(org.apache.commons.math4.stat.inference.KolmogorovSmirnovTestTest) (89 ms)</li><li>org.apache.commons.math4.distribution.PoissonDistributionTest.testSampling(org.apache.commons.math4.distribution.PoissonDistributionTest) (5 ms)</li><li>org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest.testMaximize(org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) (3484 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testIllegalArguments(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (30 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testSampleValuesRange(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (26 ms)</li><li>org.apache.commons.math4.distribution.NormalDistributionTest.testMoments(org.apache.commons.math4.distribution.NormalDistributionTest) (1 ms)</li><li>org.apache.commons.math4.distribution.PoissonDistributionTest.testLargeMeanCumulativeProbability(org.apache.commons.math4.distribution.PoissonDistributionTest) (2 ms)</li><li>org.apache.commons.math4.distribution.NormalDistributionTest.testPreconditions(org.apache.commons.math4.distribution.NormalDistributionTest) (1 ms)</li><li>org.apache.commons.math4.distribution.NormalDistributionTest.testCumulativeProbabilities(org.apache.commons.math4.distribution.NormalDistributionTest) (1 ms)</li><li>org.apache.commons.math4.stat.interval.AgrestiCoullIntervalTest.testStandardInterval(org.apache.commons.math4.stat.interval.AgrestiCoullIntervalTest) (1 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.CircleTest.testInsideArc(org.apache.commons.math4.geometry.spherical.twod.CircleTest) (22 ms)</li><li>org.apache.commons.math4.random.UncorrelatedRandomVectorGeneratorTest.testMeanAndCorrelation(org.apache.commons.math4.random.UncorrelatedRandomVectorGeneratorTest) (11 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.SphereGeneratorTest.testRandom(org.apache.commons.math4.geometry.euclidean.threed.SphereGeneratorTest) (359 ms)</li><li>org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest.testSsDiffPow(org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) (2853 ms)</li><li>org.apache.commons.math4.distribution.NormalDistributionTest.testGetStandardDeviation(org.apache.commons.math4.distribution.NormalDistributionTest) (1 ms)</li><li>org.apache.commons.math4.random.CorrelatedRandomVectorGeneratorTest.testRank(org.apache.commons.math4.random.CorrelatedRandomVectorGeneratorTest) (0 ms)</li><li>org.apache.commons.math4.stat.inference.InferenceTestUtilsTest.testKSOneSample(org.apache.commons.math4.stat.inference.InferenceTestUtilsTest) (15 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testPrecondition1(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (21 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testKernelOverrideConstant(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (28 ms)</li><li>org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest.testTwoAxes(org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) (4899 ms)</li><li>org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest.testSphere(org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) (1135 ms)</li><li>org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest.testDistribution(org.apache.commons.math4.stat.descriptive.rank.PSquarePercentileTest) (52680 ms)</li><li>org.apache.commons.math4.distribution.PoissonDistributionTest.testInverseCumulativeProbabilities(org.apache.commons.math4.distribution.PoissonDistributionTest) (1 ms)</li><li>org.apache.commons.math4.filter.KalmanFilterTest.testConstantAcceleration(org.apache.commons.math4.filter.KalmanFilterTest) (6 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest.testCircleFitting2(org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest) (90 ms)</li><li>org.apache.commons.math4.distribution.PoissonDistributionTest.testIllegalArguments(org.apache.commons.math4.distribution.PoissonDistributionTest) (0 ms)</li><li>org.apache.commons.math4.distribution.NormalDistributionTest.testSampler(org.apache.commons.math4.distribution.NormalDistributionTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.MeanTest.testWeightedConsistency(org.apache.commons.math4.stat.descriptive.moment.MeanTest) (4 ms)</li><li>org.apache.commons.math4.distribution.NormalDistributionTest.testLogDensities(org.apache.commons.math4.distribution.NormalDistributionTest) (0 ms)</li><li>org.apache.commons.math4.distribution.PoissonDistributionTest.testDensities(org.apache.commons.math4.distribution.PoissonDistributionTest) (0 ms)</li><li>org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest.testBoundariesDimensionMismatch(org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) (2 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testNextFail1(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (21 ms)</li><li>org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest.testTablet(org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) (1917 ms)</li><li>org.apache.commons.math4.geometry.enclosing.WelzlEncloser3DTest.testLargeSamples(org.apache.commons.math4.geometry.enclosing.WelzlEncloser3DTest) (712 ms)</li><li>org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest.testCigar(org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) (3314 ms)</li><li>org.apache.commons.math4.analysis.interpolation.MicrosphereProjectionInterpolatorTest.testLinearFunction2D(org.apache.commons.math4.analysis.interpolation.MicrosphereProjectionInterpolatorTest) (65 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testConsistency(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (60 ms)</li><li>org.apache.commons.math4.stat.inference.KolmogorovSmirnovTestTest.testOneSampleGaussianGaussian(org.apache.commons.math4.stat.inference.KolmogorovSmirnovTestTest) (40 ms)</li><li>org.apache.commons.math4.distribution.PoissonDistributionTest.testLargeMeanInverseCumulativeProbability(org.apache.commons.math4.distribution.PoissonDistributionTest) (11 ms)</li><li>org.apache.commons.math4.stat.interval.IntervalUtilsTest.testNormalApproximation(org.apache.commons.math4.stat.interval.IntervalUtilsTest) (1 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testLoadNullDoubleArray(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (23 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest.testPositiveOctantByIntersection(org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest) (11 ms)</li><li>org.apache.commons.math4.random.CorrelatedRandomVectorGeneratorTest.testMath226(org.apache.commons.math4.random.CorrelatedRandomVectorGeneratorTest) (1 ms)</li><li>org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest.testCigTab(org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) (3252 ms)</li><li>org.apache.commons.math4.stat.inference.KolmogorovSmirnovTestTest.testOneSampleGaussianGaussianSmallSample(org.apache.commons.math4.stat.inference.KolmogorovSmirnovTestTest) (34 ms)</li><li>org.apache.commons.math4.random.UnitSphereRandomVectorGeneratorTest.test2DDistribution(org.apache.commons.math4.random.UnitSphereRandomVectorGeneratorTest) (1128 ms)</li><li>org.apache.commons.math4.distribution.NormalDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.NormalDistributionTest) (1 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testNoBinVariance(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (24 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FieldRotationDSTest.testDoubleRotations(org.apache.commons.math4.geometry.euclidean.threed.FieldRotationDSTest) (395 ms)</li><li>org.apache.commons.math4.distribution.PoissonDistributionTest.testNegativeMean(org.apache.commons.math4.distribution.PoissonDistributionTest) (1 ms)</li><li>org.apache.commons.math4.filter.KalmanFilterTest.testCannonball(org.apache.commons.math4.filter.KalmanFilterTest) (41 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testLoadNullURL(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (34 ms)</li><li>org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest.testInputSigmaOutOfRange(org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) (1 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testLoadNullFile(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (21 ms)</li><li>org.apache.commons.math4.linear.SchurTransformerTest.testRandomDataNormalDistribution(org.apache.commons.math4.linear.SchurTransformerTest) (191 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.VarianceTest.testWeightedConsistency(org.apache.commons.math4.stat.descriptive.moment.VarianceTest) (0 ms)</li><li>org.apache.commons.math4.optim.nonlinear.scalar.MultiStartMultivariateOptimizerTest.testRosenbrock(org.apache.commons.math4.optim.nonlinear.scalar.MultiStartMultivariateOptimizerTest) (15 ms)</li><li>org.apache.commons.math4.stat.descriptive.summary.ProductTest.testWeightedConsistency(org.apache.commons.math4.stat.descriptive.summary.ProductTest) (1 ms)</li><li>org.apache.commons.math4.distribution.PoissonDistributionTest.testMoments(org.apache.commons.math4.distribution.PoissonDistributionTest) (0 ms)</li><li>org.apache.commons.math4.distribution.PoissonDistributionTest.testCumulativeProbabilities(org.apache.commons.math4.distribution.PoissonDistributionTest) (1 ms)</li><li>org.apache.commons.math4.random.CorrelatedRandomVectorGeneratorTest.testSampleWithZeroCovariance(org.apache.commons.math4.random.CorrelatedRandomVectorGeneratorTest) (113 ms)</li><li>org.apache.commons.math4.stat.interval.IntervalUtilsTest.testWilsonScore(org.apache.commons.math4.stat.interval.IntervalUtilsTest) (0 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testInverseCumulativeProbabilities(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (21 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.CircleTest.testTransform(org.apache.commons.math4.geometry.spherical.twod.CircleTest) (4 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FieldRotationDfpTest.testDoubleRotations(org.apache.commons.math4.geometry.euclidean.threed.FieldRotationDfpTest) (1977 ms)</li><li>org.apache.commons.math4.distribution.PoissonDistributionTest.testCumulativeProbabilitySpecial(org.apache.commons.math4.distribution.PoissonDistributionTest) (0 ms)</li><li>org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest.testAckley(org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) (3257 ms)</li><li>org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest.testInputSigmaNegative(org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) (1 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testNext(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (53 ms)</li><li>org.apache.commons.math4.distribution.NormalDistributionTest.testInverseCumulativeProbabilities(org.apache.commons.math4.distribution.NormalDistributionTest) (0 ms)</li><li>org.apache.commons.math4.stat.inference.MannWhitneyUTestTest.testMannWhitneyUSimple(org.apache.commons.math4.stat.inference.MannWhitneyUTestTest) (1 ms)</li><li>org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest.testElliRotated(org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) (2152 ms)</li><li>org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest.testRosen(org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) (2175 ms)</li><li>org.apache.commons.math4.stat.inference.MannWhitneyUTestTest.testBigDataSet(org.apache.commons.math4.stat.inference.MannWhitneyUTestTest) (5 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testDensities(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (56 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testKernelOverrideUniform(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (37 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.DiskGeneratorTest.testRandom(org.apache.commons.math4.geometry.euclidean.twod.DiskGeneratorTest) (104 ms)</li><li>org.apache.commons.math4.distribution.NormalDistributionTest.testInverseCumulativeProbabilityExtremes(org.apache.commons.math4.distribution.NormalDistributionTest) (0 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testLoad(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (41 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest.testParameterValidator(org.apache.commons.math4.fitting.leastsquares.LevenbergMarquardtOptimizerTest) (109 ms)</li><li>org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest.testEllipse(org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) (2360 ms)</li><li>org.apache.commons.math4.distribution.NormalDistributionTest.testConsistency(org.apache.commons.math4.distribution.NormalDistributionTest) (1 ms)</li><li>org.apache.commons.math4.filter.KalmanFilterTest.testConstant(org.apache.commons.math4.filter.KalmanFilterTest) (4 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.EvaluationTestValidation.testParametersErrorMonteCarloParameters(org.apache.commons.math4.fitting.leastsquares.EvaluationTestValidation) (33 ms)</li><li>org.apache.commons.math4.distribution.NormalDistributionTest.testQuantiles(org.apache.commons.math4.distribution.NormalDistributionTest) (2 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.EvaluationTestValidation.testParametersErrorMonteCarloObservations(org.apache.commons.math4.fitting.leastsquares.EvaluationTestValidation) (43 ms)</li><li>org.apache.commons.math4.stat.interval.WilsonScoreIntervalTest.testStandardInterval(org.apache.commons.math4.stat.interval.WilsonScoreIntervalTest) (1 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest.testSeveralParts(org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest) (6 ms)</li><li>org.apache.commons.math4.distribution.PoissonDistributionTest.testConsistencyAtSupportBounds(org.apache.commons.math4.distribution.PoissonDistributionTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FieldRotationDSTest.testDoubleVectors(org.apache.commons.math4.geometry.euclidean.threed.FieldRotationDSTest) (207 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testLogDensities(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (38 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testNextFail2(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (22 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testGridTooFat(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (48 ms)</li><li>org.apache.commons.math4.stat.interval.NormalApproximationIntervalTest.testStandardInterval(org.apache.commons.math4.stat.interval.NormalApproximationIntervalTest) (1 ms)</li><li>org.apache.commons.math4.distribution.NormalDistributionTest.testDistributionClone(org.apache.commons.math4.distribution.NormalDistributionTest) (1 ms)</li><li>org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest.testMath864(org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) (15 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testCumulativeProbabilities(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (58 ms)</li><li>org.apache.commons.math4.stat.inference.MannWhitneyUTestTest.testBigDataSetOverflow(org.apache.commons.math4.stat.inference.MannWhitneyUTestTest) (332 ms)</li><li>org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest.testPositiveOctantByVertices(org.apache.commons.math4.geometry.spherical.twod.SphericalPolygonsSetTest) (3 ms)</li><li>org.apache.commons.math4.stat.descriptive.rank.PercentileTest.testStoredVsDirect(org.apache.commons.math4.stat.descriptive.rank.PercentileTest) (23 ms)</li><li>org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest.testFitAccuracyDependsOnBoundary(org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) (20 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (3559 ms)</li><li>org.apache.commons.math4.distribution.NormalDistributionTest.testMath280(org.apache.commons.math4.distribution.NormalDistributionTest) (1 ms)</li><li>org.apache.commons.math4.stat.regression.GLSMultipleLinearRegressionTest.testGLSEfficiency(org.apache.commons.math4.stat.regression.GLSMultipleLinearRegressionTest) (9019 ms)</li><li>org.apache.commons.math4.optim.nonlinear.scalar.MultiStartMultivariateOptimizerTest.testCircleFitting(org.apache.commons.math4.optim.nonlinear.scalar.MultiStartMultivariateOptimizerTest) (27 ms)</li><li>org.apache.commons.math4.distribution.MultivariateNormalDistributionTest.testSampling(org.apache.commons.math4.distribution.MultivariateNormalDistributionTest) (1101 ms)</li><li>org.apache.commons.math4.random.GaussianRandomGeneratorTest.testMeanAndStandardDeviation(org.apache.commons.math4.random.GaussianRandomGeneratorTest) (2 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testGetBinUpperBounds(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (28 ms)</li><li>org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest.testRastrigin(org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) (24451 ms)</li><li>org.apache.commons.math4.distribution.NormalDistributionTest.testGetMean(org.apache.commons.math4.distribution.NormalDistributionTest) (0 ms)</li><li>org.apache.commons.math4.linear.HessenbergTransformerTest.testRandomDataNormalDistribution(org.apache.commons.math4.linear.HessenbergTransformerTest) (103 ms)</li><li>org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest.testInitOutofbounds1(org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) (1 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testBinIndexOverflow(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (100 ms)</li><li>org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest.testConstrainedRosen(org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) (2490 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

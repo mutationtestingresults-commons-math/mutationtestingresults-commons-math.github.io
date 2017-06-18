@@ -1,0 +1,243 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>IterativeLegendreGaussIntegrator.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@15364265_75'>75</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@15364265_75'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@15364265_130'>130</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@15364265_130'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>doIntegrate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest)</span></span> Replaced double subtraction with addition &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@15364265_133'>133</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@15364265_133'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>doIntegrate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testExactIntegration(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest)</span></span> Replaced double addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>doIntegrate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testExactIntegration(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest)</span></span> Replaced double multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>doIntegrate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testIssue464(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest)</span></span> Replaced double multiplication with division &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@15364265_136'>136</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@15364265_136'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>doIntegrate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testNormalDistributionWithLargeSigma(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='SURVIVED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>doIntegrate<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>doIntegrate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>doIntegrate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>5.<span><b>5</b><br/><b>Location : </b>doIntegrate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@15364265_138'>138</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@15364265_138'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>doIntegrate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/analysis/integration/IterativeLegendreGaussIntegrator::doIntegrate &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@15364265_142'>142</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@15364265_142'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>doIntegrate<br/><b>Killed by : </b>org.apache.commons.math4.distribution.GumbelDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.GumbelDistributionTest)</span></span> Replaced double division with multiplication &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>doIntegrate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testNormalDistributionWithLargeSigma(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest)</span></span> Replaced double division with multiplication &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@15364265_143'>143</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@15364265_143'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>doIntegrate<br/><b>Killed by : </b>org.apache.commons.math4.distribution.GumbelDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.GumbelDistributionTest)</span></span> Replaced double multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>doIntegrate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@15364265_145'>145</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@15364265_145'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>doIntegrate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest)</span></span> removed call to org/apache/commons/math4/util/Incrementor::incrementCount &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@15364265_165'>165</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@15364265_165'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>value<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/analysis/integration/IterativeLegendreGaussIntegrator$1::value &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@15364265_171'>171</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@15364265_171'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>stage<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest)</span></span> Replaced double subtraction with addition &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>stage<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest)</span></span> Replaced double division with multiplication &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@15364265_174'>174</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@15364265_174'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>stage<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>stage<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest)</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>stage<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@15364265_176'>176</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@15364265_176'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>stage<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest)</span></span> Replaced double multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>stage<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest)</span></span> Replaced double addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@15364265_177'>177</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@15364265_177'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>stage<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest)</span></span> Replaced double addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@15364265_179'>179</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@15364265_179'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>stage<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest)</span></span> Replaced double addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@15364265_182'>182</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@15364265_182'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>stage<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/analysis/integration/IterativeLegendreGaussIntegrator::stage &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testIssue464(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest) (4190 ms)</li><li>org.apache.commons.math4.distribution.ParetoDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.ParetoDistributionTest) (0 ms)</li><li>org.apache.commons.math4.distribution.ExponentialDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.ExponentialDistributionTest) (1 ms)</li><li>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testSinFunction(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest) (0 ms)</li><li>org.apache.commons.math4.distribution.WeibullDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.WeibullDistributionTest) (47 ms)</li><li>org.apache.commons.math4.distribution.TriangularDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.TriangularDistributionTest) (74 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testHermiteOrthogonality(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (362 ms)</li><li>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testNormalDistributionWithLargeSigma(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest) (0 ms)</li><li>org.apache.commons.math4.distribution.CauchyDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.CauchyDistributionTest) (91 ms)</li><li>org.apache.commons.math4.distribution.TDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.TDistributionTest) (2 ms)</li><li>org.apache.commons.math4.distribution.LaplaceDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.LaplaceDistributionTest) (153 ms)</li><li>org.apache.commons.math4.distribution.FDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.FDistributionTest) (18 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (3559 ms)</li><li>org.apache.commons.math4.distribution.LevyDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.LevyDistributionTest) (4 ms)</li><li>org.apache.commons.math4.distribution.GumbelDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.GumbelDistributionTest) (2 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testLegendreOrthogonality(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (2 ms)</li><li>org.apache.commons.math4.distribution.ConstantRealDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.ConstantRealDistributionTest) (0 ms)</li><li>org.apache.commons.math4.distribution.ChiSquaredDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.ChiSquaredDistributionTest) (18 ms)</li><li>org.apache.commons.math4.distribution.LogNormalDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.LogNormalDistributionTest) (2 ms)</li><li>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testExactIntegration(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest) (107 ms)</li><li>org.apache.commons.math4.distribution.NakagamiDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.NakagamiDistributionTest) (1 ms)</li><li>org.apache.commons.math4.distribution.GammaDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.GammaDistributionTest) (3 ms)</li><li>org.apache.commons.math4.distribution.NormalDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.NormalDistributionTest) (1 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testChebyshevOrthogonality(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (1186 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testLaguerreOrthogonality(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (54 ms)</li><li>org.apache.commons.math4.distribution.UniformRealDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.UniformRealDistributionTest) (1 ms)</li><li>org.apache.commons.math4.distribution.LogisticsDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.LogisticsDistributionTest) (1 ms)</li><li>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest) (0 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testJacobiOrthogonality(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (235 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

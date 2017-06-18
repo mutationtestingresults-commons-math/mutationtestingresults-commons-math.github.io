@@ -1,0 +1,123 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>NumberIsTooSmallException.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@458791e3_49'>49</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@458791e3_49'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>none</span></span> negated conditional &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@458791e3_77'>77</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@458791e3_77'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getBoundIsAllowed<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@458791e3_84'>84</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@458791e3_84'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getMin<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/exception/NumberIsTooSmallException::getMin to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.math4.analysis.solvers.FieldBracketingNthOrderBrentSolverTest.testInsufficientOrder3(org.apache.commons.math4.analysis.solvers.FieldBracketingNthOrderBrentSolverTest) (1 ms)</li><li>org.apache.commons.math4.ml.neuralnet.sofm.LearningFactorFunctionFactoryTest.testQuasiSigmoidDecayPrecondition4(org.apache.commons.math4.ml.neuralnet.sofm.LearningFactorFunctionFactoryTest) (0 ms)</li><li>org.apache.commons.math4.analysis.integration.RombergIntegratorTest.testParameters(org.apache.commons.math4.analysis.integration.RombergIntegratorTest) (2 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest.testMoreEstimatedParametersUnsorted(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest) (0 ms)</li><li>org.apache.commons.math4.stat.inference.InferenceTestUtilsTest.testChiSquare(org.apache.commons.math4.stat.inference.InferenceTestUtilsTest) (0 ms)</li><li>org.apache.commons.math4.ml.neuralnet.sofm.util.QuasiSigmoidDecayFunctionTest.testPrecondition4(org.apache.commons.math4.ml.neuralnet.sofm.util.QuasiSigmoidDecayFunctionTest) (0 ms)</li><li>org.apache.commons.math4.ml.neuralnet.sofm.NeighbourhoodSizeFunctionFactoryTest.testQuasiSigmoidDecayPrecondition1(org.apache.commons.math4.ml.neuralnet.sofm.NeighbourhoodSizeFunctionFactoryTest) (1 ms)</li><li>org.apache.commons.math4.distribution.fitting.MultivariateNormalMixtureExpectationMaximizationTest.testMaxIterationsPositive(org.apache.commons.math4.distribution.fitting.MultivariateNormalMixtureExpectationMaximizationTest) (1 ms)</li><li>org.apache.commons.math4.stat.StatUtilsTest.testDifferenceStats(org.apache.commons.math4.stat.StatUtilsTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest.testCircleFittingBadInit(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest) (7 ms)</li><li>org.apache.commons.math4.ml.neuralnet.twod.NeuronSquareMesh2DTest.testMinimalNetworkSize1(org.apache.commons.math4.ml.neuralnet.twod.NeuronSquareMesh2DTest) (0 ms)</li><li>org.apache.commons.math4.ml.neuralnet.sofm.LearningFactorFunctionFactoryTest.testExponentialDecayPrecondition2(org.apache.commons.math4.ml.neuralnet.sofm.LearningFactorFunctionFactoryTest) (0 ms)</li><li>org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest.testInitOutofbounds2(org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) (0 ms)</li><li>org.apache.commons.math4.ml.neuralnet.sofm.util.ExponentialDecayFunctionTest.testPrecondition1(org.apache.commons.math4.ml.neuralnet.sofm.util.ExponentialDecayFunctionTest) (0 ms)</li><li>org.apache.commons.math4.linear.MatrixUtilsTest.testCreateColumnRealMatrix(org.apache.commons.math4.linear.MatrixUtilsTest) (0 ms)</li><li>org.apache.commons.math4.util.FactorialLogTest.testPrecondition1(org.apache.commons.math4.util.FactorialLogTest) (0 ms)</li><li>org.apache.commons.math4.stat.inference.InferenceTestUtilsTest.testChiSquareIndependence(org.apache.commons.math4.stat.inference.InferenceTestUtilsTest) (0 ms)</li><li>org.apache.commons.math4.fitting.GaussianCurveFitterTest.testMath519(org.apache.commons.math4.fitting.GaussianCurveFitterTest) (255 ms)</li><li>org.apache.commons.math4.analysis.function.LogisticTest.testParametricUsage6(org.apache.commons.math4.analysis.function.LogisticTest) (0 ms)</li><li>org.apache.commons.math4.special.GammaTest.testInvGamma1pm1Precondition1(org.apache.commons.math4.special.GammaTest) (1 ms)</li><li>org.apache.commons.math4.exception.NotPositiveExceptionTest.testAccessors(org.apache.commons.math4.exception.NotPositiveExceptionTest) (0 ms)</li><li>org.apache.commons.math4.special.BetaTest.testSumDeltaMinusDeltaSumPrecondition1(org.apache.commons.math4.special.BetaTest) (0 ms)</li><li>org.apache.commons.math4.special.BetaTest.testLogGammaMinusLogGammaSumPrecondition2(org.apache.commons.math4.special.BetaTest) (0 ms)</li><li>org.apache.commons.math4.ml.clustering.KMeansPlusPlusClustererTest.testPerformClusterAnalysisToManyClusters(org.apache.commons.math4.ml.clustering.KMeansPlusPlusClustererTest) (0 ms)</li><li>org.apache.commons.math4.ml.clustering.FuzzyKMeansClustererTest.testTooSmallFuzzynessFactor(org.apache.commons.math4.ml.clustering.FuzzyKMeansClustererTest) (0 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testPrecondition1(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (73 ms)</li><li>org.apache.commons.math4.ml.neuralnet.sofm.NeighbourhoodSizeFunctionFactoryTest.testExponentialDecayPrecondition2(org.apache.commons.math4.ml.neuralnet.sofm.NeighbourhoodSizeFunctionFactoryTest) (0 ms)</li><li>org.apache.commons.math4.ml.neuralnet.sofm.util.ExponentialDecayFunctionTest.testPrecondition2(org.apache.commons.math4.ml.neuralnet.sofm.util.ExponentialDecayFunctionTest) (0 ms)</li><li>org.apache.commons.math4.analysis.solvers.BracketingNthOrderBrentSolverTest.testInsufficientOrder3(org.apache.commons.math4.analysis.solvers.BracketingNthOrderBrentSolverTest) (0 ms)</li><li>org.apache.commons.math4.distribution.EnumeratedIntegerDistributionTest.testExceptions(org.apache.commons.math4.distribution.EnumeratedIntegerDistributionTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest.testNonInvertible(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest) (1 ms)</li><li>org.apache.commons.math4.optim.SimpleValueCheckerTest.testIterationCheckPrecondition(org.apache.commons.math4.optim.SimpleValueCheckerTest) (1 ms)</li><li>org.apache.commons.math4.optim.SimpleVectorValueCheckerTest.testIterationCheckPrecondition(org.apache.commons.math4.optim.SimpleVectorValueCheckerTest) (0 ms)</li><li>org.apache.commons.math4.stat.inference.ChiSquareTestTest.testChiSquareDataSetsComparisonBadCounts(org.apache.commons.math4.stat.inference.ChiSquareTestTest) (1 ms)</li><li>org.apache.commons.math4.stat.inference.ChiSquareTestTest.testChiSquareIndependence(org.apache.commons.math4.stat.inference.ChiSquareTestTest) (0 ms)</li><li>org.apache.commons.math4.ml.neuralnet.sofm.NeighbourhoodSizeFunctionFactoryTest.testQuasiSigmoidDecayPrecondition4(org.apache.commons.math4.ml.neuralnet.sofm.NeighbourhoodSizeFunctionFactoryTest) (0 ms)</li><li>org.apache.commons.math4.stat.inference.GTestTest.testGTestSetsComparisonBadCounts(org.apache.commons.math4.stat.inference.GTestTest) (0 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest.testMoreEstimatedParametersSimple(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest) (0 ms)</li><li>org.apache.commons.math4.ml.neuralnet.sofm.util.QuasiSigmoidDecayFunctionTest.testPrecondition1(org.apache.commons.math4.ml.neuralnet.sofm.util.QuasiSigmoidDecayFunctionTest) (0 ms)</li><li>org.apache.commons.math4.util.MathArraysTest.testCheckNonNegative2D(org.apache.commons.math4.util.MathArraysTest) (1 ms)</li><li>org.apache.commons.math4.linear.FieldMatrixImplTest.testPower(org.apache.commons.math4.linear.FieldMatrixImplTest) (4 ms)</li><li>org.apache.commons.math4.analysis.solvers.UnivariateSolverUtilsTest.testBadAdditive(org.apache.commons.math4.analysis.solvers.UnivariateSolverUtilsTest) (0 ms)</li><li>org.apache.commons.math4.util.MultidimensionalCounterTest.testPreconditions(org.apache.commons.math4.util.MultidimensionalCounterTest) (1 ms)</li><li>org.apache.commons.math4.special.GammaTest.testLogGamma1pPrecondition1(org.apache.commons.math4.special.GammaTest) (0 ms)</li><li>org.apache.commons.math4.optim.nonlinear.scalar.noderiv.BOBYQAOptimizerTest.testProblemDimensionTooSmall(org.apache.commons.math4.optim.nonlinear.scalar.noderiv.BOBYQAOptimizerTest) (0 ms)</li><li>org.apache.commons.math4.linear.SparseRealMatrixTest.testSetSubMatrix(org.apache.commons.math4.linear.SparseRealMatrixTest) (0 ms)</li><li>org.apache.commons.math4.fitting.GaussianCurveFitterTest.testWithMaxIterations1(org.apache.commons.math4.fitting.GaussianCurveFitterTest) (13 ms)</li><li>org.apache.commons.math4.analysis.function.GaussianTest.testPreconditions(org.apache.commons.math4.analysis.function.GaussianTest) (1 ms)</li><li>org.apache.commons.math4.ml.neuralnet.twod.NeuronSquareMesh2DTest.testMinimalNetworkSize2(org.apache.commons.math4.ml.neuralnet.twod.NeuronSquareMesh2DTest) (0 ms)</li><li>org.apache.commons.math4.exception.NotStrictlyPositiveExceptionTest.testAccessors(org.apache.commons.math4.exception.NotStrictlyPositiveExceptionTest) (0 ms)</li><li>org.apache.commons.math4.fitting.GaussianCurveFitterTest.testFit02(org.apache.commons.math4.fitting.GaussianCurveFitterTest) (2 ms)</li><li>org.apache.commons.math4.analysis.differentiation.FiniteDifferencesDifferentiatorTest.testWrongStepSize(org.apache.commons.math4.analysis.differentiation.FiniteDifferencesDifferentiatorTest) (2 ms)</li><li>org.apache.commons.math4.distribution.MixtureMultivariateNormalDistributionTest.testPreconditionPositiveWeights(org.apache.commons.math4.distribution.MixtureMultivariateNormalDistributionTest) (2 ms)</li><li>org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest.testInputSigmaNegative(org.apache.commons.math4.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest) (0 ms)</li><li>org.apache.commons.math4.special.BetaTest.testLogGammaMinusLogGammaSumPrecondition1(org.apache.commons.math4.special.BetaTest) (0 ms)</li><li>org.apache.commons.math4.ml.neuralnet.sofm.NeighbourhoodSizeFunctionFactoryTest.testExponentialDecayPrecondition1(org.apache.commons.math4.ml.neuralnet.sofm.NeighbourhoodSizeFunctionFactoryTest) (1 ms)</li><li>org.apache.commons.math4.distribution.fitting.MultivariateNormalMixtureExpectationMaximizationTest.testNonEmptyData(org.apache.commons.math4.distribution.fitting.MultivariateNormalMixtureExpectationMaximizationTest) (1 ms)</li><li>org.apache.commons.math4.analysis.solvers.BracketingNthOrderBrentSolverTest.testInsufficientOrder1(org.apache.commons.math4.analysis.solvers.BracketingNthOrderBrentSolverTest) (0 ms)</li><li>org.apache.commons.math4.analysis.function.GaussianTest.testParametricUsage3(org.apache.commons.math4.analysis.function.GaussianTest) (1 ms)</li><li>org.apache.commons.math4.util.ResizableDoubleArrayTest.testConstructors(org.apache.commons.math4.util.ResizableDoubleArrayTest) (2 ms)</li><li>org.apache.commons.math4.ml.clustering.DBSCANClustererTest.testNegativeEps(org.apache.commons.math4.ml.clustering.DBSCANClustererTest) (1 ms)</li><li>org.apache.commons.math4.ml.clustering.DBSCANClustererTest.testNegativeMinPts(org.apache.commons.math4.ml.clustering.DBSCANClustererTest) (0 ms)</li><li>org.apache.commons.math4.analysis.integration.TrapezoidIntegratorTest.testParameters(org.apache.commons.math4.analysis.integration.TrapezoidIntegratorTest) (1 ms)</li><li>org.apache.commons.math4.analysis.interpolation.UnivariatePeriodicInterpolatorTest.testTooFewSamples(org.apache.commons.math4.analysis.interpolation.UnivariatePeriodicInterpolatorTest) (0 ms)</li><li>org.apache.commons.math4.linear.CholeskyDecompositionTest.testNotPositiveDefinite(org.apache.commons.math4.linear.CholeskyDecompositionTest) (0 ms)</li><li>org.apache.commons.math4.fitting.GaussianCurveFitterTest.testWithStartPoint(org.apache.commons.math4.fitting.GaussianCurveFitterTest) (15 ms)</li><li>org.apache.commons.math4.analysis.differentiation.FiniteDifferencesDifferentiatorTest.testWrongNumberOfPoints(org.apache.commons.math4.analysis.differentiation.FiniteDifferencesDifferentiatorTest) (1 ms)</li><li>org.apache.commons.math4.stat.inference.ChiSquareTestTest.testChiSquare(org.apache.commons.math4.stat.inference.ChiSquareTestTest) (1 ms)</li><li>org.apache.commons.math4.distribution.EnumeratedRealDistributionTest.testExceptions(org.apache.commons.math4.distribution.EnumeratedRealDistributionTest) (1 ms)</li><li>org.apache.commons.math4.stat.correlation.CovarianceTest.testInsufficientData(org.apache.commons.math4.stat.correlation.CovarianceTest) (0 ms)</li><li>org.apache.commons.math4.analysis.function.LogisticTest.testParametricUsage5(org.apache.commons.math4.analysis.function.LogisticTest) (0 ms)</li><li>org.apache.commons.math4.stat.inference.GTestTest.testZeroExpectedCounts(org.apache.commons.math4.stat.inference.GTestTest) (0 ms)</li><li>org.apache.commons.math4.analysis.differentiation.FiniteDifferencesDifferentiatorTest.testBounds(org.apache.commons.math4.analysis.differentiation.FiniteDifferencesDifferentiatorTest) (1 ms)</li><li>org.apache.commons.math4.linear.MatrixUtilsTest.testCreateIdentityMatrix(org.apache.commons.math4.linear.MatrixUtilsTest) (2 ms)</li><li>org.apache.commons.math4.optim.SimplePointCheckerTest.testIterationCheckPrecondition(org.apache.commons.math4.optim.SimplePointCheckerTest) (1 ms)</li><li>org.apache.commons.math4.util.CombinatoricsUtilsTest.testStirlingS2NegativeN(org.apache.commons.math4.util.CombinatoricsUtilsTest) (0 ms)</li><li>org.apache.commons.math4.exception.NumberIsTooSmallExceptionTest.testAccessors(org.apache.commons.math4.exception.NumberIsTooSmallExceptionTest) (0 ms)</li><li>org.apache.commons.math4.optim.univariate.SimpleUnivariateValueCheckerTest.testIterationCheckPrecondition(org.apache.commons.math4.optim.univariate.SimpleUnivariateValueCheckerTest) (0 ms)</li><li>org.apache.commons.math4.util.IntegerSequenceTest.testIncrementZeroTimes(org.apache.commons.math4.util.IntegerSequenceTest) (0 ms)</li><li>org.apache.commons.math4.ml.neuralnet.sofm.LearningFactorFunctionFactoryTest.testExponentialDecayPrecondition4(org.apache.commons.math4.ml.neuralnet.sofm.LearningFactorFunctionFactoryTest) (0 ms)</li><li>org.apache.commons.math4.linear.CholeskyDecompositionTest.testMath274(org.apache.commons.math4.linear.CholeskyDecompositionTest) (0 ms)</li><li>org.apache.commons.math4.genetics.ListPopulationTest.testSetPopulationLimitTooSmall(org.apache.commons.math4.genetics.ListPopulationTest) (1 ms)</li><li>org.apache.commons.math4.stat.inference.GTestTest.testNegativeObservedCounts(org.apache.commons.math4.stat.inference.GTestTest) (1 ms)</li><li>org.apache.commons.math4.analysis.integration.MidPointIntegratorTest.testParameters(org.apache.commons.math4.analysis.integration.MidPointIntegratorTest) (1 ms)</li><li>org.apache.commons.math4.analysis.integration.SimpsonIntegratorTest.testParameters(org.apache.commons.math4.analysis.integration.SimpsonIntegratorTest) (1 ms)</li><li>org.apache.commons.math4.ml.neuralnet.sofm.NeighbourhoodSizeFunctionFactoryTest.testExponentialDecayPrecondition4(org.apache.commons.math4.ml.neuralnet.sofm.NeighbourhoodSizeFunctionFactoryTest) (1 ms)</li><li>org.apache.commons.math4.util.MathArraysTest.testCheckNonNegative(org.apache.commons.math4.util.MathArraysTest) (1 ms)</li><li>org.apache.commons.math4.analysis.solvers.BracketingNthOrderBrentSolverTest.testInsufficientOrder2(org.apache.commons.math4.analysis.solvers.BracketingNthOrderBrentSolverTest) (0 ms)</li><li>org.apache.commons.math4.fitting.GaussianCurveFitterTest.testWithMaxIterations2(org.apache.commons.math4.fitting.GaussianCurveFitterTest) (7 ms)</li><li>org.apache.commons.math4.analysis.function.LogisticTest.testPreconditions1(org.apache.commons.math4.analysis.function.LogisticTest) (1 ms)</li><li>org.apache.commons.math4.util.MathArraysTest.testCheckPositive(org.apache.commons.math4.util.MathArraysTest) (1 ms)</li><li>org.apache.commons.math4.linear.MatrixUtilsTest.testCreateRowRealMatrix(org.apache.commons.math4.linear.MatrixUtilsTest) (0 ms)</li><li>org.apache.commons.math4.ml.neuralnet.sofm.util.ExponentialDecayFunctionTest.testPrecondition4(org.apache.commons.math4.ml.neuralnet.sofm.util.ExponentialDecayFunctionTest) (0 ms)</li><li>org.apache.commons.math4.fitting.GaussianCurveFitterTest.testFit03(org.apache.commons.math4.fitting.GaussianCurveFitterTest) (1 ms)</li><li>org.apache.commons.math4.special.BetaTest.testSumDeltaMinusDeltaSumPrecondition2(org.apache.commons.math4.special.BetaTest) (0 ms)</li><li>org.apache.commons.math4.stat.inference.BinomialTestTest.testBinomialTestExceptions(org.apache.commons.math4.stat.inference.BinomialTestTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest.testHahn1(org.apache.commons.math4.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest) (165 ms)</li><li>org.apache.commons.math4.linear.MatrixUtilsTest.testcreateFieldIdentityMatrix(org.apache.commons.math4.linear.MatrixUtilsTest) (1 ms)</li><li>org.apache.commons.math4.distribution.fitting.MultivariateNormalMixtureExpectationMaximizationTest.testThresholdPositive(org.apache.commons.math4.distribution.fitting.MultivariateNormalMixtureExpectationMaximizationTest) (1 ms)</li><li>org.apache.commons.math4.analysis.function.GaussianTest.testParametricUsage6(org.apache.commons.math4.analysis.function.GaussianTest) (1 ms)</li><li>org.apache.commons.math4.analysis.function.LogisticTest.testPreconditions2(org.apache.commons.math4.analysis.function.LogisticTest) (1 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

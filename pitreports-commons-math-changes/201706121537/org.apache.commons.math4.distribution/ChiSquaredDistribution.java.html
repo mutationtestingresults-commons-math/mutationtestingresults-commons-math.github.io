@@ -1,0 +1,203 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>ChiSquaredDistribution.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@66c4a6e5_60'>60</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@66c4a6e5_60'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.math4.distribution.ChiSquaredDistributionTest.testDfAccessors(org.apache.commons.math4.distribution.ChiSquaredDistributionTest)</span></span> Replaced double division with multiplication &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@66c4a6e5_70'>70</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@66c4a6e5_70'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getDegreesOfFreedom<br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>getDegreesOfFreedom<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/distribution/ChiSquaredDistribution::getDegreesOfFreedom &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@66c4a6e5_76'>76</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@66c4a6e5_76'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>density<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/distribution/ChiSquaredDistribution::density &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@66c4a6e5_82'>82</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@66c4a6e5_82'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>logDensity<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/distribution/ChiSquaredDistribution::logDensity &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@66c4a6e5_88'>88</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@66c4a6e5_88'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>cumulativeProbability<br/><b>Killed by : </b>org.apache.commons.math4.distribution.ChiSquaredDistributionTest.testInverseCumulativeProbabilities(org.apache.commons.math4.distribution.ChiSquaredDistributionTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/distribution/ChiSquaredDistribution::cumulativeProbability &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@66c4a6e5_94'>94</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@66c4a6e5_94'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getSolverAbsoluteAccuracy<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/distribution/ChiSquaredDistribution::getSolverAbsoluteAccuracy &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@66c4a6e5_104'>104</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@66c4a6e5_104'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getNumericalMean<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/distribution/ChiSquaredDistribution::getNumericalMean &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@66c4a6e5_114'>114</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@66c4a6e5_114'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getNumericalVariance<br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>getNumericalVariance<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/distribution/ChiSquaredDistribution::getNumericalVariance &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@66c4a6e5_127'>127</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@66c4a6e5_127'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getSupportLowerBound<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/distribution/ChiSquaredDistribution::getSupportLowerBound &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@66c4a6e5_140'>140</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@66c4a6e5_140'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getSupportUpperBound<br/><b>Killed by : </b>none</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/distribution/ChiSquaredDistribution::getSupportUpperBound &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@66c4a6e5_152'>152</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@66c4a6e5_152'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isSupportConnected<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testSampler(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (53 ms)</li><li>org.apache.commons.math4.distribution.UniformIntegerDistributionTest.testSampling(org.apache.commons.math4.distribution.UniformIntegerDistributionTest) (4 ms)</li><li>org.apache.commons.math4.random.RandomUtilsDataGeneratorJDKRandomTest.testNextHexWithoutSha1(org.apache.commons.math4.random.RandomUtilsDataGeneratorJDKRandomTest) (35 ms)</li><li>org.apache.commons.math4.distribution.ChiSquaredDistributionTest.testSmallDf(org.apache.commons.math4.distribution.ChiSquaredDistributionTest) (1 ms)</li><li>org.apache.commons.math4.random.RandomUtilsDataGeneratorJDKRandomTest.testNextUniformPositiveBounds(org.apache.commons.math4.random.RandomUtilsDataGeneratorJDKRandomTest) (7 ms)</li><li>org.apache.commons.math4.stat.inference.InferenceTestUtilsTest.testChiSquare(org.apache.commons.math4.stat.inference.InferenceTestUtilsTest) (1 ms)</li><li>org.apache.commons.math4.random.RandomUtilsDataGeneratorJDKRandomTest.testNextLongNegativeToPositiveRange(org.apache.commons.math4.random.RandomUtilsDataGeneratorJDKRandomTest) (23 ms)</li><li>org.apache.commons.math4.distribution.ChiSquaredDistributionTest.testDfAccessors(org.apache.commons.math4.distribution.ChiSquaredDistributionTest) (1 ms)</li><li>org.apache.commons.math4.stat.inference.ChiSquareTestTest.testChiSquareDataSetsComparisonUnEqualCounts(org.apache.commons.math4.stat.inference.ChiSquareTestTest) (1 ms)</li><li>org.apache.commons.math4.random.RandomUtilsDataGeneratorJDKRandomTest.testNextLongPositiveRange(org.apache.commons.math4.random.RandomUtilsDataGeneratorJDKRandomTest) (28 ms)</li><li>org.apache.commons.math4.random.RandomUtilsDataGeneratorJDKRandomTest.testNextUniformNegativeBounds(org.apache.commons.math4.random.RandomUtilsDataGeneratorJDKRandomTest) (10 ms)</li><li>org.apache.commons.math4.distribution.ChiSquaredDistributionTest.testDensities(org.apache.commons.math4.distribution.ChiSquaredDistributionTest) (1 ms)</li><li>org.apache.commons.math4.distribution.GumbelDistributionTest.testSampler(org.apache.commons.math4.distribution.GumbelDistributionTest) (2 ms)</li><li>org.apache.commons.math4.random.RandomUtilsDataGeneratorJDKRandomTest.testNextLongNegativeRange(org.apache.commons.math4.random.RandomUtilsDataGeneratorJDKRandomTest) (47 ms)</li><li>org.apache.commons.math4.distribution.HypergeometricDistributionTest.testSampling(org.apache.commons.math4.distribution.HypergeometricDistributionTest) (15 ms)</li><li>org.apache.commons.math4.distribution.GammaDistributionTest.testSampler(org.apache.commons.math4.distribution.GammaDistributionTest) (3 ms)</li><li>org.apache.commons.math4.stat.inference.KolmogorovSmirnovTestTest.testFillBooleanArrayRandomlyWithFixedNumberTrueValues(org.apache.commons.math4.stat.inference.KolmogorovSmirnovTestTest) (2323 ms)</li><li>org.apache.commons.math4.distribution.GeometricDistributionTest.testSampling(org.apache.commons.math4.distribution.GeometricDistributionTest) (3 ms)</li><li>org.apache.commons.math4.stat.inference.ChiSquareTestTest.testChiSquareZeroCount(org.apache.commons.math4.stat.inference.ChiSquareTestTest) (1 ms)</li><li>org.apache.commons.math4.distribution.PoissonDistributionTest.testSampling(org.apache.commons.math4.distribution.PoissonDistributionTest) (5 ms)</li><li>org.apache.commons.math4.stat.inference.GTestTest.testUnmatchedArrays(org.apache.commons.math4.stat.inference.GTestTest) (0 ms)</li><li>org.apache.commons.math4.stat.inference.InferenceTestUtilsTest.testChiSquareIndependence(org.apache.commons.math4.stat.inference.InferenceTestUtilsTest) (1 ms)</li><li>org.apache.commons.math4.distribution.BinomialDistributionTest.testSampling(org.apache.commons.math4.distribution.BinomialDistributionTest) (38 ms)</li><li>org.apache.commons.math4.stat.inference.ChiSquareTestTest.testChiSquare(org.apache.commons.math4.stat.inference.ChiSquareTestTest) (1 ms)</li><li>org.apache.commons.math4.distribution.ChiSquaredDistributionTest.testDistributionClone(org.apache.commons.math4.distribution.ChiSquaredDistributionTest) (73 ms)</li><li>org.apache.commons.math4.stat.inference.GTestTest.testGTestIndependance2(org.apache.commons.math4.stat.inference.GTestTest) (1 ms)</li><li>org.apache.commons.math4.distribution.WeibullDistributionTest.testSampler(org.apache.commons.math4.distribution.WeibullDistributionTest) (2 ms)</li><li>org.apache.commons.math4.distribution.ParetoDistributionTest.testSampler(org.apache.commons.math4.distribution.ParetoDistributionTest) (1 ms)</li><li>org.apache.commons.math4.distribution.CauchyDistributionTest.testSampler(org.apache.commons.math4.distribution.CauchyDistributionTest) (13 ms)</li><li>org.apache.commons.math4.distribution.ChiSquaredDistributionTest.testCumulativeProbabilities(org.apache.commons.math4.distribution.ChiSquaredDistributionTest) (11 ms)</li><li>org.apache.commons.math4.stat.inference.ChiSquareTestTest.testChiSquareLargeTestStatistic(org.apache.commons.math4.stat.inference.ChiSquareTestTest) (0 ms)</li><li>org.apache.commons.math4.distribution.LevyDistributionTest.testSampler(org.apache.commons.math4.distribution.LevyDistributionTest) (1 ms)</li><li>org.apache.commons.math4.distribution.ChiSquaredDistributionTest.testIllegalArguments(org.apache.commons.math4.distribution.ChiSquaredDistributionTest) (0 ms)</li><li>org.apache.commons.math4.distribution.TriangularDistributionTest.testSampler(org.apache.commons.math4.distribution.TriangularDistributionTest) (4 ms)</li><li>org.apache.commons.math4.stat.inference.InferenceTestUtilsTest.testGTestGoodnesOfFit(org.apache.commons.math4.stat.inference.InferenceTestUtilsTest) (1 ms)</li><li>org.apache.commons.math4.distribution.ZipfDistributionTest.testSamplingExtended(org.apache.commons.math4.distribution.ZipfDistributionTest) (318 ms)</li><li>org.apache.commons.math4.stat.inference.GTestTest.testScaling(org.apache.commons.math4.stat.inference.GTestTest) (1 ms)</li><li>org.apache.commons.math4.stat.inference.GTestTest.testZeroExpectedCounts(org.apache.commons.math4.stat.inference.GTestTest) (0 ms)</li><li>org.apache.commons.math4.distribution.BetaDistributionTest.testGoodnessOfFit(org.apache.commons.math4.distribution.BetaDistributionTest) (340 ms)</li><li>org.apache.commons.math4.distribution.UniformRealDistributionTest.testSampler(org.apache.commons.math4.distribution.UniformRealDistributionTest) (0 ms)</li><li>org.apache.commons.math4.stat.inference.ChiSquareTestTest.testChiSquareDataSetsComparisonBadCounts(org.apache.commons.math4.stat.inference.ChiSquareTestTest) (0 ms)</li><li>org.apache.commons.math4.distribution.LogisticsDistributionTest.testSampler(org.apache.commons.math4.distribution.LogisticsDistributionTest) (1 ms)</li><li>org.apache.commons.math4.stat.inference.ChiSquareTestTest.testChiSquareIndependence(org.apache.commons.math4.stat.inference.ChiSquareTestTest) (0 ms)</li><li>org.apache.commons.math4.random.RandomUtilsDataGeneratorJDKRandomTest.testNextUniformNegativeToPositiveBounds(org.apache.commons.math4.random.RandomUtilsDataGeneratorJDKRandomTest) (7 ms)</li><li>org.apache.commons.math4.stat.inference.GTestTest.testGTestSetsComparisonBadCounts(org.apache.commons.math4.stat.inference.GTestTest) (0 ms)</li><li>org.apache.commons.math4.distribution.LogNormalDistributionTest.testSampler(org.apache.commons.math4.distribution.LogNormalDistributionTest) (2 ms)</li><li>org.apache.commons.math4.distribution.ChiSquaredDistributionTest.testMoments(org.apache.commons.math4.distribution.ChiSquaredDistributionTest) (1 ms)</li><li>org.apache.commons.math4.distribution.NormalDistributionTest.testSampler(org.apache.commons.math4.distribution.NormalDistributionTest) (1 ms)</li><li>org.apache.commons.math4.distribution.PascalDistributionTest.testSampling(org.apache.commons.math4.distribution.PascalDistributionTest) (9 ms)</li><li>org.apache.commons.math4.stat.inference.GTestTest.testGTestGoodnesOfFit1(org.apache.commons.math4.stat.inference.GTestTest) (0 ms)</li><li>org.apache.commons.math4.stat.inference.InferenceTestUtilsTest.testGTestIndependance(org.apache.commons.math4.stat.inference.InferenceTestUtilsTest) (0 ms)</li><li>org.apache.commons.math4.stat.inference.GTestTest.testGTestIndependance1(org.apache.commons.math4.stat.inference.GTestTest) (0 ms)</li><li>org.apache.commons.math4.stat.inference.InferenceTestUtilsTest.testChiSquareZeroCount(org.apache.commons.math4.stat.inference.InferenceTestUtilsTest) (0 ms)</li><li>org.apache.commons.math4.distribution.ChiSquaredDistributionTest.testInverseCumulativeProbabilities(org.apache.commons.math4.distribution.ChiSquaredDistributionTest) (1 ms)</li><li>org.apache.commons.math4.stat.inference.GTestTest.testGTestGoodnesOfFit2(org.apache.commons.math4.stat.inference.GTestTest) (1 ms)</li><li>org.apache.commons.math4.stat.inference.GTestTest.testNegativeObservedCounts(org.apache.commons.math4.stat.inference.GTestTest) (0 ms)</li><li>org.apache.commons.math4.distribution.ChiSquaredDistributionTest.testLogDensities(org.apache.commons.math4.distribution.ChiSquaredDistributionTest) (1 ms)</li><li>org.apache.commons.math4.distribution.ChiSquaredDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.ChiSquaredDistributionTest) (18 ms)</li><li>org.apache.commons.math4.distribution.FDistributionTest.testSampler(org.apache.commons.math4.distribution.FDistributionTest) (31 ms)</li><li>org.apache.commons.math4.stat.inference.ChiSquareTestTest.testChiSquareDataSetsComparisonEqualCounts(org.apache.commons.math4.stat.inference.ChiSquareTestTest) (0 ms)</li><li>org.apache.commons.math4.random.RandomUtilsDataGeneratorJDKRandomTest.testNextUniformMaximalInterval(org.apache.commons.math4.random.RandomUtilsDataGeneratorJDKRandomTest) (9 ms)</li><li>org.apache.commons.math4.stat.inference.GTestTest.testGTestGoodnesOfFit3(org.apache.commons.math4.stat.inference.GTestTest) (0 ms)</li><li>org.apache.commons.math4.distribution.LaplaceDistributionTest.testSampler(org.apache.commons.math4.distribution.LaplaceDistributionTest) (1 ms)</li><li>org.apache.commons.math4.distribution.ZipfDistributionTest.testSampling(org.apache.commons.math4.distribution.ZipfDistributionTest) (5 ms)</li><li>org.apache.commons.math4.random.RandomUtilsDataGeneratorJDKRandomTest.testNextHexWithSha1(org.apache.commons.math4.random.RandomUtilsDataGeneratorJDKRandomTest) (112 ms)</li><li>org.apache.commons.math4.distribution.ChiSquaredDistributionTest.testDensity(org.apache.commons.math4.distribution.ChiSquaredDistributionTest) (1 ms)</li><li>org.apache.commons.math4.distribution.NakagamiDistributionTest.testSampler(org.apache.commons.math4.distribution.NakagamiDistributionTest) (15 ms)</li><li>org.apache.commons.math4.distribution.ExponentialDistributionTest.testSampler(org.apache.commons.math4.distribution.ExponentialDistributionTest) (2 ms)</li><li>org.apache.commons.math4.distribution.TDistributionTest.testSampler(org.apache.commons.math4.distribution.TDistributionTest) (19 ms)</li><li>org.apache.commons.math4.stat.inference.InferenceTestUtilsTest.testChiSquareLargeTestStatistic(org.apache.commons.math4.stat.inference.InferenceTestUtilsTest) (0 ms)</li><li>org.apache.commons.math4.distribution.ChiSquaredDistributionTest.testConsistency(org.apache.commons.math4.distribution.ChiSquaredDistributionTest) (4 ms)</li><li>org.apache.commons.math4.distribution.ChiSquaredDistributionTest.testSampler(org.apache.commons.math4.distribution.ChiSquaredDistributionTest) (20 ms)</li><li>org.apache.commons.math4.stat.inference.GTestTest.testGTestIndependance3(org.apache.commons.math4.stat.inference.GTestTest) (0 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

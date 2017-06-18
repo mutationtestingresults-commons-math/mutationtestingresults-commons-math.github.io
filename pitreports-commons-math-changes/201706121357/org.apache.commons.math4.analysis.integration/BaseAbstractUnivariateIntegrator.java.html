@@ -1,0 +1,293 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>BaseAbstractUnivariateIntegrator.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@414b9df8_119'>119</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@414b9df8_119'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.math4.distribution.ConstantRealDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.ConstantRealDistributionTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@414b9df8_122'>122</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@414b9df8_122'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.math4.distribution.ConstantRealDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.ConstantRealDistributionTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@414b9df8_127'>127</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@414b9df8_127'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b><init><br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.TrapezoidIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.TrapezoidIntegratorTest)</span></span> removed call to org/apache/commons/math4/util/Incrementor::setMaximalCount &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@414b9df8_164'>164</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@414b9df8_164'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getRelativeAccuracy<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.TrapezoidIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.TrapezoidIntegratorTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/analysis/integration/BaseAbstractUnivariateIntegrator::getRelativeAccuracy &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@414b9df8_170'>170</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@414b9df8_170'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getAbsoluteAccuracy<br/><b>Killed by : </b>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testLegendreOrthogonality(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/analysis/integration/BaseAbstractUnivariateIntegrator::getAbsoluteAccuracy &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@414b9df8_176'>176</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@414b9df8_176'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getMinimalIterationCount<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.TrapezoidIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.TrapezoidIntegratorTest)</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@414b9df8_182'>182</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@414b9df8_182'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getMaximalIterationCount<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@414b9df8_188'>188</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@414b9df8_188'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getEvaluations<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@414b9df8_194'>194</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@414b9df8_194'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getIterations<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@414b9df8_201'>201</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@414b9df8_201'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getMin<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.TrapezoidIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.TrapezoidIntegratorTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/analysis/integration/BaseAbstractUnivariateIntegrator::getMin &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@414b9df8_207'>207</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@414b9df8_207'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getMax<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.TrapezoidIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.TrapezoidIntegratorTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/analysis/integration/BaseAbstractUnivariateIntegrator::getMax &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@414b9df8_221'>221</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@414b9df8_221'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>computeObjectiveValue<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testIssue464(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest)</span></span> removed call to org/apache/commons/math4/util/Incrementor::incrementCount &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@414b9df8_225'>225</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@414b9df8_225'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>computeObjectiveValue<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.TrapezoidIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.TrapezoidIntegratorTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/analysis/integration/BaseAbstractUnivariateIntegrator::computeObjectiveValue &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@414b9df8_246'>246</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@414b9df8_246'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>setup<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/math4/util/MathUtils::checkNotNull &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@414b9df8_247'>247</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@414b9df8_247'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>setup<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.MidPointIntegratorTest.testParameters(org.apache.commons.math4.analysis.integration.MidPointIntegratorTest)</span></span> removed call to org/apache/commons/math4/analysis/solvers/UnivariateSolverUtils::verifyInterval &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@414b9df8_253'>253</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@414b9df8_253'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>setup<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.TrapezoidIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.TrapezoidIntegratorTest)</span></span> removed call to org/apache/commons/math4/util/Incrementor::setMaximalCount &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@414b9df8_254'>254</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@414b9df8_254'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>setup<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.TrapezoidIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.TrapezoidIntegratorTest)</span></span> removed call to org/apache/commons/math4/util/Incrementor::resetCount &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@414b9df8_255'>255</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@414b9df8_255'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>setup<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.TrapezoidIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.TrapezoidIntegratorTest)</span></span> removed call to org/apache/commons/math4/util/Incrementor::resetCount &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@414b9df8_267'>267</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@414b9df8_267'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>integrate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.MidPointIntegratorTest.testParameters(org.apache.commons.math4.analysis.integration.MidPointIntegratorTest)</span></span> removed call to org/apache/commons/math4/analysis/integration/BaseAbstractUnivariateIntegrator::setup &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@414b9df8_270'>270</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@414b9df8_270'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>integrate<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.TrapezoidIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.TrapezoidIntegratorTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/analysis/integration/BaseAbstractUnivariateIntegrator::integrate &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testIssue464(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest) (4744 ms)</li><li>org.apache.commons.math4.distribution.ParetoDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.ParetoDistributionTest) (1 ms)</li><li>org.apache.commons.math4.analysis.integration.RombergIntegratorTest.testParameters(org.apache.commons.math4.analysis.integration.RombergIntegratorTest) (2 ms)</li><li>org.apache.commons.math4.distribution.AbstractRealDistributionTest.testDiscontinuous(org.apache.commons.math4.distribution.AbstractRealDistributionTest) (169 ms)</li><li>org.apache.commons.math4.distribution.ExponentialDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.ExponentialDistributionTest) (1 ms)</li><li>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testSinFunction(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest) (1 ms)</li><li>org.apache.commons.math4.distribution.WeibullDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.WeibullDistributionTest) (31 ms)</li><li>org.apache.commons.math4.distribution.TriangularDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.TriangularDistributionTest) (51 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testHermiteOrthogonality(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (97 ms)</li><li>org.apache.commons.math4.analysis.integration.SimpsonIntegratorTest.testSinFunction(org.apache.commons.math4.analysis.integration.SimpsonIntegratorTest) (0 ms)</li><li>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testNormalDistributionWithLargeSigma(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest) (1 ms)</li><li>org.apache.commons.math4.analysis.integration.RombergIntegratorTest.testSinFunction(org.apache.commons.math4.analysis.integration.RombergIntegratorTest) (0 ms)</li><li>org.apache.commons.math4.distribution.CauchyDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.CauchyDistributionTest) (24 ms)</li><li>org.apache.commons.math4.distribution.TDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.TDistributionTest) (2 ms)</li><li>org.apache.commons.math4.distribution.LaplaceDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.LaplaceDistributionTest) (206 ms)</li><li>org.apache.commons.math4.distribution.FDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.FDistributionTest) (29 ms)</li><li>org.apache.commons.math4.analysis.integration.SimpsonIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.SimpsonIntegratorTest) (1 ms)</li><li>org.apache.commons.math4.analysis.integration.TrapezoidIntegratorTest.testSinFunction(org.apache.commons.math4.analysis.integration.TrapezoidIntegratorTest) (2 ms)</li><li>org.apache.commons.math4.analysis.integration.RombergIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.RombergIntegratorTest) (2 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (3682 ms)</li><li>org.apache.commons.math4.analysis.integration.MidPointIntegratorTest.testParameters(org.apache.commons.math4.analysis.integration.MidPointIntegratorTest) (1 ms)</li><li>org.apache.commons.math4.analysis.integration.SimpsonIntegratorTest.testParameters(org.apache.commons.math4.analysis.integration.SimpsonIntegratorTest) (1 ms)</li><li>org.apache.commons.math4.distribution.LevyDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.LevyDistributionTest) (15 ms)</li><li>org.apache.commons.math4.distribution.GumbelDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.GumbelDistributionTest) (1 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testLegendreOrthogonality(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (3 ms)</li><li>org.apache.commons.math4.distribution.ConstantRealDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.ConstantRealDistributionTest) (0 ms)</li><li>org.apache.commons.math4.distribution.ChiSquaredDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.ChiSquaredDistributionTest) (7 ms)</li><li>org.apache.commons.math4.distribution.LogNormalDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.LogNormalDistributionTest) (3 ms)</li><li>org.apache.commons.math4.analysis.integration.MidPointIntegratorTest.testSinFunction(org.apache.commons.math4.analysis.integration.MidPointIntegratorTest) (273 ms)</li><li>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testExactIntegration(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest) (112 ms)</li><li>org.apache.commons.math4.analysis.integration.MidPointIntegratorTest.testLowAccuracy(org.apache.commons.math4.analysis.integration.MidPointIntegratorTest) (7 ms)</li><li>org.apache.commons.math4.analysis.integration.TrapezoidIntegratorTest.testParameters(org.apache.commons.math4.analysis.integration.TrapezoidIntegratorTest) (1 ms)</li><li>org.apache.commons.math4.distribution.NakagamiDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.NakagamiDistributionTest) (2 ms)</li><li>org.apache.commons.math4.distribution.GammaDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.GammaDistributionTest) (4 ms)</li><li>org.apache.commons.math4.analysis.integration.TrapezoidIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.TrapezoidIntegratorTest) (1 ms)</li><li>org.apache.commons.math4.distribution.NormalDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.NormalDistributionTest) (0 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testChebyshevOrthogonality(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (1469 ms)</li><li>org.apache.commons.math4.analysis.integration.MidPointIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.MidPointIntegratorTest) (421 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testLaguerreOrthogonality(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (73 ms)</li><li>org.apache.commons.math4.distribution.UniformRealDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.UniformRealDistributionTest) (0 ms)</li><li>org.apache.commons.math4.distribution.LogisticsDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.LogisticsDistributionTest) (2 ms)</li><li>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest) (1 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testJacobiOrthogonality(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (212 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

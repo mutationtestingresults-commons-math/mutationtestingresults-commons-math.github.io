@@ -1,0 +1,193 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>BaseRuleFactory.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@165d0433_58'>58</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@165d0433_58'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getRule<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>getRule<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.gauss.BaseRuleFactoryTest.testConcurrentCreation(org.apache.commons.math4.analysis.integration.gauss.BaseRuleFactoryTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@165d0433_66'>66</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@165d0433_66'/> 
+
+<p class='TIMED_OUT'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getRule<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; TIMED_OUT</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@165d0433_78'>78</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@165d0433_78'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getRule<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.gauss.HermiteTest.testNormalDistribution(org.apache.commons.math4.analysis.integration.gauss.HermiteTest)</span></span> mutated return of Object value for org/apache/commons/math4/analysis/integration/gauss/BaseRuleFactory::getRule to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@165d0433_96'>96</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@165d0433_96'/> 
+
+<p class='TIMED_OUT'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getRuleInternal<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; TIMED_OUT</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@165d0433_97'>97</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@165d0433_97'/> 
+
+<p class='TIMED_OUT'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getRuleInternal<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/math4/analysis/integration/gauss/BaseRuleFactory::addRule &rarr; TIMED_OUT</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@165d0433_99'>99</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@165d0433_99'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getRuleInternal<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/analysis/integration/gauss/BaseRuleFactory::getRuleInternal to ( if (x != null) null else throw new RuntimeException ) &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@165d0433_101'>101</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@165d0433_101'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getRuleInternal<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/analysis/integration/gauss/BaseRuleFactory::getRuleInternal to ( if (x != null) null else throw new RuntimeException ) &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@165d0433_112'>112</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@165d0433_112'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>addRule<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.gauss.BaseRuleFactoryTest.testConcurrentCreation(org.apache.commons.math4.analysis.integration.gauss.BaseRuleFactoryTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@165d0433_147'>147</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@165d0433_147'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>convertToDouble<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.gauss.BaseRuleFactoryTest.testConcurrentCreation(org.apache.commons.math4.analysis.integration.gauss.BaseRuleFactoryTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>convertToDouble<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.gauss.BaseRuleFactoryTest.testConcurrentCreation(org.apache.commons.math4.analysis.integration.gauss.BaseRuleFactoryTest)</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='SURVIVED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>convertToDouble<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; SURVIVED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@165d0433_152'>152</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@165d0433_152'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>convertToDouble<br/><b>Killed by : </b>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[3](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest)</span></span> mutated return of Object value for org/apache/commons/math4/analysis/integration/gauss/BaseRuleFactory::convertToDouble to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[26](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest) (6 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[14](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest) (5 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest.testAllMonomials[20](org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest) (8 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[5](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest) (1 ms)</li><li>org.apache.commons.math4.distribution.CauchyDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.CauchyDistributionTest) (24 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest.testAllMonomials[17](org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest) (180 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest.testAllMonomials[10](org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest) (201 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[23](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest) (4 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest.testAllMonomials[4](org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest) (4 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[11](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest) (4 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest.testAllMonomials[6](org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest) (4 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[2](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest) (1 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testLegendreOrthogonality(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (3 ms)</li><li>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testExactIntegration(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest) (112 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest.testAllMonomials[28](org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest) (11 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest.testAllMonomials[23](org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest) (108 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest.testAllMonomials[28](org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest) (82 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest.testAllMonomials[12](org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest) (4 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreTest.testCos(org.apache.commons.math4.analysis.integration.gauss.LegendreTest) (1 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[9](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest) (2 ms)</li><li>org.apache.commons.math4.distribution.GammaDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.GammaDistributionTest) (4 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest.testAllMonomials[23](org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest) (10 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[20](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest) (5 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest.testAllMonomials[8](org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest) (5 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest.testAllMonomials[17](org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest) (9 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest.testAllMonomials[1](org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest) (7 ms)</li><li>org.apache.commons.math4.distribution.LogisticsDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.LogisticsDistributionTest) (2 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[17](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest) (9 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest.testAllMonomials[12](org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest) (52 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest.testAllMonomials[9](org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest) (5 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[1](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest) (4 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest.testAllMonomials[21](org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest) (95 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest.testAllMonomials[14](org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest) (67 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest.testAllMonomials[27](org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest) (10 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteTest.testNormalVariance(org.apache.commons.math4.analysis.integration.gauss.HermiteTest) (1 ms)</li><li>org.apache.commons.math4.distribution.TriangularDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.TriangularDistributionTest) (51 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest.testAllMonomials[13](org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest) (72 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testHermiteOrthogonality(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (97 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[27](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest) (8 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest.testAllMonomials[22](org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest) (8 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[10](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest) (7 ms)</li><li>org.apache.commons.math4.distribution.LaplaceDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.LaplaceDistributionTest) (206 ms)</li><li>org.apache.commons.math4.distribution.FDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.FDistributionTest) (29 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest.testAllMonomials[9](org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest) (4 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest.testAllMonomials[6](org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest) (4 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest.testAllMonomials[0](org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest) (5 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[16](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest) (5 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest.testAllMonomials[14](org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest) (6 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest.testAllMonomials[19](org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest) (10 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[24](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest) (4 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.BaseRuleFactoryTest.testConcurrentCreation(org.apache.commons.math4.analysis.integration.gauss.BaseRuleFactoryTest) (28 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest.testAllMonomials[20](org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest) (86 ms)</li><li>org.apache.commons.math4.distribution.NormalDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.NormalDistributionTest) (0 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testChebyshevOrthogonality(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (1469 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testLaguerreOrthogonality(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (73 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest.testAllMonomials[25](org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest) (9 ms)</li><li>org.apache.commons.math4.distribution.UniformRealDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.UniformRealDistributionTest) (0 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[13](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest) (4 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[8](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest) (3 ms)</li><li>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testQuinticFunction(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest) (1 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest.testAllMonomials[15](org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest) (215 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest.testAllMonomials[3](org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest) (4 ms)</li><li>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testIssue464(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest) (4744 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest.testAllMonomials[11](org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest) (56 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest.testAllMonomials[24](org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest) (110 ms)</li><li>org.apache.commons.math4.distribution.ParetoDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.ParetoDistributionTest) (1 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest.testAllMonomials[11](org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest) (3 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[21](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest) (9 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest.testAllMonomials[7](org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest) (4 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest.testAllMonomials[29](org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest) (10 ms)</li><li>org.apache.commons.math4.distribution.ExponentialDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.ExponentialDistributionTest) (1 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest.testAllMonomials[16](org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest) (188 ms)</li><li>org.apache.commons.math4.distribution.WeibullDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.WeibullDistributionTest) (31 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[7](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest) (2 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest.testAllMonomials[2](org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest) (4 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest.testAllMonomials[8](org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest) (4 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest.testAllMonomials[24](org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest) (13 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreTest.testInverse(org.apache.commons.math4.analysis.integration.gauss.LegendreTest) (104 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest.testAllMonomials[16](org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest) (8 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LaguerreTest.testGamma(org.apache.commons.math4.analysis.integration.gauss.LaguerreTest) (41 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionTest.testCos(org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionTest) (109 ms)</li><li>org.apache.commons.math4.distribution.LevyDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.LevyDistributionTest) (15 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[19](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest) (6 ms)</li><li>org.apache.commons.math4.distribution.GumbelDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.GumbelDistributionTest) (1 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest.testAllMonomials[18](org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest) (164 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest.testAllMonomials[0](org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest) (2 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[12](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest) (4 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[28](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest) (6 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest.testAllMonomials[29](org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest) (134 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest.testAllMonomials[22](org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest) (100 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[25](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest) (4 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest.testAllMonomials[5](org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest) (3 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[4](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest) (1 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest.testAllMonomials[1](org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest) (4 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest.testAllMonomials[13](org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest) (5 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[18](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest) (6 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[22](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest) (5 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest.testAllMonomials[18](org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest) (9 ms)</li><li>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testSinFunction(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest) (1 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest.testAllMonomials[19](org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest) (262 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[15](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest) (5 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionTest.testInverse(org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionTest) (10183 ms)</li><li>org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest.testNormalDistributionWithLargeSigma(org.apache.commons.math4.analysis.integration.IterativeLegendreGaussIntegratorTest) (1 ms)</li><li>org.apache.commons.math4.distribution.TDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.TDistributionTest) (2 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteTest.testNormalDistribution(org.apache.commons.math4.analysis.integration.gauss.HermiteTest) (0 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (3682 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest.testAllMonomials[2](org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest) (4 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest.testAllMonomials[27](org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest) (81 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[6](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest) (2 ms)</li><li>org.apache.commons.math4.distribution.ChiSquaredDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.ChiSquaredDistributionTest) (7 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest.testAllMonomials[10](org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest) (7 ms)</li><li>org.apache.commons.math4.distribution.LogNormalDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.LogNormalDistributionTest) (3 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest.testAllMonomials[3](org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest) (4 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest.testAllMonomials[26](org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest) (8 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[3](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest) (1 ms)</li><li>org.apache.commons.math4.distribution.NakagamiDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.NakagamiDistributionTest) (2 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest.testAllMonomials[21](org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest) (8 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest.testAllMonomials[26](org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest) (121 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[0](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest) (4 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest.testAllMonomials[5](org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest) (5 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest.testAllMonomials[15](org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest) (4 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest.testAllMonomials[25](org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest) (118 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest.testAllMonomials[4](org.apache.commons.math4.analysis.integration.gauss.LegendreHighPrecisionParametricTest) (4 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest.testAllMonomials[29](org.apache.commons.math4.analysis.integration.gauss.HermiteParametricTest) (6 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.HermiteTest.testNormalMean(org.apache.commons.math4.analysis.integration.gauss.HermiteTest) (1 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest.testAllMonomials[7](org.apache.commons.math4.analysis.integration.gauss.LegendreParametricTest) (4 ms)</li><li>org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest.testJacobiOrthogonality(org.apache.commons.math4.analysis.polynomials.PolynomialsUtilsTest) (212 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

@@ -1,0 +1,393 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>CompositeFormat.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7b7d0111_42'>42</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7b7d0111_42'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getDefaultNumberFormat<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest.testDefaultFormatVector1D(org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest)</span></span> mutated return of Object value for org/apache/commons/math4/util/CompositeFormat::getDefaultNumberFormat to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7b7d0111_54'>54</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7b7d0111_54'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getDefaultNumberFormat<br/><b>Killed by : </b>org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest.testDefaultFormatVector1D(org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest)</span></span> removed call to java/text/NumberFormat::setMaximumFractionDigits &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7b7d0111_55'>55</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7b7d0111_55'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getDefaultNumberFormat<br/><b>Killed by : </b>org.apache.commons.math4.complex.ComplexFormatTest.testGetInstance(org.apache.commons.math4.complex.ComplexFormatTest)</span></span> mutated return of Object value for org/apache/commons/math4/util/CompositeFormat::getDefaultNumberFormat to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7b7d0111_68'>68</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7b7d0111_68'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>parseAndIgnoreWhitespace<br/><b>Killed by : </b>none</span></span> Replaced integer subtraction with addition &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>parseAndIgnoreWhitespace<br/><b>Killed by : </b>none</span></span> removed call to java/text/ParsePosition::setIndex &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7b7d0111_84'>84</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7b7d0111_84'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>parseNextCharacter<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>parseNextCharacter<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7b7d0111_87'>87</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7b7d0111_87'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>parseNextCharacter<br/><b>Killed by : </b>none</span></span> Changed increment from 1 to -1 &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7b7d0111_88'>88</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7b7d0111_88'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>parseNextCharacter<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>parseNextCharacter<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>parseNextCharacter<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7b7d0111_89'>89</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7b7d0111_89'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>parseNextCharacter<br/><b>Killed by : </b>none</span></span> removed call to java/text/ParsePosition::setIndex &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7b7d0111_91'>91</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7b7d0111_91'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>parseNextCharacter<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>parseNextCharacter<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7b7d0111_96'>96</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7b7d0111_96'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>parseNextCharacter<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7b7d0111_119'>119</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7b7d0111_119'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>parseNumber<br/><b>Killed by : </b>none</span></span> Replaced integer addition with subtraction &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7b7d0111_120'>120</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7b7d0111_120'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>parseNumber<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>parseNumber<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7b7d0111_121'>121</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7b7d0111_121'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>parseNumber<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7b7d0111_123'>123</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7b7d0111_123'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>parseNumber<br/><b>Killed by : </b>none</span></span> removed call to java/text/ParsePosition::setIndex &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7b7d0111_126'>126</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7b7d0111_126'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>parseNumber<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/util/CompositeFormat::parseNumber to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7b7d0111_146'>146</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7b7d0111_146'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>parseNumber<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7b7d0111_151'>151</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7b7d0111_151'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>parseNumber<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>parseNumber<br/><b>Killed by : </b>none</span></span> Changed increment from 1 to -1 &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>parseNumber<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7b7d0111_153'>153</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7b7d0111_153'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>parseNumber<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7b7d0111_159'>159</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7b7d0111_159'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>parseNumber<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/util/CompositeFormat::parseNumber to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7b7d0111_174'>174</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7b7d0111_174'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>parseFixedstring<br/><b>Killed by : </b>none</span></span> Replaced integer addition with subtraction &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7b7d0111_175'>175</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7b7d0111_175'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>parseFixedstring<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>parseFixedstring<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7b7d0111_176'>176</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7b7d0111_176'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>parseFixedstring<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>parseFixedstring<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7b7d0111_177'>177</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7b7d0111_177'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>parseFixedstring<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7b7d0111_179'>179</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7b7d0111_179'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>parseFixedstring<br/><b>Killed by : </b>none</span></span> removed call to java/text/ParsePosition::setIndex &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7b7d0111_180'>180</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7b7d0111_180'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>parseFixedstring<br/><b>Killed by : </b>none</span></span> removed call to java/text/ParsePosition::setErrorIndex &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7b7d0111_181'>181</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7b7d0111_181'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>parseFixedstring<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7b7d0111_185'>185</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7b7d0111_185'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>parseFixedstring<br/><b>Killed by : </b>none</span></span> removed call to java/text/ParsePosition::setIndex &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7b7d0111_186'>186</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7b7d0111_186'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>parseFixedstring<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7b7d0111_209'>209</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7b7d0111_209'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>formatDouble<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>formatDouble<br/><b>Killed by : </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7b7d0111_216'>216</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7b7d0111_216'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>formatDouble<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/util/CompositeFormat::formatDouble to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.math4.linear.FrenchRealVectorFormatTest.testNan(org.apache.commons.math4.linear.FrenchRealVectorFormatTest) (0 ms)</li><li>org.apache.commons.math4.linear.RealVectorFormatTest.testSimpleNoDecimals(org.apache.commons.math4.linear.RealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealVectorFormatTest.testParseSimpleWithDecimalsTrunc(org.apache.commons.math4.linear.RealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest.testParseNegativeZ(org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest.testParseNegativeY(org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testSimpleWithDecimalsTrunc(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testTrimOneImaginary(org.apache.commons.math4.complex.ComplexFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testDifferentImaginaryChar(org.apache.commons.math4.complex.ComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testGetAvailableLocales(org.apache.commons.math4.complex.FrenchComplexFormatTest) (2 ms)</li><li>org.apache.commons.math4.linear.RealMatrixFormatTest.tesNegativeInfinity(org.apache.commons.math4.linear.RealMatrixFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealVectorFormatTest.testNan(org.apache.commons.math4.linear.RealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testParseZeroReal(org.apache.commons.math4.complex.ComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testParseNan(org.apache.commons.math4.complex.FrenchComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest.testParseSimpleWithDecimalsTrunc(org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testParsePositiveInfinity(org.apache.commons.math4.complex.FrenchComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest.testParseNegativeAll(org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testDefaultFormatVector3D(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testParsePositiveInfinity(org.apache.commons.math4.complex.ComplexFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testGetRealFormat(org.apache.commons.math4.complex.FrenchComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest.testParseSimpleWithDecimalsTrunc(org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testNegativeY(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testPaseNegativeInfinity(org.apache.commons.math4.complex.FrenchComplexFormatTest) (2 ms)</li><li>org.apache.commons.math4.linear.RealVectorFormatTest.testParsePositiveInfinity(org.apache.commons.math4.linear.RealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testParseNegativeAll(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.FrenchRealVectorFormatTest.testParseIgnoredWhitespace(org.apache.commons.math4.linear.FrenchRealVectorFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testParseSimpleNoDecimals(org.apache.commons.math4.complex.ComplexFormatTest) (0 ms)</li><li>org.apache.commons.math4.linear.RealVectorFormatTest.testSimpleWithDecimalsTrunc(org.apache.commons.math4.linear.RealVectorFormatTest) (0 ms)</li><li>org.apache.commons.math4.linear.FrenchRealVectorFormatTest.testNonDefaultSetting(org.apache.commons.math4.linear.FrenchRealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealMatrixFormatTest.testSimpleWithDecimalsTrunc(org.apache.commons.math4.linear.RealMatrixFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealVectorFormatTest.testForgottenPrefix(org.apache.commons.math4.linear.RealVectorFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest.testForgottenPrefix(org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealMatrixFormatTest.testForgottenSeparator(org.apache.commons.math4.linear.RealMatrixFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testParseNan(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.linear.FrenchRealVectorFormatTest.testPositiveInfinity(org.apache.commons.math4.linear.FrenchRealVectorFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest.testSimpleWithDecimals(org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.Cartesian1DTest.testToString(org.apache.commons.math4.geometry.euclidean.oned.Cartesian1DTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testParseNegativeInfinity(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealVectorFormatTest.testParseNan(org.apache.commons.math4.linear.RealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testNegativeReal(org.apache.commons.math4.complex.ComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest.testSimpleWithDecimalsTrunc(org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testParseNegativeInfinity(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest.testNegativeY(org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest.testParseNegativeInfinity(org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testDefaultFormatComplex(org.apache.commons.math4.complex.FrenchComplexFormatTest) (2 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testParseNegativeZ(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealMatrixFormatTest.testParseNoComponents(org.apache.commons.math4.linear.RealMatrixFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testSimpleWithDecimals(org.apache.commons.math4.complex.ComplexFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testNegativeInfinity(org.apache.commons.math4.complex.ComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testZeroReal(org.apache.commons.math4.complex.FrenchComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest.testParseNegativeZ(org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testConstructorSingleFormat(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testConstructorSingleFormat(org.apache.commons.math4.complex.FrenchComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testFormatNumber(org.apache.commons.math4.complex.FrenchComplexFormatTest) (2 ms)</li><li>org.apache.commons.math4.linear.RealMatrixFormatTest.testParseManyComponents(org.apache.commons.math4.linear.RealMatrixFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testZeroImaginary(org.apache.commons.math4.complex.ComplexFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testFormatObjectStringBufferFieldPositionWitNumber(org.apache.commons.math4.complex.FrenchComplexFormatTest) (2 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest.testPositiveInfinity(org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest.testParseIgnoredWhitespace(org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testParseSimpleWithDecimalsTrunc(org.apache.commons.math4.complex.ComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testGetRealFormat(org.apache.commons.math4.complex.ComplexFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testConstructorDoubleFormat(org.apache.commons.math4.complex.ComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testParseNegativeZ(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest.testParseNonDefaultSetting(org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest.testParseNan(org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testNan(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testFormatObjectStringBufferFieldPositionWithComplex(org.apache.commons.math4.complex.FrenchComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testParseNegativeReal(org.apache.commons.math4.complex.ComplexFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest.testForgottenSeparator(org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest.testConstructorSingleFormat(org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testForgottenImaginaryCharacter(org.apache.commons.math4.complex.FrenchComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealMatrixFormatTest.testParseSimpleWithDecimalsTrunc(org.apache.commons.math4.linear.RealMatrixFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testConstructorSingleFormat(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testNegativeZ(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.linear.RealMatrixFormatTest.testParseSimpleWithDecimals(org.apache.commons.math4.linear.RealMatrixFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest.testParseNegativeInfinity(org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testParseSimpleWithDecimalsTrunc(org.apache.commons.math4.complex.FrenchComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealMatrixFormatTest.testParseNegativeInfinity(org.apache.commons.math4.linear.RealMatrixFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testFormatObjectStringBufferFieldPositionException(org.apache.commons.math4.complex.FrenchComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest.testNonDefaultSetting(org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest.testParseIgnoredWhitespace(org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest.testParseSimpleNoDecimals(org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.linear.FrenchRealVectorFormatTest.testParseNegativeX(org.apache.commons.math4.linear.FrenchRealVectorFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest.testNegativeZ(org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testParseNonDefaultSetting(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest.testForgottenPrefix(org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest.testConstructorSingleFormat(org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest) (2 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testSimpleNoDecimals(org.apache.commons.math4.complex.FrenchComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testPositiveInfinity(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest.testSimpleNoDecimals(org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testParseZeroX(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testParseNegativeX(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testParseNegativeBoth(org.apache.commons.math4.complex.FrenchComplexFormatTest) (2 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testParsePositiveInfinity(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealVectorFormatTest.testParseNegativeY(org.apache.commons.math4.linear.RealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealMatrixFormatTest.testParseSimpleNoDecimals(org.apache.commons.math4.linear.RealMatrixFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testConstructorExceptions(org.apache.commons.math4.complex.FrenchComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest.testParseNegativeY(org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testNegativeImaginary(org.apache.commons.math4.complex.ComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.FrenchRealVectorFormatTest.testSimpleNoDecimals(org.apache.commons.math4.linear.FrenchRealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest.testParseIgnoredWhitespace(org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest.testNegativeX(org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest.testParseSimpleWithDecimals(org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest.testNegativeX(org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.linear.RealVectorFormatTest.testParseNegativeX(org.apache.commons.math4.linear.RealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealVectorFormatTest.testForgottenSuffix(org.apache.commons.math4.linear.RealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest.testParseNan(org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest.testParseNan(org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest.testSimpleWithDecimals(org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest.tesNegativeInfinity(org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest.testNonDefaultSetting(org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testNegativeX(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest.testParseSimpleNoDecimals(org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest.testParsePositiveInfinity(org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealVectorFormatTest.testNonDefaultSetting(org.apache.commons.math4.linear.RealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealMatrixFormatTest.testParseNegativeComponent(org.apache.commons.math4.linear.RealMatrixFormatTest) (2 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest.testToString(org.apache.commons.math4.geometry.euclidean.threed.Vector3DTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealVectorFormatTest.tesNegativeInfinity(org.apache.commons.math4.linear.RealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest.testParseSimpleWithDecimals(org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest.testParseNegativeZ(org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.linear.RealMatrixFormatTest.testParseIgnoredWhitespace(org.apache.commons.math4.linear.RealMatrixFormatTest) (2 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest.testSimpleNoDecimals(org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testParseSimpleNoDecimals(org.apache.commons.math4.complex.FrenchComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealVectorFormatTest.testDefaultFormatRealVectorImpl(org.apache.commons.math4.linear.RealVectorFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testNegativeInfinity(org.apache.commons.math4.complex.FrenchComplexFormatTest) (2 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testNegativeZ(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testParsePositiveInfinity(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.linear.RealMatrixFormatTest.testNonDefaultSetting(org.apache.commons.math4.linear.RealMatrixFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testForgottenSeparator(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.Cartesian2DTest.testToString(org.apache.commons.math4.geometry.euclidean.twod.Cartesian2DTest) (2 ms)</li><li>org.apache.commons.math4.linear.RealMatrixFormatTest.testParseNegativeAll(org.apache.commons.math4.linear.RealMatrixFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest.testForgottenSuffix(org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest.testNan(org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest.testParseNegativeY(org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest.testPositiveInfinity(org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest.testForgottenSuffix(org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testConstructorExceptions(org.apache.commons.math4.complex.ComplexFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest.testPositiveInfinity(org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealVectorFormatTest.testNegativeZ(org.apache.commons.math4.linear.RealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest.testParseNegativeAll(org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testDefaultFormatComplex(org.apache.commons.math4.complex.ComplexFormatTest) (2 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest.testParseZeroX(org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testParseNan(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testDifferentImaginaryChar(org.apache.commons.math4.complex.FrenchComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testParseSimpleWithDecimals(org.apache.commons.math4.complex.ComplexFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest.testNan(org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest) (3 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest.testParsePositiveInfinity(org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest.testNan(org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest.testParseNonDefaultSetting(org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealMatrixFormatTest.testConstructorSingleFormat(org.apache.commons.math4.linear.RealMatrixFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testSimpleWithDecimalsTrunc(org.apache.commons.math4.complex.FrenchComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.FrenchRealVectorFormatTest.testParseNoComponents(org.apache.commons.math4.linear.FrenchRealVectorFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testGetInstance(org.apache.commons.math4.complex.FrenchComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.FrenchRealVectorFormatTest.testNegativeX(org.apache.commons.math4.linear.FrenchRealVectorFormatTest) (0 ms)</li><li>org.apache.commons.math4.linear.RealMatrixFormatTest.testPositiveInfinity(org.apache.commons.math4.linear.RealMatrixFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest.testSimpleWithDecimalsTrunc(org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.linear.RealVectorFormatTest.testParseSimpleWithDecimals(org.apache.commons.math4.linear.RealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testParseZeroImaginary(org.apache.commons.math4.complex.ComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testForgottenPrefix(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.linear.FrenchRealVectorFormatTest.testParseNegativeZ(org.apache.commons.math4.linear.FrenchRealVectorFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testNonDefaultSetting(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testSimpleNoDecimals(org.apache.commons.math4.complex.ComplexFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest.tesNegativeInfinity(org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest) (2 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest.testParseSimpleNoDecimals(org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest.testForgottenSuffix(org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.FrenchRealVectorFormatTest.testParseZeroX(org.apache.commons.math4.linear.FrenchRealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.FrenchRealVectorFormatTest.testNegativeZ(org.apache.commons.math4.linear.FrenchRealVectorFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest.testParseSimpleWithDecimalsTrunc(org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.linear.FrenchRealVectorFormatTest.testNegativeY(org.apache.commons.math4.linear.FrenchRealVectorFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testParseNan(org.apache.commons.math4.complex.ComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealVectorFormatTest.testNegativeX(org.apache.commons.math4.linear.RealVectorFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testParseDifferentImaginaryChar(org.apache.commons.math4.complex.FrenchComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest.testParseNegativeY(org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest) (0 ms)</li><li>org.apache.commons.math4.linear.RealVectorFormatTest.testParseNoComponents(org.apache.commons.math4.linear.RealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest.testParseNegativeInfinity(org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest) (0 ms)</li><li>org.apache.commons.math4.linear.FrenchRealVectorFormatTest.testParseSimpleWithDecimals(org.apache.commons.math4.linear.FrenchRealVectorFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testForgottenSeparator(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealMatrixFormatTest.testForgottenSuffix(org.apache.commons.math4.linear.RealMatrixFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest.testDefaultFormatVector2D(org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest.testForgottenSeparator(org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testSimpleNoDecimals(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest.testParseNegativeAll(org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest.testNegativeX(org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest.testParseNan(org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testNonDefaultSetting(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest.testParsePositiveInfinity(org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testForgottenPrefix(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testGetInstance(org.apache.commons.math4.complex.ComplexFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest.testParseZeroX(org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest.testParseNonDefaultSetting(org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testSimpleWithDecimalsTrunc(org.apache.commons.math4.complex.ComplexFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testParseNegativeImaginary(org.apache.commons.math4.complex.FrenchComplexFormatTest) (2 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testGetImaginaryFormat(org.apache.commons.math4.complex.FrenchComplexFormatTest) (2 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest.testParseNegativeInfinity(org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FieldVector3DTest.testToString(org.apache.commons.math4.geometry.euclidean.threed.FieldVector3DTest) (1 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testPositiveInfinity(org.apache.commons.math4.complex.ComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testFormatObjectStringBufferFieldPositionException(org.apache.commons.math4.complex.ComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealMatrixFormatTest.testSimpleWithDecimals(org.apache.commons.math4.linear.RealMatrixFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testZeroReal(org.apache.commons.math4.complex.ComplexFormatTest) (0 ms)</li><li>org.apache.commons.math4.linear.FrenchRealVectorFormatTest.testParseSimpleWithDecimalsTrunc(org.apache.commons.math4.linear.FrenchRealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testParseNegativeY(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testParseSimpleWithDecimals(org.apache.commons.math4.complex.FrenchComplexFormatTest) (2 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.tesNegativeInfinity(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testParseNegativeY(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testPaseNegativeInfinity(org.apache.commons.math4.complex.ComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealMatrixFormatTest.testParseNonDefaultSetting(org.apache.commons.math4.linear.RealMatrixFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testParseDifferentImaginaryChar(org.apache.commons.math4.complex.ComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testNan(org.apache.commons.math4.complex.ComplexFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testParseZeroReal(org.apache.commons.math4.complex.FrenchComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest.testNegativeY(org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest.testDefaultFormatVector1D(org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest.testNegativeZ(org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest.testSimpleWithDecimalsTrunc(org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest.testParseSimpleNoDecimals(org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testDefaultFormatVector3D(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest.testParseZeroX(org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealVectorFormatTest.testParseNegativeInfinity(org.apache.commons.math4.linear.RealVectorFormatTest) (2 ms)</li><li>org.apache.commons.math4.linear.RealVectorFormatTest.testParseNegativeAll(org.apache.commons.math4.linear.RealVectorFormatTest) (5 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest.testParsePositiveInfinity(org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.FrenchRealVectorFormatTest.testParseNegativeAll(org.apache.commons.math4.linear.FrenchRealVectorFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest.testSimpleNoDecimals(org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testSimpleWithDecimalsTrunc(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest.testParseSimpleWithDecimals(org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealMatrixFormatTest.testParseZeroComponent(org.apache.commons.math4.linear.RealMatrixFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testParseSimpleWithDecimalsTrunc(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testParseIgnoredWhitespace(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest.testParseNegativeZ(org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testStringConstructor(org.apache.commons.math4.complex.FrenchComplexFormatTest) (2 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest.testDefaultFormatVector1D(org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest.testParseNegativeX(org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealMatrixFormatTest.testNegativeSecondRow(org.apache.commons.math4.linear.RealMatrixFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.FrenchRealVectorFormatTest.testForgottenSeparator(org.apache.commons.math4.linear.FrenchRealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest.testParseNegativeX(org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testForgottenSuffix(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testNan(org.apache.commons.math4.complex.FrenchComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testForgottenSuffix(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealVectorFormatTest.testNegativeY(org.apache.commons.math4.linear.RealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testParseZeroImaginary(org.apache.commons.math4.complex.FrenchComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testSimpleNoDecimals(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testTrimOneImaginary(org.apache.commons.math4.complex.FrenchComplexFormatTest) (2 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testPositiveInfinity(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testGetImaginaryFormat(org.apache.commons.math4.complex.ComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testNan(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.linear.FrenchRealVectorFormatTest.testForgottenSuffix(org.apache.commons.math4.linear.FrenchRealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest.testSimpleNoDecimals(org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testParseSimpleWithDecimalsTrunc(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testStringConstructor(org.apache.commons.math4.complex.ComplexFormatTest) (0 ms)</li><li>org.apache.commons.math4.linear.RealVectorFormatTest.testParseIgnoredWhitespace(org.apache.commons.math4.linear.RealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealMatrixFormatTest.testParseNan(org.apache.commons.math4.linear.RealMatrixFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealVectorFormatTest.testConstructorSingleFormat(org.apache.commons.math4.linear.RealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest.testPositiveInfinity(org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealVectorFormatTest.testParseNonDefaultSetting(org.apache.commons.math4.linear.RealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testNegativeImaginary(org.apache.commons.math4.complex.FrenchComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest.testParseSimpleWithDecimalsTrunc(org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.FrenchRealVectorFormatTest.testParseNegativeInfinity(org.apache.commons.math4.linear.FrenchRealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealVectorFormatTest.testParseManyComponents(org.apache.commons.math4.linear.RealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.FrenchRealVectorFormatTest.testParseNegativeY(org.apache.commons.math4.linear.FrenchRealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest.testSimpleWithDecimalsTrunc(org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest.testConstructorSingleFormat(org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest.testForgottenSuffix(org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest) (3 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest.testConstructorSingleFormat(org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.linear.RealVectorFormatTest.testParseNegativeZ(org.apache.commons.math4.linear.RealVectorFormatTest) (0 ms)</li><li>org.apache.commons.math4.linear.RealMatrixFormatTest.testDefaultFormat(org.apache.commons.math4.linear.RealMatrixFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest.testNan(org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest.testNonDefaultSetting(org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest.testForgottenPrefix(org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest) (1 ms)</li><li>org.apache.commons.math4.analysis.integration.gauss.LaguerreTest.testGamma(org.apache.commons.math4.analysis.integration.gauss.LaguerreTest) (41 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest.testParseNegativeX(org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest.testSimpleWithDecimals(org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest.testParseSimpleWithDecimals(org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testParseNegativeX(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testParseNegativeReal(org.apache.commons.math4.complex.FrenchComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest.testNonDefaultSetting(org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.FrenchRealVectorFormatTest.tesNegativeInfinity(org.apache.commons.math4.linear.FrenchRealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testNegativeBoth(org.apache.commons.math4.complex.FrenchComplexFormatTest) (3 ms)</li><li>org.apache.commons.math4.linear.FrenchRealVectorFormatTest.testSimpleWithDecimalsTrunc(org.apache.commons.math4.linear.FrenchRealVectorFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testNegativeBoth(org.apache.commons.math4.complex.ComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testForgottenImaginaryCharacter(org.apache.commons.math4.complex.ComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testSimpleWithDecimals(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testFormatObjectStringBufferFieldPositionWithComplex(org.apache.commons.math4.complex.ComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealVectorFormatTest.testParseZeroX(org.apache.commons.math4.linear.RealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealVectorFormatTest.testSimpleWithDecimals(org.apache.commons.math4.linear.RealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealVectorFormatTest.testPositiveInfinity(org.apache.commons.math4.linear.RealVectorFormatTest) (0 ms)</li><li>org.apache.commons.math4.linear.RealMatrixFormatTest.testNegativeComponent2(org.apache.commons.math4.linear.RealMatrixFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testParseNegativeImaginary(org.apache.commons.math4.complex.ComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest.testSimpleWithDecimals(org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest.testNegativeX(org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealMatrixFormatTest.testForgottenPrefix(org.apache.commons.math4.linear.RealMatrixFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testParseSimpleNoDecimals(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testParseSimpleWithDecimals(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testParseSimpleNoDecimals(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealVectorFormatTest.testForgottenSeparator(org.apache.commons.math4.linear.RealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testSimpleWithDecimals(org.apache.commons.math4.complex.FrenchComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testZeroImaginary(org.apache.commons.math4.complex.FrenchComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealMatrixFormatTest.testSimpleNoDecimals(org.apache.commons.math4.linear.RealMatrixFormatTest) (0 ms)</li><li>org.apache.commons.math4.linear.FrenchRealVectorFormatTest.testDefaultFormatRealVectorImpl(org.apache.commons.math4.linear.FrenchRealVectorFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testNegativeX(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest.testParseNegativeX(org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest) (0 ms)</li><li>org.apache.commons.math4.linear.RealMatrixFormatTest.testNegativeComponent(org.apache.commons.math4.linear.RealMatrixFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testParseSimpleWithDecimals(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.tesNegativeInfinity(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testPositiveInfinity(org.apache.commons.math4.complex.FrenchComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest.testSimpleWithDecimals(org.apache.commons.math4.geometry.euclidean.threed.FrenchVector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest.tesNegativeInfinity(org.apache.commons.math4.geometry.euclidean.oned.FrenchVector1DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testParseNonDefaultSetting(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest.testForgottenPrefix(org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest.tesNegativeInfinity(org.apache.commons.math4.geometry.euclidean.oned.Vector1DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest.testParseNegativeAll(org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.FrenchRealVectorFormatTest.testForgottenPrefix(org.apache.commons.math4.linear.FrenchRealVectorFormatTest) (0 ms)</li><li>org.apache.commons.math4.linear.RealVectorFormatTest.testParseSimpleNoDecimals(org.apache.commons.math4.linear.RealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealMatrixFormatTest.testParsePositiveInfinity(org.apache.commons.math4.linear.RealMatrixFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.FrenchRealVectorFormatTest.testParseManyComponents(org.apache.commons.math4.linear.FrenchRealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.FrenchRealVectorFormatTest.testSimpleWithDecimals(org.apache.commons.math4.linear.FrenchRealVectorFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest.testParseZeroX(org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testFormatNumber(org.apache.commons.math4.complex.ComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.RealMatrixFormatTest.testNan(org.apache.commons.math4.linear.RealMatrixFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testConstructorDoubleFormat(org.apache.commons.math4.complex.FrenchComplexFormatTest) (9 ms)</li><li>org.apache.commons.math4.complex.FrenchComplexFormatTest.testNegativeReal(org.apache.commons.math4.complex.FrenchComplexFormatTest) (2 ms)</li><li>org.apache.commons.math4.linear.FrenchRealVectorFormatTest.testConstructorSingleFormat(org.apache.commons.math4.linear.FrenchRealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testNegativeY(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (7 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testFormatObjectStringBufferFieldPositionWitNumber(org.apache.commons.math4.complex.ComplexFormatTest) (1 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testConstructorSingleFormat(org.apache.commons.math4.complex.ComplexFormatTest) (2 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testParseNegativeBoth(org.apache.commons.math4.complex.ComplexFormatTest) (0 ms)</li><li>org.apache.commons.math4.linear.FrenchRealVectorFormatTest.testParsePositiveInfinity(org.apache.commons.math4.linear.FrenchRealVectorFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testParseZeroX(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testParseNegativeAll(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest.testParseNonDefaultSetting(org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest.testParseIgnoredWhitespace(org.apache.commons.math4.geometry.euclidean.twod.Vector2DFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest.testDefaultFormatVector2D(org.apache.commons.math4.geometry.euclidean.twod.FrenchVector2DFormatTest) (1 ms)</li><li>org.apache.commons.math4.linear.FrenchRealVectorFormatTest.testParseSimpleNoDecimals(org.apache.commons.math4.linear.FrenchRealVectorFormatTest) (0 ms)</li><li>org.apache.commons.math4.linear.FrenchRealVectorFormatTest.testParseNonDefaultSetting(org.apache.commons.math4.linear.FrenchRealVectorFormatTest) (0 ms)</li><li>org.apache.commons.math4.linear.FrenchRealVectorFormatTest.testParseNan(org.apache.commons.math4.linear.FrenchRealVectorFormatTest) (0 ms)</li><li>org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest.testParseIgnoredWhitespace(org.apache.commons.math4.geometry.euclidean.threed.Vector3DFormatTest) (0 ms)</li><li>org.apache.commons.math4.complex.ComplexFormatTest.testGetAvailableLocales(org.apache.commons.math4.complex.ComplexFormatTest) (12 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>

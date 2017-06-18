@@ -1,0 +1,193 @@
+<html>
+<head>
+<style type='text/css'>
+html, body, div, span, p, blockquote, pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	line-height: 1;
+	color: black;
+	background: white;
+	margin-left: 20px;
+}
+
+.src { 
+	border: 1px solid #dddddd;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Consolas, Courier, monospace;
+}
+
+
+.covered {background-color: #ddffdd}
+.uncovered {background-color: #ffdddd}
+.killed {background-color: #aaffaa}
+.survived {background-color: #ffaaaa}
+.uncertain {background-color: #dde7ef}
+.run_error {background-color: #dde7ef}
+.na {background-color: #eeeeee}
+.timed_out {background-color: #dde7ef}
+.non_viable {background-color: #aaffaa}
+.memory_error {background-color: #dde7ef}
+.not_started {background-color: #dde7ef; color : red}
+.no_coverage {background-color: #ffaaaa}
+
+
+.pop {outline:none; }
+.pop strong {line-height:30px;}
+.pop {text-decoration:none;}
+.pop span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:28px; width:800px; line-height:16px; word-wrap:break-word; }
+.pop:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.pop span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }
+</style>
+
+</head>
+<body>
+
+
+<h1>SecondMoment.java</h1>
+
+<table class="src">
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@61fd9f49_81'>81</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@61fd9f49_81'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>increment<br/><b>Killed by : </b>org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest.testCopy(org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>increment<br/><b>Killed by : </b>org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest.testMomentSmallSamples(org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@61fd9f49_84'>84</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@61fd9f49_84'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>increment<br/><b>Killed by : </b>org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest.testMomentSmallSamples(org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest)</span></span> removed call to org/apache/commons/math4/stat/descriptive/moment/FirstMoment::increment &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@61fd9f49_85'>85</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@61fd9f49_85'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>increment<br/><b>Killed by : </b>org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest.testMomentSmallSamples(org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest)</span></span> Replaced double subtraction with addition &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>increment<br/><b>Killed by : </b>org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest.testCopy(org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest)</span></span> Replaced double multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>increment<br/><b>Killed by : </b>org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest.testCopy(org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest)</span></span> Replaced double multiplication with division &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>increment<br/><b>Killed by : </b>org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest.testCopy(org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest)</span></span> Replaced double addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@61fd9f49_93'>93</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@61fd9f49_93'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>clear<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/math4/stat/descriptive/moment/FirstMoment::clear &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@61fd9f49_102'>102</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@61fd9f49_102'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getResult<br/><b>Killed by : </b>org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest.testMomentSmallSamples(org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest)</span></span> replaced return of double value with -(x + 1) for org/apache/commons/math4/stat/descriptive/moment/SecondMoment::getResult &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@61fd9f49_112'>112</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@61fd9f49_112'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copy<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/math4/stat/descriptive/moment/SecondMoment::copy &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@61fd9f49_113'>113</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@61fd9f49_113'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copy<br/><b>Killed by : </b>none</span></span> mutated return of Object value for org/apache/commons/math4/stat/descriptive/moment/SecondMoment::copy to ( if (x != null) null else throw new RuntimeException ) &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@61fd9f49_126'>126</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@61fd9f49_126'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copy<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/math4/util/MathUtils::checkNotNull &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@61fd9f49_127'>127</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@61fd9f49_127'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copy<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/math4/util/MathUtils::checkNotNull &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@61fd9f49_128'>128</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@61fd9f49_128'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>copy<br/><b>Killed by : </b>none</span></span> removed call to org/apache/commons/math4/stat/descriptive/moment/FirstMoment::copy &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testSampler(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (163 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest.testGetSummary(org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest) (1 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testDoubleLoad(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (52 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testSerialization(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (120 ms)</li><li>org.apache.commons.math4.stat.regression.OLSMultipleLinearRegressionTest.testLongly(org.apache.commons.math4.stat.regression.OLSMultipleLinearRegressionTest) (0 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testDistributionClone(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (150 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.SkewnessTest.testCopyConsistency(org.apache.commons.math4.stat.descriptive.moment.SkewnessTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest.testProductAndGeometricMean(org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest) (0 ms)</li><li>org.apache.commons.math4.stat.regression.OLSMultipleLinearRegressionTest.testWampler3(org.apache.commons.math4.stat.regression.OLSMultipleLinearRegressionTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.SkewnessTest.testEqualsAndHashCode(org.apache.commons.math4.stat.descriptive.moment.SkewnessTest) (1 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testGridTooFine(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (141 ms)</li><li>org.apache.commons.math4.ode.JacobianMatricesTest.testHighAccuracyExternalDifferentiation(org.apache.commons.math4.ode.JacobianMatricesTest) (2317 ms)</li><li>org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest.testToString(org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.SkewnessTest.testEvaluateInternalState(org.apache.commons.math4.stat.descriptive.moment.SkewnessTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.InteractionTest.testInteraction(org.apache.commons.math4.stat.descriptive.moment.InteractionTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.KurtosisTest.testCopy(org.apache.commons.math4.stat.descriptive.moment.KurtosisTest) (0 ms)</li><li>org.apache.commons.math4.stat.regression.OLSMultipleLinearRegressionTest.testWampler2(org.apache.commons.math4.stat.regression.OLSMultipleLinearRegressionTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.KurtosisTest.testConsistency(org.apache.commons.math4.stat.descriptive.moment.KurtosisTest) (0 ms)</li><li>org.apache.commons.math4.ode.JacobianMatricesTest.testAnalyticalDifferentiation(org.apache.commons.math4.ode.JacobianMatricesTest) (1426 ms)</li><li>org.apache.commons.math4.ode.JacobianMatricesTest.testInternalDifferentiation(org.apache.commons.math4.ode.JacobianMatricesTest) (1024 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest.testProductAndGeometricMean(org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.StandardDeviationTest.testEqualsAndHashCode(org.apache.commons.math4.stat.descriptive.moment.StandardDeviationTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.VarianceTest.testEqualsAndHashCode(org.apache.commons.math4.stat.descriptive.moment.VarianceTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.KurtosisTest.testSerialization(org.apache.commons.math4.stat.descriptive.moment.KurtosisTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest.testSerial(org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest.testQuadraticMean(org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest.testNaNContracts(org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest.testEvaluation(org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.StandardDeviationTest.testEvaluateInternalState(org.apache.commons.math4.stat.descriptive.moment.StandardDeviationTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.SkewnessTest.testIncrementation(org.apache.commons.math4.stat.descriptive.moment.SkewnessTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest.testSerialization(org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest) (3 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testIllegalArguments(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (25 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testSampleValuesRange(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (84 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest.testEqualsAndHashCode(org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest) (0 ms)</li><li>org.apache.commons.math4.stat.regression.OLSMultipleLinearRegressionTest.testWampler4(org.apache.commons.math4.stat.regression.OLSMultipleLinearRegressionTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.VarianceTest.testEvaluateInternalState(org.apache.commons.math4.stat.descriptive.moment.VarianceTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.FourthMomentTest.testEvaluation(org.apache.commons.math4.stat.descriptive.moment.FourthMomentTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest.testCopy(org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.VarianceTest.testNaN(org.apache.commons.math4.stat.descriptive.moment.VarianceTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.KurtosisTest.testEvaluateInternalState(org.apache.commons.math4.stat.descriptive.moment.KurtosisTest) (0 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testKernelOverrideConstant(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (40 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testPrecondition1(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (73 ms)</li><li>org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest.testQuadraticMean(org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest) (1 ms)</li><li>org.apache.commons.math4.distribution.GammaDistributionTest.testMath753Shape8(org.apache.commons.math4.distribution.GammaDistributionTest) (48 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.StandardDeviationTest.testCopyConsistency(org.apache.commons.math4.stat.descriptive.moment.StandardDeviationTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.AggregateSummaryStatisticsTest.testAggregate(org.apache.commons.math4.stat.descriptive.AggregateSummaryStatisticsTest) (14 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.ThirdMomentTest.testEvaluateArraySegment(org.apache.commons.math4.stat.descriptive.moment.ThirdMomentTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest.testN0andN1Conditions(org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest) (0 ms)</li><li>org.apache.commons.math4.stat.inference.InferenceTestUtilsTest.testTwoSampleTHomoscedastic(org.apache.commons.math4.stat.inference.InferenceTestUtilsTest) (3 ms)</li><li>org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest.testOverrideMeanWithMathClass(org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.SkewnessTest.testNaN(org.apache.commons.math4.stat.descriptive.moment.SkewnessTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.FourthMomentTest.testSerialization(org.apache.commons.math4.stat.descriptive.moment.FourthMomentTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.StandardDeviationTest.testSerialization(org.apache.commons.math4.stat.descriptive.moment.StandardDeviationTest) (2 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.VarianceTest.testPopulation(org.apache.commons.math4.stat.descriptive.moment.VarianceTest) (0 ms)</li><li>org.apache.commons.math4.ode.JacobianMatricesTest.testLowAccuracyExternalDifferentiation(org.apache.commons.math4.ode.JacobianMatricesTest) (347 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testNextFail1(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (22 ms)</li><li>org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest.testSetterInjection(org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest.testCopyConsistency(org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.ThirdMomentTest.testEqualsAndHashCode(org.apache.commons.math4.stat.descriptive.moment.ThirdMomentTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.ThirdMomentTest.testEvaluation(org.apache.commons.math4.stat.descriptive.moment.ThirdMomentTest) (0 ms)</li><li>org.apache.commons.math4.stat.inference.TTestTest.testTwoSampleTHomoscedastic(org.apache.commons.math4.stat.inference.TTestTest) (0 ms)</li><li>org.apache.commons.math4.distribution.GammaDistributionTest.testMath753Shape142(org.apache.commons.math4.distribution.GammaDistributionTest) (16 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.SkewnessTest.testConsistency(org.apache.commons.math4.stat.descriptive.moment.SkewnessTest) (0 ms)</li><li>org.apache.commons.math4.stat.inference.TTestTest.testOneSampleT(org.apache.commons.math4.stat.inference.TTestTest) (0 ms)</li><li>org.apache.commons.math4.distribution.GammaDistributionTest.testMath753Shape100(org.apache.commons.math4.distribution.GammaDistributionTest) (12 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testConsistency(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (65 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.KurtosisTest.testCopyConsistency(org.apache.commons.math4.stat.descriptive.moment.KurtosisTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.KurtosisTest.testEvaluateArraySegment(org.apache.commons.math4.stat.descriptive.moment.KurtosisTest) (0 ms)</li><li>org.apache.commons.math4.stat.inference.TTestTest.testTwoSampleTHeterscedastic(org.apache.commons.math4.stat.inference.TTestTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.FourthMomentTest.testCopyConsistency(org.apache.commons.math4.stat.descriptive.moment.FourthMomentTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest.testOverrideGeoMeanWithMathClass(org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest) (1 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testLoadNullDoubleArray(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (38 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.FourthMomentTest.testEqualsAndHashCode(org.apache.commons.math4.stat.descriptive.moment.FourthMomentTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.ThirdMomentTest.testSerialization(org.apache.commons.math4.stat.descriptive.moment.ThirdMomentTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest.testStats(org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest) (0 ms)</li><li>org.apache.commons.math4.stat.data.LotteryTest.testCertifiedValues(org.apache.commons.math4.stat.data.LotteryTest) (3 ms)</li><li>org.apache.commons.math4.stat.descriptive.MixedListUnivariateImplTest.testSkewAndKurtosis(org.apache.commons.math4.stat.descriptive.MixedListUnivariateImplTest) (0 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testNoBinVariance(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (35 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testLoadNullURL(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (21 ms)</li><li>org.apache.commons.math4.stat.regression.OLSMultipleLinearRegressionTest.testSwissFertility(org.apache.commons.math4.stat.regression.OLSMultipleLinearRegressionTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.FourthMomentTest.testEvaluateInternalState(org.apache.commons.math4.stat.descriptive.moment.FourthMomentTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest.testIncrementation(org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest.testSetterInjection(org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest) (1 ms)</li><li>org.apache.commons.math4.stat.data.LewTest.testCertifiedValues(org.apache.commons.math4.stat.data.LewTest) (6 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testLoadNullFile(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (20 ms)</li><li>org.apache.commons.math4.stat.inference.OneWayAnovaTest.testAnovaFValue(org.apache.commons.math4.stat.inference.OneWayAnovaTest) (0 ms)</li><li>org.apache.commons.math4.stat.regression.OLSMultipleLinearRegressionTest.testPerfectFit(org.apache.commons.math4.stat.regression.OLSMultipleLinearRegressionTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest.testGetSummary(org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedDescriptiveStatisticsTest.testSummaryConsistency(org.apache.commons.math4.stat.descriptive.SynchronizedDescriptiveStatisticsTest) (3 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testInverseCumulativeProbabilities(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (39 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.ThirdMomentTest.testCopy(org.apache.commons.math4.stat.descriptive.moment.ThirdMomentTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.FourthMomentTest.testIncrementation(org.apache.commons.math4.stat.descriptive.moment.FourthMomentTest) (0 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testNext(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (48 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.KurtosisTest.testNaN(org.apache.commons.math4.stat.descriptive.moment.KurtosisTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest.testSetterIllegalState(org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest) (0 ms)</li><li>org.apache.commons.math4.stat.inference.InferenceTestUtilsTest.testTwoSampleTHeterscedastic(org.apache.commons.math4.stat.inference.InferenceTestUtilsTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest.testN0andN1Conditions(org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.ThirdMomentTest.testCopyConsistency(org.apache.commons.math4.stat.descriptive.moment.ThirdMomentTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.ListUnivariateImplTest.testSkewAndKurtosis(org.apache.commons.math4.stat.descriptive.ListUnivariateImplTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest.testEvaluateInternalState(org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest.testConsistency(org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.StandardDeviationTest.testPopulation(org.apache.commons.math4.stat.descriptive.moment.StandardDeviationTest) (0 ms)</li><li>org.apache.commons.math4.stat.inference.OneWayAnovaTest.testAnovaPValue(org.apache.commons.math4.stat.inference.OneWayAnovaTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest.testEqualsAndHashCode(org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest) (0 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testDensities(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (33 ms)</li><li>org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest.testCopy(org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest) (1 ms)</li><li>org.apache.commons.math4.stat.inference.OneWayAnovaTest.testAnovaTest(org.apache.commons.math4.stat.inference.OneWayAnovaTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.VarianceTest.testSerialization(org.apache.commons.math4.stat.descriptive.moment.VarianceTest) (1 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testKernelOverrideUniform(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (35 ms)</li><li>org.apache.commons.math4.stat.regression.OLSMultipleLinearRegressionTest.testNoSSTOCalculateRsquare(org.apache.commons.math4.stat.regression.OLSMultipleLinearRegressionTest) (1 ms)</li><li>org.apache.commons.math4.distribution.GammaDistributionTest.testMath753Shape1(org.apache.commons.math4.distribution.GammaDistributionTest) (67 ms)</li><li>org.apache.commons.math4.stat.inference.TTestTest.testOneSampleTTest(org.apache.commons.math4.stat.inference.TTestTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.FourthMomentTest.testEvaluateArraySegment(org.apache.commons.math4.stat.descriptive.moment.FourthMomentTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.KurtosisTest.testEqualsAndHashCode(org.apache.commons.math4.stat.descriptive.moment.KurtosisTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest.testMomentSmallSamples(org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest) (0 ms)</li><li>org.apache.commons.math4.stat.inference.TTestTest.testPaired(org.apache.commons.math4.stat.inference.TTestTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.VarianceTest.testCopyConsistency(org.apache.commons.math4.stat.descriptive.moment.VarianceTest) (1 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testLoad(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (29 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.SkewnessTest.testSerialization(org.apache.commons.math4.stat.descriptive.moment.SkewnessTest) (1 ms)</li><li>org.apache.commons.math4.stat.CertifiedDataTest.testSummaryStatistics(org.apache.commons.math4.stat.CertifiedDataTest) (5 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.VarianceTest.testConsistency(org.apache.commons.math4.stat.descriptive.moment.VarianceTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.AggregateSummaryStatisticsTest.testAggregateDegenerate(org.apache.commons.math4.stat.descriptive.AggregateSummaryStatisticsTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.AggregateSummaryStatisticsTest.testAggregateStatisticalSummary(org.apache.commons.math4.stat.descriptive.AggregateSummaryStatisticsTest) (1 ms)</li><li>org.apache.commons.math4.fitting.leastsquares.EvaluationTestValidation.testParametersErrorMonteCarloObservations(org.apache.commons.math4.fitting.leastsquares.EvaluationTestValidation) (135 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.ThirdMomentTest.testConsistency(org.apache.commons.math4.stat.descriptive.moment.ThirdMomentTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.AggregateSummaryStatisticsTest.testAggregateSpecialValues(org.apache.commons.math4.stat.descriptive.AggregateSummaryStatisticsTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.FourthMomentTest.testMomentSmallSamples(org.apache.commons.math4.stat.descriptive.moment.FourthMomentTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest.testCopy(org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest) (1 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testLogDensities(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (21 ms)</li><li>org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest.testOverrideVarianceWithMathClass(org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.DescriptiveStatisticsTest.testSummaryConsistency(org.apache.commons.math4.stat.descriptive.DescriptiveStatisticsTest) (3 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.KurtosisTest.testEvaluation(org.apache.commons.math4.stat.descriptive.moment.KurtosisTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedDescriptiveStatisticsTest.testShuffledStatistics(org.apache.commons.math4.stat.descriptive.SynchronizedDescriptiveStatisticsTest) (1 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testNextFail2(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (34 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest.testSetterIllegalState(org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.KurtosisTest.testIncrementation(org.apache.commons.math4.stat.descriptive.moment.KurtosisTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest.testOverrideGeoMeanWithMathClass(org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.ThirdMomentTest.testIncrementation(org.apache.commons.math4.stat.descriptive.moment.ThirdMomentTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.StandardDeviationTest.testConsistency(org.apache.commons.math4.stat.descriptive.moment.StandardDeviationTest) (0 ms)</li><li>org.apache.commons.math4.ml.clustering.MultiKMeansPlusPlusClustererTest.dimension2(org.apache.commons.math4.ml.clustering.MultiKMeansPlusPlusClustererTest) (3 ms)</li><li>org.apache.commons.math4.ml.clustering.evaluation.SumOfClusterVariancesTest.testScore(org.apache.commons.math4.ml.clustering.evaluation.SumOfClusterVariancesTest) (0 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testGridTooFat(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (81 ms)</li><li>org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest.testSerialization(org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest) (3 ms)</li><li>org.apache.commons.math4.stat.descriptive.AggregateSummaryStatisticsTest.testAggregationConsistency(org.apache.commons.math4.stat.descriptive.AggregateSummaryStatisticsTest) (2 ms)</li><li>org.apache.commons.math4.distribution.GammaDistributionTest.testMath753Shape1000(org.apache.commons.math4.distribution.GammaDistributionTest) (100 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.ThirdMomentTest.testMomentSmallSamples(org.apache.commons.math4.stat.descriptive.moment.ThirdMomentTest) (0 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testCumulativeProbabilities(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (41 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest.testNaNContracts(org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.StandardDeviationTest.testIncrementation(org.apache.commons.math4.stat.descriptive.moment.StandardDeviationTest) (0 ms)</li><li>org.apache.commons.math4.stat.inference.InferenceTestUtilsTest.testOneSampleTTest(org.apache.commons.math4.stat.inference.InferenceTestUtilsTest) (0 ms)</li><li>org.apache.commons.math4.stat.inference.OneWayAnovaTest.testAnovaPValueSummaryStatistics(org.apache.commons.math4.stat.inference.OneWayAnovaTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.ThirdMomentTest.testEvaluateInternalState(org.apache.commons.math4.stat.descriptive.moment.ThirdMomentTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest.testStats(org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.DescriptiveStatisticsTest.testShuffledStatistics(org.apache.commons.math4.stat.descriptive.DescriptiveStatisticsTest) (2 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testDensityIntegrals(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (3682 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest.testOverrideMeanWithMathClass(org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.AggregateSummaryStatisticsTest.testAggregation(org.apache.commons.math4.stat.descriptive.AggregateSummaryStatisticsTest) (2 ms)</li><li>org.apache.commons.math4.stat.regression.OLSMultipleLinearRegressionTest.testWampler1(org.apache.commons.math4.stat.regression.OLSMultipleLinearRegressionTest) (1 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testGetBinUpperBounds(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (55 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.StandardDeviationTest.testNaN(org.apache.commons.math4.stat.descriptive.moment.StandardDeviationTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest.testToString(org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.FourthMomentTest.testCopy(org.apache.commons.math4.stat.descriptive.moment.FourthMomentTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest.testEvaluateArraySegment(org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest) (1 ms)</li><li>org.apache.commons.math4.stat.inference.TTestTest.testSmallSamples(org.apache.commons.math4.stat.inference.TTestTest) (0 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.FourthMomentTest.testConsistency(org.apache.commons.math4.stat.descriptive.moment.FourthMomentTest) (0 ms)</li><li>org.apache.commons.math4.stat.inference.InferenceTestUtilsTest.testOneSampleT(org.apache.commons.math4.stat.inference.InferenceTestUtilsTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest.testOverrideVarianceWithMathClass(org.apache.commons.math4.stat.descriptive.SynchronizedSummaryStatisticsTest) (0 ms)</li><li>org.apache.commons.math4.distribution.EmpiricalDistributionTest.testBinIndexOverflow(org.apache.commons.math4.distribution.EmpiricalDistributionTest) (126 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest.testSerialization(org.apache.commons.math4.stat.descriptive.moment.SecondMomentTest) (1 ms)</li><li>org.apache.commons.math4.stat.descriptive.moment.VarianceTest.testIncrementation(org.apache.commons.math4.stat.descriptive.moment.VarianceTest) (0 ms)</li><li>org.apache.commons.math4.stat.inference.InferenceTestUtilsTest.testOneWayAnovaUtils(org.apache.commons.math4.stat.inference.InferenceTestUtilsTest) (1 ms)</li><li>org.apache.commons.math4.distribution.GammaDistributionTest.testMath753Shape10(org.apache.commons.math4.distribution.GammaDistributionTest) (12 ms)</li><li>org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest.testEqualsAndHashCode(org.apache.commons.math4.stat.descriptive.SummaryStatisticsTest) (1 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.1.11-SNAPSHOT
+
+</body>
+</html>
